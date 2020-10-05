@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {/home2/users/alumnes/1177952/LAB1/FUNCIONAL/CODIGO/s1bit.vhd}
+vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/FUNCIONAL/CODIGO/s1bit.vhd}
 

@@ -1,15 +1,16 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
 # do s1bit_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {/home2/users/alumnes/1177952/LAB1/FUNCIONAL/CODIGO/s1bit.vhd}
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/FUNCIONAL/CODIGO/s1bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -17,184 +18,26 @@
 # -- Compiling entity s1bit
 # -- Compiling architecture funcional of s1bit
 # 
-vsim -voptargs=+acc rtl_work.s1bit
-# vsim -voptargs=+acc rtl_work.s1bit 
+vsim +altera -do s1bit_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.s1bit
+# vsim +altera -do s1bit_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.s1bit 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading rtl_work.s1bit(funcional)
-vsim -voptargs=+acc rtl_work.s1bit
-# vsim -voptargs=+acc rtl_work.s1bit 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading rtl_work.s1bit(funcional)
+# do s1bit_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/FUNCIONAL/CODIGO/s1bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s1bit
+# -- Compiling architecture funcional of s1bit
+# 
 # Load canceled
-add wave  \
-sim:/s1bit/x
-1
-# invalid command name "1"
-add wave -position insertpoint  \
-sim:/s1bit/y
-add wave -position insertpoint  \
-sim:/s1bit/cen
-add wave -position insertpoint  \
-sim:/s1bit/s \
-sim:/s1bit/csal
-add list  \
-sim:/s1bit/x \
-sim:/s1bit/y \
-sim:/s1bit/cen \
-sim:/s1bit/s \
-sim:/s1bit/csal
-force -freeze sim:/s1bit/x 1 0
-force -freeze sim:/s1bit/y 1 0
-force -freeze sim:/s1bit/cen 0 0
-force -freeze sim:/s1bit/x 0 {5 ns}
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/s1bit/x 1 0
-force -freeze sim:/s1bit/y 0 0
-force -freeze sim:/s1bit/cen 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home2/users/alumnes/1177952/LAB1/FUNCIONAL/QUARTUS/simulation/modelsim/wave.do
-force -freeze sim:/s1bit/x 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/y 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/cen 0 0, 1 {5000 ps} -r {10 ns}
-restart
-force -freeze sim:/s1bit/x 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/y 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/cen 0 0, 1 {5000 ps} -r {10 ns}
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position insertpoint  \
-sim:/s1bit/cen \
-sim:/s1bit/x \
-sim:/s1bit/y
-add wave -position insertpoint  \
-sim:/s1bit/csal \
-sim:/s1bit/s
-force -freeze sim:/s1bit/cen 0 0, 1 {5000 ps} -r {10 ns}
-restart
-force -freeze sim:/s1bit/cen 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/x 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/y 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/cen 0 0
-force -freeze sim:/s1bit/cen 0 0, 1 {20000 ps} -r {40 ns}
-force -freeze sim:/s1bit/x 0 0, 1 {5000 ps} -r {10 ns}
-force -freeze sim:/s1bit/y 0 0, 1 {10000 ps} -r {20 ns}
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/s1bit/cen 0 0, 1 {20000 ps} -r {40 ns}
-force -freeze sim:/s1bit/cen 1 0, 0 {50 ps} -r 100
-force -freeze sim:/s1bit/cen 1 0, 0 {200 ps} -r 400
-force -freeze sim:/s1bit/x 0 0, 1 {50 ps} -r 100
-force -freeze sim:/s1bit/y 0 0, 1 {100 ps} -r 200
-force -freeze sim:/s1bit/cen 0 0, 1 {200 ps} -r 400
-run
-run
-run
-run
-run
-run
-restart
-force -freeze sim:/s1bit/cen 0 0, 1 {200 ps} -r 400
-force -freeze sim:/s1bit/x 0 0, 1 {100 ps} -r 200
-force -freeze sim:/s1bit/x 0 0, 1 {50 ps} -r 100
-force -freeze sim:/s1bit/y 0 0, 1 {100 ps} -r 200
-force -freeze sim:/s1bit/x 0 0, 1 {50 ps} -r 100
-run
-run
-run
