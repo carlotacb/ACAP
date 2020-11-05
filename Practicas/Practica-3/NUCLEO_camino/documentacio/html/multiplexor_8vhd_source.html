@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>NUCLEO_camino: Fichero Fuente LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NUCLEO_camino
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_60a1be92ec3cd5bc7744054a8b03d72d.html">LAB3</a></li><li class="navelem"><a class="el" href="dir_544c2b28b2ff157734a432365dc74a0d.html">NUCLEO_camino</a></li><li class="navelem"><a class="el" href="dir_8d7dbc736d1a3e694233f43209e2cf4f.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_7dc559d28ae6b9167a0cbbf589167533.html">multiplexores</a></li><li class="navelem"><a class="el" href="dir_bdcdd6fd20851e2b63771eed8c6c9282.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">multiplexor.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="multiplexor_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classmultiplexor.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classmultiplexor.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcontrol.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classmultiplexor.html#a7692aed343799dee83e31a4169060c3b">    8</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__nucleo__pkg.html">cte_tipos_nucleo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classmultiplexor.html">   10</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classmultiplexor.html">multiplexor</a> <span class="keywordflow">is</span> </div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classmultiplexor.html#a2fd424bb347f24f5273b214c00462d04">   11</a></span>&#160;<span class="keywordflow">generic</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmultiplexor.html#a2fd424bb347f24f5273b214c00462d04">tam</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classmultiplexor.html#a2ce40db89b705c532e7564e148e0275f">   12</a></span>&#160;<span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmultiplexor.html#a5155c02564e79365073e7c6255e3a5ef">e0</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classmultiplexor.html#a2ce40db89b705c532e7564e148e0275f">e1</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic_vector</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmultiplexor.html#a2fd424bb347f24f5273b214c00462d04">tam</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classmultiplexor.html#aac82813c596e9a795366dbc61b56d7cd">   13</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classmultiplexor.html#aac82813c596e9a795366dbc61b56d7cd">selec</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classmultiplexor.html#a45bfbc66d35a539ec59e978fbd8b8819">   14</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classmultiplexor.html#a45bfbc66d35a539ec59e978fbd8b8819">sal</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic_vector</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmultiplexor.html#a2fd424bb347f24f5273b214c00462d04">tam</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">multiplexor</span>; </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classmultiplexor_1_1compor.html">   17</a></span>&#160;<span class="keywordflow">architecture</span> compor <span class="keywordflow">of</span> <a class="code" href="classmultiplexor.html">multiplexor</a> is</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;         <span class="vhdlchar"><a class="code" href="classmultiplexor.html#a45bfbc66d35a539ec59e978fbd8b8819">sal</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classmultiplexor.html#a5155c02564e79365073e7c6255e3a5ef">e0</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmultiplexor.html#aac82813c596e9a795366dbc61b56d7cd">selec</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span> <span class="keywordflow">else</span> <span class="vhdlchar"><a class="code" href="classmultiplexor.html#a2ce40db89b705c532e7564e148e0275f">e1</a></span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">compor</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="ttc" id="classmultiplexor_html_aac82813c596e9a795366dbc61b56d7cd"><div class="ttname"><a href="classmultiplexor.html#aac82813c596e9a795366dbc61b56d7cd">multiplexor.selec</a></div><div class="ttdeci">in selecstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00013">multiplexor.vhd:13</a></div></div>
+<div class="ttc" id="classmultiplexor_html_a2ce40db89b705c532e7564e148e0275f"><div class="ttname"><a href="classmultiplexor.html#a2ce40db89b705c532e7564e148e0275f">multiplexor.e1</a></div><div class="ttdeci">in e1std_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00012">multiplexor.vhd:12</a></div></div>
+<div class="ttc" id="classmultiplexor_html_a2fd424bb347f24f5273b214c00462d04"><div class="ttname"><a href="classmultiplexor.html#a2fd424bb347f24f5273b214c00462d04">multiplexor.tam</a></div><div class="ttdeci">tamnatural  </div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00011">multiplexor.vhd:11</a></div></div>
+<div class="ttc" id="classmultiplexor_html"><div class="ttname"><a href="classmultiplexor.html">multiplexor</a></div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00010">multiplexor.vhd:10</a></div></div>
+<div class="ttc" id="classmultiplexor_html_a5155c02564e79365073e7c6255e3a5ef"><div class="ttname"><a href="classmultiplexor.html#a5155c02564e79365073e7c6255e3a5ef">multiplexor.e0</a></div><div class="ttdeci">in e0std_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00012">multiplexor.vhd:12</a></div></div>
+<div class="ttc" id="classcontrol_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcontrol.html#a0a6af6eef40212dbaf130d57ce711256">control.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00006">control.vhd:6</a></div></div>
+<div class="ttc" id="classmultiplexor_html_a45bfbc66d35a539ec59e978fbd8b8819"><div class="ttname"><a href="classmultiplexor.html#a45bfbc66d35a539ec59e978fbd8b8819">multiplexor.sal</a></div><div class="ttdeci">out salstd_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="multiplexor_8vhd_source.html#l00014">multiplexor.vhd:14</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html">cte_tipos_nucleo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00010">cte_tipos_nucleo_pkg.vhd:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 14 de Marzo de 2019 14:36:37 para NUCLEO_camino por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,14 @@
+|s1bit
+x => s.IN0
+x => csal.IN0
+x => csal.IN0
+y => s.IN1
+y => csal.IN1
+y => csal.IN0
+cen => s.IN1
+cen => csal.IN1
+cen => csal.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+csal <= csal.DB_MAX_OUTPUT_PORT_TYPE
+
+

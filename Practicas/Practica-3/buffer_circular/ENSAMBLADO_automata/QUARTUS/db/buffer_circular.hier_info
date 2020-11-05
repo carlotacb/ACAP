@@ -1,0 +1,140 @@
+|buffer_circular
+reloj => BR:bancoregistros.reloj
+reloj => controlinterface:buffercontrol.reloj
+pcero => controlinterface:buffercontrol.pcero
+datoE[0] => BR:bancoregistros.ED[0]
+datoE[1] => BR:bancoregistros.ED[1]
+datoE[2] => BR:bancoregistros.ED[2]
+datoE[3] => BR:bancoregistros.ED[3]
+datoE[4] => BR:bancoregistros.ED[4]
+datoE[5] => BR:bancoregistros.ED[5]
+datoE[6] => BR:bancoregistros.ED[6]
+datoE[7] => BR:bancoregistros.ED[7]
+validoP => controlinterface:buffercontrol.validoP
+listoC => controlinterface:buffercontrol.listoC
+listoB <= controlinterface:buffercontrol.listoB
+validoB <= controlinterface:buffercontrol.validoB
+datoL[0] <= BR:bancoregistros.LD[0]
+datoL[1] <= BR:bancoregistros.LD[1]
+datoL[2] <= BR:bancoregistros.LD[2]
+datoL[3] <= BR:bancoregistros.LD[3]
+datoL[4] <= BR:bancoregistros.LD[4]
+datoL[5] <= BR:bancoregistros.LD[5]
+datoL[6] <= BR:bancoregistros.LD[6]
+datoL[7] <= BR:bancoregistros.LD[7]
+
+
+|buffer_circular|BR:bancoregistros
+reloj => registros~11.CLK
+reloj => registros~0.CLK
+reloj => registros~1.CLK
+reloj => registros~2.CLK
+reloj => registros~3.CLK
+reloj => registros~4.CLK
+reloj => registros~5.CLK
+reloj => registros~6.CLK
+reloj => registros~7.CLK
+reloj => registros~8.CLK
+reloj => registros~9.CLK
+reloj => registros~10.CLK
+reloj => registros.CLK0
+ED[0] => registros~10.DATAIN
+ED[0] => registros.DATAIN
+ED[1] => registros~9.DATAIN
+ED[1] => registros.DATAIN1
+ED[2] => registros~8.DATAIN
+ED[2] => registros.DATAIN2
+ED[3] => registros~7.DATAIN
+ED[3] => registros.DATAIN3
+ED[4] => registros~6.DATAIN
+ED[4] => registros.DATAIN4
+ED[5] => registros~5.DATAIN
+ED[5] => registros.DATAIN5
+ED[6] => registros~4.DATAIN
+ED[6] => registros.DATAIN6
+ED[7] => registros~3.DATAIN
+ED[7] => registros.DATAIN7
+dirE[0] => registros~2.DATAIN
+dirE[0] => registros.WADDR
+dirE[1] => registros~1.DATAIN
+dirE[1] => registros.WADDR1
+dirE[2] => registros~0.DATAIN
+dirE[2] => registros.WADDR2
+dirL[0] => registros.RADDR
+dirL[1] => registros.RADDR1
+dirL[2] => registros.RADDR2
+pe => registros~11.DATAIN
+pe => registros.WE
+LD[0] <= registros.DATAOUT
+LD[1] <= registros.DATAOUT1
+LD[2] <= registros.DATAOUT2
+LD[3] <= registros.DATAOUT3
+LD[4] <= registros.DATAOUT4
+LD[5] <= registros.DATAOUT5
+LD[6] <= registros.DATAOUT6
+LD[7] <= registros.DATAOUT7
+
+
+|buffer_circular|controlinterface:buffercontrol
+reloj => acceso:accesoBR.reloj
+reloj => control:condi_control.reloj
+pcero => acceso:accesoBR.pcero
+pcero => control:condi_control.pcero
+validoP => interface:interfaceP.lis_val
+listoC => interface:interfaceC.lis_val
+validoB <= interface:interfaceC.val_lis
+listoB <= interface:interfaceP.val_lis
+cabeza[0] <= acceso:accesoBR.cabeza[0]
+cabeza[1] <= acceso:accesoBR.cabeza[1]
+cabeza[2] <= acceso:accesoBR.cabeza[2]
+cola[0] <= acceso:accesoBR.cola[0]
+cola[1] <= acceso:accesoBR.cola[1]
+cola[2] <= acceso:accesoBR.cola[2]
+PE <= acceso:accesoBR.PE
+
+
+|buffer_circular|controlinterface:buffercontrol|acceso:accesoBR
+reloj => ~NO_FANOUT~
+pcero => ~NO_FANOUT~
+escritura => PE.DATAIN
+lectura => ~NO_FANOUT~
+PE <= escritura.DB_MAX_OUTPUT_PORT_TYPE
+cabeza[0] <= <GND>
+cabeza[1] <= <GND>
+cabeza[2] <= <GND>
+cola[0] <= <GND>
+cola[1] <= <GND>
+cola[2] <= <GND>
+
+
+|buffer_circular|controlinterface:buffercontrol|control:condi_control
+reloj => ~NO_FANOUT~
+pcero => ~NO_FANOUT~
+cabeza[0] => ~NO_FANOUT~
+cabeza[1] => ~NO_FANOUT~
+cabeza[2] => ~NO_FANOUT~
+cola[0] => ~NO_FANOUT~
+cola[1] => ~NO_FANOUT~
+cola[2] => ~NO_FANOUT~
+escritura => ~NO_FANOUT~
+lectura => ~NO_FANOUT~
+vacio <= <GND>
+lleno <= <GND>
+
+
+|buffer_circular|controlinterface:buffercontrol|interface:interfaceC
+lis_val => accion.IN0
+estado => accion.IN1
+estado => val_lis.DATAIN
+val_lis <= estado.DB_MAX_OUTPUT_PORT_TYPE
+accion <= accion.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer_circular|controlinterface:buffercontrol|interface:interfaceP
+lis_val => accion.IN0
+estado => accion.IN1
+estado => val_lis.DATAIN
+val_lis <= estado.DB_MAX_OUTPUT_PORT_TYPE
+accion <= accion.DB_MAX_OUTPUT_PORT_TYPE
+
+

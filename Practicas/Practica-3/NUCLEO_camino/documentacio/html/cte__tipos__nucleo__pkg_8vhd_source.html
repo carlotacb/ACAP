@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>NUCLEO_camino: Fichero Fuente LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NUCLEO_camino
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_60a1be92ec3cd5bc7744054a8b03d72d.html">LAB3</a></li><li class="navelem"><a class="el" href="dir_544c2b28b2ff157734a432365dc74a0d.html">NUCLEO_camino</a></li><li class="navelem"><a class="el" href="dir_43074fdb6403640228c0d50a1f9da2d1.html">tipos_ctes_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cte_tipos_nucleo_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cte__tipos__nucleo__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcamino__control.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcamino__control.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespacecte__tipos__nucleo__pkg.html">   10</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classcte__tipos__nucleo__pkg.html">cte_tipos_nucleo_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a8a1da23f170363a69878c31274efeba7">   12</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a8a1da23f170363a69878c31274efeba7">tam_camino</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">8</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a3a09d7c4fd7718cb7cd1e5c908d97261">   13</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a3a09d7c4fd7718cb7cd1e5c908d97261">st_datos</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a8a1da23f170363a69878c31274efeba7">tam_camino</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#ac634fc3772f227aa4b10af963635fbcd">   15</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#ac634fc3772f227aa4b10af963635fbcd">log_num_reg</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">5</span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a275d00f192ab584874e10424fc0bab2a">   16</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a275d00f192ab584874e10424fc0bab2a">num_reg</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">2</span><span class="vhdlchar">*</span><span class="vhdlchar">*</span><span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#ac634fc3772f227aa4b10af963635fbcd">log_num_reg</a></span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#aad131f9f566fca1eb09a8787e19ebfa8">   17</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#aad131f9f566fca1eb09a8787e19ebfa8">st_iden</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#ac634fc3772f227aa4b10af963635fbcd">log_num_reg</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">-- banco de registros</span></div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#aaa0618ba0092cfa859b5c51527a09e63">   20</a></span>&#160;<span class="keywordflow">type</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#aaa0618ba0092cfa859b5c51527a09e63">ramtype</a></span> <span class="keywordflow">is</span> <span class="keywordflow">array</span> <span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">0</span> <span class="keywordflow">to</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a275d00f192ab584874e10424fc0bab2a">num_reg</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span><span class="vhdlchar">)</span> <span class="keywordflow">of</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a3a09d7c4fd7718cb7cd1e5c908d97261">st_datos</a></span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcte__tipos__nucleo__pkg.html#a204fd996894cab1e0243fe27c7d42c5b">   22</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__nucleo__pkg.html#a204fd996894cab1e0243fe27c7d42c5b">tam_secuencia</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">5</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">cte_tipos_nucleo_pkg</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="ttc" id="classcte__tipos__nucleo__pkg_html_ac634fc3772f227aa4b10af963635fbcd"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#ac634fc3772f227aa4b10af963635fbcd">cte_tipos_nucleo_pkg.log_num_reg</a></div><div class="ttdeci">natural  := 5 log_num_reg</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00015">cte_tipos_nucleo_pkg.vhd:15</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_a275d00f192ab584874e10424fc0bab2a"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#a275d00f192ab584874e10424fc0bab2a">cte_tipos_nucleo_pkg.num_reg</a></div><div class="ttdeci">natural  := 2**   log_num_reg num_reg</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00016">cte_tipos_nucleo_pkg.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_a204fd996894cab1e0243fe27c7d42c5b"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#a204fd996894cab1e0243fe27c7d42c5b">cte_tipos_nucleo_pkg.tam_secuencia</a></div><div class="ttdeci">natural  := 5 tam_secuencia</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00022">cte_tipos_nucleo_pkg.vhd:22</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_aaa0618ba0092cfa859b5c51527a09e63"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#aaa0618ba0092cfa859b5c51527a09e63">cte_tipos_nucleo_pkg.ramtype</a></div><div class="ttdeci">( 0 to    num_reg- 1) st_datos   ramtype</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00020">cte_tipos_nucleo_pkg.vhd:20</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_a8a1da23f170363a69878c31274efeba7"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#a8a1da23f170363a69878c31274efeba7">cte_tipos_nucleo_pkg.tam_camino</a></div><div class="ttdeci">natural  := 8 tam_camino</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00012">cte_tipos_nucleo_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_aad131f9f566fca1eb09a8787e19ebfa8"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#aad131f9f566fca1eb09a8787e19ebfa8">cte_tipos_nucleo_pkg.st_iden</a></div><div class="ttdeci">std_logic_vector(   log_num_reg- 1 downto  0)   st_iden</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00017">cte_tipos_nucleo_pkg.vhd:17</a></div></div>
+<div class="ttc" id="classcamino__control_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcamino__control.html#a0a6af6eef40212dbaf130d57ce711256">camino_control.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="camino__control_8vhd_source.html#l00006">camino_control.vhd:6</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html">cte_tipos_nucleo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00010">cte_tipos_nucleo_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_a3a09d7c4fd7718cb7cd1e5c908d97261"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#a3a09d7c4fd7718cb7cd1e5c908d97261">cte_tipos_nucleo_pkg.st_datos</a></div><div class="ttdeci">std_logic_vector(   tam_camino- 1 downto  0)   st_datos</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00013">cte_tipos_nucleo_pkg.vhd:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 14 de Marzo de 2019 14:36:37 para NUCLEO_camino por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

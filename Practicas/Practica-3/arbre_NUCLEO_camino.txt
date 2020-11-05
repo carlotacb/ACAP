@@ -1,0 +1,78 @@
+./AULA/LAB3/NUCLEO_camino/
+├── COMPONENTES
+│   ├── BR
+│   │   ├── CODIGO
+│   │   │   └── BR.vhd
+│   │   ├── PRUEBAS
+│   │   │   ├── formato_ventanas.do
+│   │   │   ├── procedimientos_pkg.vhd
+│   │   │   ├── prueba_BR.vhd
+│   │   │   └── wave.do
+│   │   ├── QUARTUS
+│   │   │   ├── BR.qpf
+│   │   │   └── BR.qsf
+│   │   └── RESULTADOS
+│   ├── componentes_nucleo_pkg
+│   │   └── componentes_nucleo_pkg.vhd
+│   ├── control
+│   │   ├── COMPONENTES
+│   │   │   └── registros
+│   │   │       └── CODIGO
+│   │   │           ├── reg1.vhd
+│   │   │           └── registro.vhd
+│   │   ├── componentes_control_pkg
+│   │   │   └── componentes_control_pkg.vhd
+│   │   ├── control_depen
+│   │   │   ├── CODIGO
+│   │   │   │   └── control.vhd
+│   │   │   ├── PRUEBAS
+│   │   │   │   ├── formato_ventanas.do
+│   │   │   │   ├── prueba_control.vhd
+│   │   │   │   └── wave.do
+│   │   │   ├── QUARTUS
+│   │   │   │   ├── control.qpf
+│   │   │   │   └── control.qsf
+│   │   │   └── RESULTADOS
+│   │   └── control_indep
+│   │       ├── CODIGO
+│   │       │   └── control.vhd
+│   │       ├── PRUEBAS
+│   │       │   ├── formato_ventanas.do
+│   │       │   ├── prueba_control.vhd
+│   │       │   └── wave.do
+│   │       ├── QUARTUS
+│   │       │   ├── control.qpf
+│   │       │   └── control.qsf
+│   │       └── RESULTADOS
+│   ├── multiplexores
+│   │   └── CODIGO
+│   │       ├── multiplexor_1.vhd
+│   │       └── multiplexor.vhd
+│   └── Sumador
+│       └── CODIGO
+│           └── sumador.vhd
+├── documentacio
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── camino_control.vhd
+│   ├── PRUEBAS_control_depen
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_camino_control.vhd
+│   │   └── wave.do
+│   ├── PRUEBAS_control_indepe
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_camino_control.vhd
+│   │   └── wave.do
+│   ├── QUARTUS_control_depen
+│   │   ├── camino_control.qpf
+│   │   └── camino_control.qsf
+│   ├── QUARTUS_control_indepe
+│   │   ├── camino_control.qpf
+│   │   └── camino_control.qsf
+│   ├── RESULTADOS_control_depen
+│   ├── RESULTADOS_control_indepe
+│   └── UTILIDADES_pkg
+│       └── prueba_procedimientos_camino_control.vhd
+└── tipos_ctes_pkg
+    ├── cte_tipos_nucleo_pkg.vhd
+    └── retardos_nucleo_pkg.vhd

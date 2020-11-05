@@ -1,0 +1,224 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\catot\Desktop\LAB3\NUCLEO_camino\COMPONENTES\control\control_depen\QUARTUS\simulation\modelsim
+Pcomponentes_control_pkg
+Z1 DPx4 work 19 retardos_nucleo_pkg 0 22 [[j5AACM^kRPb[;iR59:d1
+Z2 DPx4 work 20 cte_tipos_nucleo_pkg 0 22 5@K=`iZ5fSOOVY_;Tc>Vz1
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 w1534671490
+Z7 dC:\Users\catot\Desktop\LAB3\NUCLEO_camino\COMPONENTES\control\control_depen\QUARTUS\simulation\modelsim
+8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd
+FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd
+l0
+L12
+VYb[44D?0z1oReeUGX[54=3
+Z8 OV;C;10.1d;51
+31
+Z9 o-93 -work work -O0
+Z10 tExplicit 1
+!s100 j]?n^O_OXn3@[]ejPBI4`0
+!i10b 1
+!s108 1604262379.348000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd|
+Econtrol
+Z11 w1604262326
+Z12 DPx4 work 23 componentes_control_pkg 0 22 Yb[44D?0z1oReeUGX[54=3
+R1
+R2
+R3
+R4
+R5
+R7
+Z13 8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+Z14 FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+l0
+L13
+V9hY:MDLHfdC1eRTLQ^=P;0
+R8
+31
+Z15 !s108 1604262380.006000
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
+Z17 !s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
+R9
+R10
+!s100 KJ_oLKQ89gL=daCDIl1;B2
+!i10b 1
+Aestructura
+R12
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 control 0 22 9hY:MDLHfdC1eRTLQ^=P;0
+l28
+L21
+VW^:IU=;Yjc<]YGTB>2<l21
+R8
+31
+R15
+R16
+R17
+R9
+R10
+!s100 IGeLVRo6PME0k=zJ5EW?j0
+!i10b 1
+Pcte_tipos_nucleo_pkg
+R3
+R4
+R5
+R6
+R7
+8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
+FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
+l0
+L10
+V5@K=`iZ5fSOOVY_;Tc>Vz1
+R8
+31
+R9
+R10
+!s100 zF;5Ei[BzTlGTgTzi^LUm1
+!i10b 1
+!s108 1604262379.168000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
+Eprueba_control
+Z18 w1549527520
+R1
+R2
+R3
+R4
+R5
+R7
+Z19 8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/QUARTUS/../PRUEBAS/prueba_control.vhd
+Z20 FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/QUARTUS/../PRUEBAS/prueba_control.vhd
+l0
+L12
+VUG8^^KiEd>hYC52gDLe?E2
+!s100 KLH>Ma59O1HY99MOSmO=a2
+R8
+31
+!i10b 1
+Z21 !s108 1604262380.397000
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/QUARTUS/../PRUEBAS/prueba_control.vhd|
+Z23 !s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/QUARTUS/../PRUEBAS/prueba_control.vhd|
+R9
+R10
+Acontrol
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 prueba_control 0 22 UG8^^KiEd>hYC52gDLe?E2
+l33
+L16
+VN3W8Al15hi=:eJWh6Lbmc0
+!s100 WT?ci^5?;7WA6FzXS[6S:3
+R8
+31
+!i10b 1
+R21
+R22
+R23
+R9
+R10
+Ereg1
+R6
+R1
+R4
+R5
+R7
+Z24 8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+Z25 FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+l0
+L10
+VEAlldc;[ROTS0V6GBNb4R3
+R8
+31
+Z26 !s108 1604262379.524000
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+Z28 !s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+R9
+R10
+!s100 @gcU>;lP01M7`fiXGAn`e2
+!i10b 1
+Acomportamiento
+R1
+R4
+R5
+DEx4 work 4 reg1 0 22 EAlldc;[ROTS0V6GBNb4R3
+l17
+L16
+VL=UO@?j<d[Bf@jj0DFnhS1
+R8
+31
+R26
+R27
+R28
+R9
+R10
+!s100 jFmAY2`BU3F;Te4GVJ4^12
+!i10b 1
+Eregistro
+R6
+R1
+R4
+R5
+R7
+Z29 8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+Z30 FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+l0
+L10
+VcU<USZQggG07f<RJc0kND1
+R8
+31
+Z31 !s108 1604262379.740000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+Z33 !s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+R9
+R10
+!s100 ZK[VVc73CW^6hGXnoUG]O3
+!i10b 1
+Acomportamiento
+R1
+R4
+R5
+DEx4 work 8 registro 0 22 cU<USZQggG07f<RJc0kND1
+l18
+L17
+V0:cmPenh[A[9mV_3Q7KG>1
+R8
+31
+R31
+R32
+R33
+R9
+R10
+!s100 coo0Kfofm^`cY;7?8S73`2
+!i10b 1
+Pretardos_nucleo_pkg
+R4
+R5
+R6
+R7
+8C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
+FC:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
+l0
+L9
+V[[j5AACM^kRPb[;iR59:d1
+R8
+31
+R9
+R10
+!s100 0fE3^AI4860nBAlHfbDj63
+!i10b 1
+!s108 1604262378.975000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|

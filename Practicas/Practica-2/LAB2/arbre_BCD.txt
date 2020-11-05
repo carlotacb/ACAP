@@ -1,0 +1,146 @@
+./AULA/LAB2/BCD/
+├── compresion
+│   ├── COMPONENTES
+│   │   ├── BCDaDPD
+│   │   │   ├── CODIGO
+│   │   │   │   └── BCDaDPD.vhd
+│   │   │   └── QUARTUS
+│   │   │       ├── BCDaDPD.qpf
+│   │   │       └── BCDaDPD.qsf
+│   │   ├── DPDaBCD
+│   │   │   ├── CODIGO
+│   │   │   │   └── DPDaBCD.vhd
+│   │   │   └── QUARTUS
+│   │   │       ├── DPDaBCD.qpf
+│   │   │       └── DPDaBCD.qsf
+│   │   ├── PRUEBAS
+│   │   │   ├── cte_tipos_bcd_compresion_pkg.vhd
+│   │   │   ├── formato_ventanas.do
+│   │   │   ├── prueba_BCDaDPD.vhd
+│   │   │   └── wave.do
+│   │   └── QUARTUS
+│   │       ├── BCDaDPD.qpf
+│   │       └── BCDaDPD.qsf
+│   ├── componentes_compresion_pkg
+│   │   └── componentes_compresion_pkg.vhd
+│   ├── SumALge_compresion
+│   │   ├── CODIGO
+│   │   │   └── salgeDPD.vhd
+│   │   ├── PRUEBAS
+│   │   │   ├── formato_ventanas.do
+│   │   │   ├── prueba_sAlgeDPD.vhd
+│   │   │   └── wave.do
+│   │   ├── QUARTUS
+│   │   │   ├── sAlgeDPD.qpf
+│   │   │   └── sAlgeDPD.qsf
+│   │   └── RESULTADOS
+│   └── tipos_ctes_pkg
+│       ├── cte_tipos_bcd_pkg.vhd
+│       └── retardos_bcd_compresion_pkg.vhd
+├── documentacio
+├── Suma_algebraica_BCD
+│   ├── COMPONENTES
+│   │   ├── compl9
+│   │   │   └── LOGICA
+│   │   │       ├── CODIGO
+│   │   │       │   └── compl9.vhd
+│   │   │       ├── PRUEBAS
+│   │   │       │   ├── prueba_compl9.vhd
+│   │   │       │   └── wave.do
+│   │   │       ├── QUARTUS
+│   │   │       │   ├── compl9.qpf
+│   │   │       │   └── compl9.qsf
+│   │   │       └── RESULTADOS
+│   │   ├── mux
+│   │   │   └── CODIGO
+│   │   │       └── muxn.vhd
+│   │   └── SUMA_enteros_BCD
+│   │       ├── COMPONENTES
+│   │       │   ├── s1bit
+│   │       │   │   ├── CODIGO
+│   │       │   │   │   └── s1bit.vhd
+│   │       │   │   ├── PRUEBAS
+│   │       │   │   ├── QUARTUS
+│   │       │   │   └── RESULTADOS
+│   │       │   └── SUMA_natu_BCD
+│   │       │       ├── COMPONENTES
+│   │       │       │   ├── componentes_sum_bcd_pkg
+│   │       │       │   │   └── componentes_s1BCD_pkg.vhd
+│   │       │       │   └── sum_digito_BCD
+│   │       │       │       ├── COMPONENTES
+│   │       │       │       │   ├── mayor9
+│   │       │       │       │   │   ├── CODIGO
+│   │       │       │       │   │   │   └── mayor9.vhd
+│   │       │       │       │   │   ├── PRUEBA
+│   │       │       │       │   │   │   ├── formato_ventanas.do
+│   │       │       │       │   │   │   ├── prueba_mayor9.vhd
+│   │       │       │       │   │   │   └── wave.do
+│   │       │       │       │   │   ├── QUARTUS
+│   │       │       │       │   │   │   ├── mayor9.qpf
+│   │       │       │       │   │   │   └── mayor9.qsf
+│   │       │       │       │   │   └── RESULTADOS
+│   │       │       │       │   └── sumador_binario
+│   │       │       │       │       ├── CODIGO
+│   │       │       │       │       │   └── snbits.vhd
+│   │       │       │       │       ├── PRUEBA
+│   │       │       │       │       │   ├── formato_ventanas.do
+│   │       │       │       │       │   ├── prueba_snbits.vhd
+│   │       │       │       │       │   └── wave.do
+│   │       │       │       │       ├── QUARTUS
+│   │       │       │       │       │   ├── snbits.qpf
+│   │       │       │       │       │   └── snbits.qsf
+│   │       │       │       │       └── RESULTADOS
+│   │       │       │       ├── componentes_dig_BCD_pkg
+│   │       │       │       │   └── componentes_digito_bcd_pkg.vhd
+│   │       │       │       └── suma_dos_digitos_BCD
+│   │       │       │           ├── CODIGO
+│   │       │       │           │   └── s1bcd.vhd
+│   │       │       │           ├── PRUEBAS
+│   │       │       │           │   ├── formato_ventanas.do
+│   │       │       │           │   ├── prueba_s1bcd.vhd
+│   │       │       │           │   └── wave.do
+│   │       │       │           ├── QUARTUS
+│   │       │       │           │   ├── s1bcd.qpf
+│   │       │       │           │   └── s1bcd.qsf
+│   │       │       │           └── RESULTADOS
+│   │       │       └── sum_n_digitos_BCD
+│   │       │           ├── CODIGO
+│   │       │           │   └── snBCD.vhd
+│   │       │           ├── PRUEBAS
+│   │       │           │   ├── formato_ventanas.do
+│   │       │           │   ├── prueba_snBCD.vhd
+│   │       │           │   └── wave.do
+│   │       │           ├── QUARTUS
+│   │       │           │   ├── snBCD.qpf
+│   │       │           │   └── snBCD.qsf
+│   │       │           └── RESULTADOS
+│   │       ├── componentes_enteros_pkg
+│   │       │   └── componentes_snBCD_pkg.vhd
+│   │       └── sum_n_digitos_enteros_BCD
+│   │           ├── CODIGO
+│   │           │   └── sentBCD.vhd
+│   │           ├── PRUEBAS
+│   │           │   ├── formato_ventanas.do
+│   │           │   ├── prueba_sentBCD.vhd
+│   │           │   └── wave.do
+│   │           ├── QUARTUS
+│   │           │   ├── sentBCD.qpf
+│   │           │   └── sentBCD.qsf
+│   │           └── RESULTADOS
+│   ├── componentes_sum_algebraica_pkg
+│   │   └── componentes_sum_algebraica_pkg.vhd
+│   └── sum_n_digitos_algebraica_BCD
+│       ├── CODIGO
+│       │   └── sAlgeBCD.vhd
+│       ├── PRUEBAS
+│       │   ├── formato_ventanas.do
+│       │   ├── prueba_sAlgeBCD.vhd
+│       │   └── wave.do
+│       ├── QUARTUS
+│       │   ├── sAlgeBCD.qpf
+│       │   └── sAlgeBCD.qsf
+│       └── RESULTADOS
+│           └── sAlgeBCD.png
+└── tipos_ctes_pkg
+    ├── cte_tipos_bcd_pkg.vhd
+    └── retardos_bcd_pkg.vhd

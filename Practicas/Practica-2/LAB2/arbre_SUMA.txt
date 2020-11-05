@@ -1,0 +1,27 @@
+./AULA/LAB2/SUMA/
+├── COMPONENTES
+│   └── SUM1BIT
+│       └── CODIGO
+│           └── s1bit.vhd
+├── SUM4
+│   ├── CODIGO
+│   │   └── S4bits.vhd
+│   ├── PRUEBAS
+│   │   ├── estimulos_retardo.do
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_s4bits.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   └── RESULTADOS
+└── SUMGENERA
+    ├── CODIGO
+    │   └── snbits.vhd
+    ├── PRUEBAS
+    │   ├── formato_ventanas.do
+    │   ├── prueba_snbits_reloj.vhd
+    │   ├── prueba_snbits.vhd
+    │   ├── snref.vhd
+    │   ├── wave.do
+    │   └── wave_reloj.do
+    ├── QUARTUS
+    └── RESULTADOS

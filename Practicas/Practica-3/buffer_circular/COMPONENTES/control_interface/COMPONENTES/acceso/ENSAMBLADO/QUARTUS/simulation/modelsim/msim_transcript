@@ -1,0 +1,189 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do acceso_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_buffer_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_buffer_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_prxval_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_puntero_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_acceso_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity cntbin
+# -- Compiling architecture compor of cntbin
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity mux
+# -- Compiling architecture compor of mux
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity reg
+# -- Compiling architecture compor of reg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_acceso_pkg
+# -- Compiling entity acceso
+# -- Compiling architecture estruc of acceso
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_puntero_pkg
+# -- Compiling entity puntero
+# -- Compiling architecture estruc of puntero
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Loading package componentes_prxval_pkg
+# -- Compiling entity prxval
+# -- Compiling architecture estruc of prxval
+# 
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_acceso.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package procedimientos_prueba_acceso_pkg
+# -- Compiling package body procedimientos_prueba_acceso_pkg
+# -- Loading package procedimientos_prueba_acceso_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_acceso.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package procedimientos_prueba_acceso_pkg
+# -- Compiling entity prueba_acceso
+# -- Compiling architecture prueba of prueba_acceso
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_acceso
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_acceso 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cte_tipos_buffer_pkg
+# Loading work.procedimientos_prueba_acceso_pkg(body)
+# Loading work.prueba_acceso(prueba)
+# Loading work.componentes_acceso_pkg
+# Loading work.acceso(estruc)
+# Loading work.componentes_puntero_pkg
+# Loading work.puntero(estruc)
+# Loading work.retardos_buffer_pkg
+# Loading work.cntbin(compor)
+# Loading work.componentes_prxval_pkg
+# Loading work.prxval(estruc)
+# Loading work.mux(compor)
+# Loading work.reg(compor)
+# 
+# do C:/Users/catot/Desktop/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_acceso/contador
+# add wave -noupdate /prueba_acceso/reloj
+# add wave -noupdate /prueba_acceso/pcero
+# add wave -noupdate -divider PRODUCTOR
+# add wave -noupdate /prueba_acceso/escritura
+# add wave -noupdate /prueba_acceso/PE
+# add wave -noupdate /prueba_acceso/cola
+# add wave -noupdate /prueba_acceso/colaincr
+# add wave -noupdate -divider CONSUMIDOR
+# add wave -noupdate /prueba_acceso/lectura
+# add wave -noupdate /prueba_acceso/cabeza
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {75217 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 199
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 10000
+# configure wave -gridperiod 20000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {466200 ps}
+# run -all
+# ** Note: Prueba finalizada.
+#    Time: 200 ns  Iteration: 1  Instance: /prueba_acceso
