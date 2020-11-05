@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\catot\Documents\Personal\UNI\3r Quatri\ACAP\Laboratori\ACAP-LABs\LAB1\ENTREGA\QUARTUS\simulation\modelsim
+Es1bit
+Z1 w1601913622
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\catot\Documents\Personal\UNI\3r Quatri\ACAP\Laboratori\ACAP-LABs\LAB1\ENTREGA\QUARTUS\simulation\modelsim
+Z5 8C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/ENTREGA/CODIGO/s1bit.vhd
+Z6 FC:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/ENTREGA/CODIGO/s1bit.vhd
+l0
+L3
+V2;=JI0oJJf4?Y7Yo_>8?l1
+!s100 LHG=bb8Pe3U<n>eVdU5S42
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1601914015.707000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/ENTREGA/CODIGO/s1bit.vhd|
+Z10 !s107 C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/ACAP-LABs/LAB1/ENTREGA/CODIGO/s1bit.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Aflujodatos
+R2
+R3
+DEx4 work 5 s1bit 0 22 2;=JI0oJJf4?Y7Yo_>8?l1
+l20
+L13
+Ve;X=aPcO9Qmme3zJYY[Ic0
+!s100 g8cMnM5CkNR6MkFfSed2D2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
