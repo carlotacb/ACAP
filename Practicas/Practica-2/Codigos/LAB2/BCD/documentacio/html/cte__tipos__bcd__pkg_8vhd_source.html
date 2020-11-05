@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>BCD: Fichero Fuente LAB2/BCD/tipos_ctes_pkg/cte_tipos_bcd_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">BCD
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7c0f74c68b387c69a267eb543a9b8656.html">LAB2</a></li><li class="navelem"><a class="el" href="dir_6851035c9b63fef998363b286b5fe56c.html">BCD</a></li><li class="navelem"><a class="el" href="dir_22f21caf8bbbb59f3534268d89980c93.html">tipos_ctes_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cte_tipos_bcd_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cte__tipos__bcd__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classsAlgeBCD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classsAlgeBCD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespacecte__tipos__bcd__pkg.html">   10</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classcte__tipos__bcd__pkg.html">cte_tipos_bcd_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">   12</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">num_bcd</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">4</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#ab5506b54c4fc4e7fad429f50b19b6c9d">   13</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#ab5506b54c4fc4e7fad429f50b19b6c9d">st_bcd</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">num_bcd</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a400e04bcedfc67c633ec6fcea1633f8e">   14</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a400e04bcedfc67c633ec6fcea1633f8e">st_bcd_mas_1</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">num_bcd</a></span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a837bc09b22760cb9bc8dc04beb3ba228">   16</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a837bc09b22760cb9bc8dc04beb3ba228">ndigitos</a></span><span class="vhdlchar">:</span> <span class="vhdlchar">positive</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">2</span>;<span class="keyword"> --2, 3 para compresion</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a1693eeef60bc4d93cb2b408494321935">   17</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a1693eeef60bc4d93cb2b408494321935">num_bits_ndigitos</a></span><span class="vhdlchar">:</span> <span class="vhdlchar">positive</span><span class="vhdlchar">:=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">num_bcd</a></span><span class="vhdlchar">*</span><span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a837bc09b22760cb9bc8dc04beb3ba228">ndigitos</a></span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">   18</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">st_ndig_bcd</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a1693eeef60bc4d93cb2b408494321935">num_bits_ndigitos</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classcte__tipos__bcd__pkg.html#aabedecedc51e403740f7710dc4c7d485">   19</a></span>&#160;<span class="keywordflow">subtype</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#aabedecedc51e403740f7710dc4c7d485">st_ndig_bcd_mas_1</a></span> <span class="keywordflow">is</span> <span class="comment">std_logic_vector</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcte__tipos__bcd__pkg.html#a1693eeef60bc4d93cb2b408494321935">num_bits_ndigitos</a></span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">cte_tipos_bcd_pkg</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="ttc" id="classsAlgeBCD_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classsAlgeBCD.html#a0a6af6eef40212dbaf130d57ce711256">sAlgeBCD.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="sAlgeBCD_8vhd_source.html#l00006">sAlgeBCD.vhd:6</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html">cte_tipos_bcd_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00010">cte_tipos_bcd_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a9663e6646411da88dfe83d96f1bcd787"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">cte_tipos_bcd_pkg.st_ndig_bcd</a></div><div class="ttdeci">std_logic_vector(   num_bits_ndigitos- 1 downto  0)   st_ndig_bcd</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00018">cte_tipos_bcd_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a837bc09b22760cb9bc8dc04beb3ba228"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a837bc09b22760cb9bc8dc04beb3ba228">cte_tipos_bcd_pkg.ndigitos</a></div><div class="ttdeci">positive  := 2 ndigitos</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00016">cte_tipos_bcd_pkg.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_ab5506b54c4fc4e7fad429f50b19b6c9d"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#ab5506b54c4fc4e7fad429f50b19b6c9d">cte_tipos_bcd_pkg.st_bcd</a></div><div class="ttdeci">std_logic_vector(   num_bcd- 1 downto  0)   st_bcd</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00013">cte_tipos_bcd_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a400e04bcedfc67c633ec6fcea1633f8e"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a400e04bcedfc67c633ec6fcea1633f8e">cte_tipos_bcd_pkg.st_bcd_mas_1</a></div><div class="ttdeci">std_logic_vector(   num_bcd downto  0)   st_bcd_mas_1</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00014">cte_tipos_bcd_pkg.vhd:14</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a61e8185022b771ad5a388001c38e28e5"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a61e8185022b771ad5a388001c38e28e5">cte_tipos_bcd_pkg.num_bcd</a></div><div class="ttdeci">natural  := 4 num_bcd</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00012">cte_tipos_bcd_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a1693eeef60bc4d93cb2b408494321935"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a1693eeef60bc4d93cb2b408494321935">cte_tipos_bcd_pkg.num_bits_ndigitos</a></div><div class="ttdeci">positive  :=   num_bcd*   ndigitos num_bits_ndigitos</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00017">cte_tipos_bcd_pkg.vhd:17</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_aabedecedc51e403740f7710dc4c7d485"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#aabedecedc51e403740f7710dc4c7d485">cte_tipos_bcd_pkg.st_ndig_bcd_mas_1</a></div><div class="ttdeci">std_logic_vector(   num_bits_ndigitos downto  0)   st_ndig_bcd_mas_1</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00019">cte_tipos_bcd_pkg.vhd:19</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 22 de Febrero de 2019 17:50:42 para BCD por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

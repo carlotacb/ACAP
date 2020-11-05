@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>BCD: Fichero Fuente LAB2/BCD/Suma_algebraica_BCD/COMPONENTES/mux/CODIGO/muxn.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">BCD
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7c0f74c68b387c69a267eb543a9b8656.html">LAB2</a></li><li class="navelem"><a class="el" href="dir_6851035c9b63fef998363b286b5fe56c.html">BCD</a></li><li class="navelem"><a class="el" href="dir_28acac3d383912e4c99b6c01c486e5e7.html">Suma_algebraica_BCD</a></li><li class="navelem"><a class="el" href="dir_cd5372c47a92d4627e4a8f92a7be2521.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_5ee4a8c96653fd618e30d5f5139f01f2.html">mux</a></li><li class="navelem"><a class="el" href="dir_230c52451239bbc1606b6078ca1d0189.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">muxn.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="muxn_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classmuxn.html#a0a6af6eef40212dbaf130d57ce711256">    7</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classmuxn.html#acd03516902501cd1c7296a98e22c6fcb">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcompl9.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classmuxn.html#aebbb22424019e115b07fdb47dc23e6be">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__bcd__pkg.html">retardos_bcd_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classmuxn.html">   11</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classmuxn.html">muxn</a> <span class="keywordflow">is</span> </div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classmuxn.html#ac1fdac66be24a318a851df7e4d5bd16a">   12</a></span>&#160;<span class="keywordflow">generic</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmuxn.html#ac1fdac66be24a318a851df7e4d5bd16a">n</a></span><span class="vhdlchar">:</span> <span class="vhdlchar">positive</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classmuxn.html#a55331db48b96e4b540e6c7dfba986d91">   13</a></span>&#160;<span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmuxn.html#af859d31f3a8d0a4f5afd1fb5ac8abcaa">e0</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classmuxn.html#a55331db48b96e4b540e6c7dfba986d91">e1</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmuxn.html#ac1fdac66be24a318a851df7e4d5bd16a">n</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classmuxn.html#aac82813c596e9a795366dbc61b56d7cd">   14</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classmuxn.html#aac82813c596e9a795366dbc61b56d7cd">selec</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classmuxn.html#a258a31264ed2065415c82f8d9dcd9089">   15</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classmuxn.html#a258a31264ed2065415c82f8d9dcd9089">sal</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmuxn.html#ac1fdac66be24a318a851df7e4d5bd16a">n</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">muxn</span>; </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classmuxn_1_1compor.html">   18</a></span>&#160;<span class="keywordflow">architecture</span> compor <span class="keywordflow">of</span> <a class="code" href="classmuxn.html">muxn</a> is</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="vhdlchar"><a class="code" href="classmuxn.html#a258a31264ed2065415c82f8d9dcd9089">sal</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classmuxn.html#af859d31f3a8d0a4f5afd1fb5ac8abcaa">e0</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__bcd__pkg.html#af7db01619ca4bd863520394ce244e607">retmux</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmuxn.html#aac82813c596e9a795366dbc61b56d7cd">selec</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span> <span class="keywordflow">else</span> <span class="vhdlchar"><a class="code" href="classmuxn.html#a55331db48b96e4b540e6c7dfba986d91">e1</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__bcd__pkg.html#af7db01619ca4bd863520394ce244e607">retmux</a></span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">compor</span>;</div><div class="ttc" id="classmuxn_html"><div class="ttname"><a href="classmuxn.html">muxn</a></div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00011">muxn.vhd:11</a></div></div>
+<div class="ttc" id="classretardos__bcd__pkg_html"><div class="ttname"><a href="classretardos__bcd__pkg.html">retardos_bcd_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__bcd__pkg_8vhd_source.html#l00009">retardos_bcd_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classmuxn_html_a55331db48b96e4b540e6c7dfba986d91"><div class="ttname"><a href="classmuxn.html#a55331db48b96e4b540e6c7dfba986d91">muxn.e1</a></div><div class="ttdeci">in e1std_logic_vector(   n- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00013">muxn.vhd:13</a></div></div>
+<div class="ttc" id="classmuxn_html_a258a31264ed2065415c82f8d9dcd9089"><div class="ttname"><a href="classmuxn.html#a258a31264ed2065415c82f8d9dcd9089">muxn.sal</a></div><div class="ttdeci">out salstd_logic_vector(   n- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00015">muxn.vhd:15</a></div></div>
+<div class="ttc" id="classcompl9_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcompl9.html#a0a6af6eef40212dbaf130d57ce711256">compl9.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="compl9_8vhd_source.html#l00006">compl9.vhd:6</a></div></div>
+<div class="ttc" id="classretardos__bcd__pkg_html_af7db01619ca4bd863520394ce244e607"><div class="ttname"><a href="classretardos__bcd__pkg.html#af7db01619ca4bd863520394ce244e607">retardos_bcd_pkg.retmux</a></div><div class="ttdeci">time  :=  2 ns retmux</div><div class="ttdef"><b>Definition:</b> <a href="retardos__bcd__pkg_8vhd_source.html#l00015">retardos_bcd_pkg.vhd:15</a></div></div>
+<div class="ttc" id="classmuxn_html_af859d31f3a8d0a4f5afd1fb5ac8abcaa"><div class="ttname"><a href="classmuxn.html#af859d31f3a8d0a4f5afd1fb5ac8abcaa">muxn.e0</a></div><div class="ttdeci">in e0std_logic_vector(   n- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00013">muxn.vhd:13</a></div></div>
+<div class="ttc" id="classmuxn_html_ac1fdac66be24a318a851df7e4d5bd16a"><div class="ttname"><a href="classmuxn.html#ac1fdac66be24a318a851df7e4d5bd16a">muxn.n</a></div><div class="ttdeci">npositive  </div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00012">muxn.vhd:12</a></div></div>
+<div class="ttc" id="classmuxn_html_aac82813c596e9a795366dbc61b56d7cd"><div class="ttname"><a href="classmuxn.html#aac82813c596e9a795366dbc61b56d7cd">muxn.selec</a></div><div class="ttdeci">in selecstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="muxn_8vhd_source.html#l00014">muxn.vhd:14</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 22 de Febrero de 2019 17:50:42 para BCD por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

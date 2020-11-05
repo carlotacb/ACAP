@@ -1,0 +1,80 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do S4bits_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s1bit
+# -- Compiling architecture flujodatos of s1bit
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S4bits
+# -- Compiling architecture estructural of S4bits
+# 
+# vcom -2008 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity prueba_snbits_reloj
+# -- Compiling architecture prueba of prueba_snbits_reloj
+# ** Warning: [4] C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/snref.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity snref
+# -- Compiling architecture referencia of snref
+# vcom -93 -work work {C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/CODIGO/snbits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity snbits
+# -- Compiling architecture estructural of snbits
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_snbits_reloj
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_snbits_reloj 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.prueba_snbits_reloj(prueba)
+# Loading work.snbits(estructural)
+# ** Error: (vsim-3733) C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd(46): No default binding for component instance 'sumador'.
+# 
+#    The following component generic is not on the entity:
+#           n
+# 
+#         Region: /prueba_snbits_reloj/sumador
+# Loading work.snref(referencia)
+# ** Fatal: (vsim-3350) Generic "tam" has not been given a value.
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_snbits_reloj/sumadoref File: C:/Users/catot/Documents/Personal/UNI/3r Quatri/ACAP/Laboratori/LAB2/LAB2/SUMA/SUM4/QUARTUS/../../SUMGENERA/PRUEBAS/snref.vhd Line: 11
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./S4bits_run_msim_rtl_vhdl.do PAUSED at line 15
