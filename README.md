@@ -4,6 +4,8 @@ En este repositorio podeis encontrar las practicas de [Arquitectura de Computado
 
 ## Practicas
 
-- [Practica 1: Sumador de 1 bit](/LAB1)
-- [Practica 2: Sumador de 4 bits y Sumador BCD](/LAB2)
-- [Practica 3: Núcleo del camino de datos de un procesador y buffer circular](/LAB3)
+En la sección de practicas se encuentran todas las practicas realizadas, con los codigos, la entrega, el enunciado y las preguntas.
+
+- [Practica 1: Sumador de 1 bit](/Practicas/Practica-1)
+- [Practica 2: Sumador de 4 bits y Sumador BCD](/Practicas/Practica-2)
+- [Practica 3: Núcleo del camino de datos de un procesador y buffer circular](/Practicas/Practica-3)
