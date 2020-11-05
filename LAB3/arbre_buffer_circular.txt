@@ -1,0 +1,124 @@
+./AULA/LAB3/buffer_circular/
+├── COMPONENTES
+│   ├── BR
+│   │   └── CODIGO
+│   │       └── BR.vhd
+│   └── control_interface
+│       ├── COMPONENTES
+│       │   ├── acceso
+│       │   │   ├── componentes_acceso_pkg
+│       │   │   │   └── componentes_acceso_pkg.vhd
+│       │   │   ├── ENSAMBLADO
+│       │   │   │   ├── CODIGO
+│       │   │   │   │   └── acceso.vhd
+│       │   │   │   ├── PRUEBAS
+│       │   │   │   │   ├── formato_ventanas.do
+│       │   │   │   │   ├── procedimientos_prueba_acceso.vhd
+│       │   │   │   │   ├── prueba_acceso.vhd
+│       │   │   │   │   └── wave.do
+│       │   │   │   └── QUARTUS
+│       │   │   │       ├── acceso.qpf
+│       │   │   │       └── acceso.qsf
+│       │   │   ├── ENSAMBLADO_automata
+│       │   │   │   ├── CODIGO
+│       │   │   │   │   └── acceso.vhd
+│       │   │   │   ├── PRUEBAS
+│       │   │   │   │   ├── formato_ventanas.do
+│       │   │   │   │   ├── prueba_acceso.vhd
+│       │   │   │   │   └── wave.do
+│       │   │   │   ├── QUARTUS
+│       │   │   │   │   ├── acceso.qpf
+│       │   │   │   │   └── acceso.qsf
+│       │   │   │   └── RESULTADOS
+│       │   │   └── puntero
+│       │   │       ├── COMPONENTES
+│       │   │       │   ├── cnt_bin
+│       │   │       │   │   └── CODIGO
+│       │   │       │   │       └── cntbin.vhd
+│       │   │       │   ├── prxval
+│       │   │       │   │   ├── COMPONENTES
+│       │   │       │   │   │   └── mux
+│       │   │       │   │   │       └── CODIGO
+│       │   │       │   │   │           └── mux.vhd
+│       │   │       │   │   ├── componentes_prxval_pkg
+│       │   │       │   │   │   └── componentes_prxval_pkg.vhd
+│       │   │       │   │   └── ENSAMBLADO
+│       │   │       │   │       └── CODIGO
+│       │   │       │   │           └── prxval.vhd
+│       │   │       │   ├── registro
+│       │   │       │   │   └── CODIGO
+│       │   │       │   │       └── reg.vhd
+│       │   │       │   └── registro_automata
+│       │   │       │       └── CODIGO
+│       │   │       │           └── reg_1.vhd
+│       │   │       ├── componentes_puntero_pkg
+│       │   │       │   └── componentes_puntero_pkg.vhd
+│       │   │       └── ENSAMBLADO
+│       │   │           └── CODIGO
+│       │   │               └── puntero.vhd
+│       │   ├── componentes_control_automata_pkg
+│       │   │   └── componentes_control_automata_pkg.vhd
+│       │   ├── control
+│       │   │   ├── CODIGO
+│       │   │   │   └── control.vhd
+│       │   │   ├── PRUEBAS
+│       │   │   │   ├── formato_ventanas.do
+│       │   │   │   ├── prueba_control.vhd
+│       │   │   │   └── wave.do
+│       │   │   └── QUARTUS
+│       │   │       ├── control.qpf
+│       │   │       └── control.qsf
+│       │   ├── control_automata
+│       │   │   ├── CODIGO
+│       │   │   │   └── control.vhd
+│       │   │   ├── PRUEBAS
+│       │   │   │   ├── formato_ventanas.do
+│       │   │   │   ├── prueba_control.vhd
+│       │   │   │   └── wave.do
+│       │   │   ├── QUARTUS
+│       │   │   │   ├── control.qpf
+│       │   │   │   └── control.qsf
+│       │   │   └── RESULTADOS
+│       │   └── interface
+│       │       └── CODIGO
+│       │           └── interface.vhd
+│       ├── componentes_control_interface_automata_pkg
+│       │   └── componentes_control_interface_automata_pkg.vhd
+│       ├── componentes_control_interface_pkg
+│       │   └── componentes_control_interface_pkg.vhd
+│       ├── ENSAMBLADO
+│       │   └── CODIGO
+│       │       └── controlinterface.vhd
+│       └── ENSAMBLADO_automata
+│           └── CODIGO
+│               └── controlinterface.vhd
+├── componentes_buffer_circular_pkg
+│   └── componentes_buffer_circular_pkg.vhd
+├── documentacio
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── buffer_circular.vhd
+│   ├── PRUEBAS
+│   │   ├── formato_ventanas.do
+│   │   ├── procedimientos_prueba_buffer_pkg.vhd
+│   │   ├── prueba_buffer_circular.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── buffer_circular.qpf
+│   │   └── buffer_circular.qsf
+│   └── RESULTADOS
+├── ENSAMBLADO_automata
+│   ├── CODIGO
+│   │   └── buffer_circular.vhd
+│   ├── PRUEBAS
+│   │   ├── formato_ventanas.do
+│   │   ├── procedimientos_prueba_buffer_pkg.vhd
+│   │   ├── prueba_buffer_circular.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── buffer_circular.qpf
+│   │   └── buffer_circular.qsf
+│   └── RESULTADOS
+└── tipos_ctes_pkg
+    ├── cte_tipos_buffer_pkg.vhd
+    └── retardos_buffer_pkg.vhd

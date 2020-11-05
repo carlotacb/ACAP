@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>NUCLEO_camino: Fichero Fuente LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NUCLEO_camino
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_60a1be92ec3cd5bc7744054a8b03d72d.html">LAB3</a></li><li class="navelem"><a class="el" href="dir_544c2b28b2ff157734a432365dc74a0d.html">NUCLEO_camino</a></li><li class="navelem"><a class="el" href="dir_43074fdb6403640228c0d50a1f9da2d1.html">tipos_ctes_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">retardos_nucleo_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="retardos__nucleo__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcte__tipos__nucleo__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="namespaceretardos__nucleo__pkg.html">    9</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classretardos__nucleo__pkg.html">retardos_nucleo_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#a71b57183da5bd1a1e809dd25c6935a96">   11</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classretardos__nucleo__pkg.html#a71b57183da5bd1a1e809dd25c6935a96">retBRES</a></span><span class="vhdlchar">:</span> <span class="comment">time</span> <span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">14</span> <span class="vhdlchar">ns</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#a01856346467f85f95d7d9672e987f732">   12</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classretardos__nucleo__pkg.html#a01856346467f85f95d7d9672e987f732">retBRLE</a></span><span class="vhdlchar">:</span> <span class="comment">time</span> <span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">10</span> <span class="vhdlchar">ns</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#a126e723026c5d930cebfdce4951bf501">   13</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classretardos__nucleo__pkg.html#a126e723026c5d930cebfdce4951bf501">retBRdeco</a></span><span class="vhdlchar">:</span> <span class="comment">time</span> <span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">8</span> <span class="vhdlchar">ns</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#af604246cdc3365e357ff05aa3224a972">   14</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classretardos__nucleo__pkg.html#af604246cdc3365e357ff05aa3224a972">retsuma</a></span><span class="vhdlchar">:</span> <span class="comment">time</span> <span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">16</span> <span class="vhdlchar">ns</span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classretardos__nucleo__pkg.html#affc884edc460569041e49cfb22067cb2">   15</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classretardos__nucleo__pkg.html#affc884edc460569041e49cfb22067cb2">retreg</a></span><span class="vhdlchar">:</span> <span class="comment">time</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">2</span> <span class="vhdlchar">ns</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">--constant retBCDaDPD: time:= 1 ns;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">--constant retDPDaBCD: time:= 1 ns;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">retardos_nucleo_pkg</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="ttc" id="classretardos__nucleo__pkg_html_a71b57183da5bd1a1e809dd25c6935a96"><div class="ttname"><a href="classretardos__nucleo__pkg.html#a71b57183da5bd1a1e809dd25c6935a96">retardos_nucleo_pkg.retBRES</a></div><div class="ttdeci">time  :=  14 ns retBRES</div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00011">retardos_nucleo_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classretardos__nucleo__pkg_html_a01856346467f85f95d7d9672e987f732"><div class="ttname"><a href="classretardos__nucleo__pkg.html#a01856346467f85f95d7d9672e987f732">retardos_nucleo_pkg.retBRLE</a></div><div class="ttdeci">time  :=  10 ns retBRLE</div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00012">retardos_nucleo_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classretardos__nucleo__pkg_html_a126e723026c5d930cebfdce4951bf501"><div class="ttname"><a href="classretardos__nucleo__pkg.html#a126e723026c5d930cebfdce4951bf501">retardos_nucleo_pkg.retBRdeco</a></div><div class="ttdeci">time  :=  8 ns retBRdeco</div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00013">retardos_nucleo_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classcte__tipos__nucleo__pkg_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcte__tipos__nucleo__pkg.html#a0a6af6eef40212dbaf130d57ce711256">cte_tipos_nucleo_pkg.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__nucleo__pkg_8vhd_source.html#l00006">cte_tipos_nucleo_pkg.vhd:6</a></div></div>
+<div class="ttc" id="classretardos__nucleo__pkg_html_affc884edc460569041e49cfb22067cb2"><div class="ttname"><a href="classretardos__nucleo__pkg.html#affc884edc460569041e49cfb22067cb2">retardos_nucleo_pkg.retreg</a></div><div class="ttdeci">time  :=  2 ns retreg</div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00015">retardos_nucleo_pkg.vhd:15</a></div></div>
+<div class="ttc" id="classretardos__nucleo__pkg_html_af604246cdc3365e357ff05aa3224a972"><div class="ttname"><a href="classretardos__nucleo__pkg.html#af604246cdc3365e357ff05aa3224a972">retardos_nucleo_pkg.retsuma</a></div><div class="ttdeci">time  :=  16 ns retsuma</div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00014">retardos_nucleo_pkg.vhd:14</a></div></div>
+<div class="ttc" id="classretardos__nucleo__pkg_html"><div class="ttname"><a href="classretardos__nucleo__pkg.html">retardos_nucleo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__nucleo__pkg_8vhd_source.html#l00009">retardos_nucleo_pkg.vhd:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 14 de Marzo de 2019 14:36:37 para NUCLEO_camino por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd}
+vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd}
+vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd}
+

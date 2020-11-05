@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>BCD: Fichero Fuente LAB2/BCD/Suma_algebraica_BCD/COMPONENTES/SUMA_enteros_BCD/componentes_enteros_pkg/componentes_snBCD_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">BCD
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7c0f74c68b387c69a267eb543a9b8656.html">LAB2</a></li><li class="navelem"><a class="el" href="dir_6851035c9b63fef998363b286b5fe56c.html">BCD</a></li><li class="navelem"><a class="el" href="dir_28acac3d383912e4c99b6c01c486e5e7.html">Suma_algebraica_BCD</a></li><li class="navelem"><a class="el" href="dir_cd5372c47a92d4627e4a8f92a7be2521.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_40f067a60bfd92327f992a6d2ccf0d98.html">SUMA_enteros_BCD</a></li><li class="navelem"><a class="el" href="dir_35fef02f2fc7e689d6d9c42295a0cdea.html">componentes_enteros_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">componentes_snBCD_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="componentes__snBCD__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcomponentes__snBCD__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcomponentes__snBCD__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classsnBCD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcomponentes__snBCD__pkg.html#a3a9ae3ff3f73270aad03784bb6658323">    8</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__bcd__pkg.html">cte_tipos_bcd_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespacecomponentes__snBCD__pkg.html">   10</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classcomponentes__snBCD__pkg.html">componentes_snBCD_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcomponentes__snBCD__pkg.html#a6c44e01025befe8b4bce6c864d091e4e">   12</a></span>&#160;<span class="keywordflow">component</span> <a class="code" href="classsnBCD.html">snBCD</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordflow">port</span> (<a class="code" href="classsnBCD.html#a4d4aec0017a41d27cf999f393875518e">a</a>: <span class="keywordflow">in</span> <a class="code" href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">st_ndig_bcd</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;   <a class="code" href="classsnBCD.html#a3cd44310e4576fd41380f56ce799cb9c">b</a>: <span class="keywordflow">in</span> <a class="code" href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">st_ndig_bcd</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;   <a class="code" href="classsnBCD.html#ab1938fee56f74cf85e938596361ca04b">cen</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   <a class="code" href="classsnBCD.html#ad96bc452eab93ae15a1190f203b089c8">s</a>: <span class="keywordflow">out</span> <a class="code" href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">st_ndig_bcd</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   <a class="code" href="classsnBCD.html#a075c08cd7c59573fbd12b98d78d1c75b">csal</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span> );</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcomponentes__snBCD__pkg.html#a59bc536e8d3804c412ab46274730c791">   20</a></span>&#160;<span class="keywordflow">component</span> <a class="code" href="classs1bit.html">s1bit</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordflow">port</span>(<a class="code" href="classs1bit.html#a6613c515805bbf64aa34d53858ac5f54">x</a>: <span class="keywordflow">in</span>  <span class="comment">std_logic</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <a class="code" href="classs1bit.html#a62cb03031366467acda810d3372efca4">y</a>: <span class="keywordflow">in</span>  <span class="comment">std_logic</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <a class="code" href="classs1bit.html#ab1938fee56f74cf85e938596361ca04b">cen</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <a class="code" href="classs1bit.html#ae60219fdaccba0f3eebc86ecbf0123b3">s</a>: <span class="keywordflow">out</span>  <span class="comment">std_logic</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;   <a class="code" href="classs1bit.html#a075c08cd7c59573fbd12b98d78d1c75b">csal</a>: <span class="keywordflow">out</span>  <span class="comment">std_logic</span>);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">componentes_snBCD_pkg</span>;</div><div class="ttc" id="classs1bit_html"><div class="ttname"><a href="classs1bit.html">s1bit</a></div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00010">s1bit.vhd:10</a></div></div>
+<div class="ttc" id="classs1bit_html_ae60219fdaccba0f3eebc86ecbf0123b3"><div class="ttname"><a href="classs1bit.html#ae60219fdaccba0f3eebc86ecbf0123b3">s1bit.s</a></div><div class="ttdeci">out sstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00014">s1bit.vhd:14</a></div></div>
+<div class="ttc" id="classsnBCD_html_a3cd44310e4576fd41380f56ce799cb9c"><div class="ttname"><a href="classsnBCD.html#a3cd44310e4576fd41380f56ce799cb9c">snBCD.b</a></div><div class="ttdeci">in bst_ndig_bcd  </div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00014">snBCD.vhd:14</a></div></div>
+<div class="ttc" id="classs1bit_html_ab1938fee56f74cf85e938596361ca04b"><div class="ttname"><a href="classs1bit.html#ab1938fee56f74cf85e938596361ca04b">s1bit.cen</a></div><div class="ttdeci">in censtd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00013">s1bit.vhd:13</a></div></div>
+<div class="ttc" id="classsnBCD_html"><div class="ttname"><a href="classsnBCD.html">snBCD</a></div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00012">snBCD.vhd:12</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html">cte_tipos_bcd_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00010">cte_tipos_bcd_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classcte__tipos__bcd__pkg_html_a9663e6646411da88dfe83d96f1bcd787"><div class="ttname"><a href="classcte__tipos__bcd__pkg.html#a9663e6646411da88dfe83d96f1bcd787">cte_tipos_bcd_pkg.st_ndig_bcd</a></div><div class="ttdeci">std_logic_vector(   num_bits_ndigitos- 1 downto  0)   st_ndig_bcd</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__bcd__pkg_8vhd_source.html#l00018">cte_tipos_bcd_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classsnBCD_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classsnBCD.html#a0a6af6eef40212dbaf130d57ce711256">snBCD.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00006">snBCD.vhd:6</a></div></div>
+<div class="ttc" id="classs1bit_html_a075c08cd7c59573fbd12b98d78d1c75b"><div class="ttname"><a href="classs1bit.html#a075c08cd7c59573fbd12b98d78d1c75b">s1bit.csal</a></div><div class="ttdeci">out csalstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00015">s1bit.vhd:15</a></div></div>
+<div class="ttc" id="classsnBCD_html_a4d4aec0017a41d27cf999f393875518e"><div class="ttname"><a href="classsnBCD.html#a4d4aec0017a41d27cf999f393875518e">snBCD.a</a></div><div class="ttdeci">in ast_ndig_bcd  </div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00013">snBCD.vhd:13</a></div></div>
+<div class="ttc" id="classsnBCD_html_ad96bc452eab93ae15a1190f203b089c8"><div class="ttname"><a href="classsnBCD.html#ad96bc452eab93ae15a1190f203b089c8">snBCD.s</a></div><div class="ttdeci">out sst_ndig_bcd  </div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00016">snBCD.vhd:16</a></div></div>
+<div class="ttc" id="classsnBCD_html_a075c08cd7c59573fbd12b98d78d1c75b"><div class="ttname"><a href="classsnBCD.html#a075c08cd7c59573fbd12b98d78d1c75b">snBCD.csal</a></div><div class="ttdeci">out csalstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00017">snBCD.vhd:17</a></div></div>
+<div class="ttc" id="classsnBCD_html_ab1938fee56f74cf85e938596361ca04b"><div class="ttname"><a href="classsnBCD.html#ab1938fee56f74cf85e938596361ca04b">snBCD.cen</a></div><div class="ttdeci">in censtd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="snBCD_8vhd_source.html#l00015">snBCD.vhd:15</a></div></div>
+<div class="ttc" id="classcomponentes__snBCD__pkg_html"><div class="ttname"><a href="classcomponentes__snBCD__pkg.html">componentes_snBCD_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__snBCD__pkg_8vhd_source.html#l00010">componentes_snBCD_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classs1bit_html_a62cb03031366467acda810d3372efca4"><div class="ttname"><a href="classs1bit.html#a62cb03031366467acda810d3372efca4">s1bit.y</a></div><div class="ttdeci">in ystd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00012">s1bit.vhd:12</a></div></div>
+<div class="ttc" id="classs1bit_html_a6613c515805bbf64aa34d53858ac5f54"><div class="ttname"><a href="classs1bit.html#a6613c515805bbf64aa34d53858ac5f54">s1bit.x</a></div><div class="ttdeci">in xstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="s1bit_8vhd_source.html#l00011">s1bit.vhd:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 22 de Febrero de 2019 17:50:42 para BCD por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

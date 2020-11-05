@@ -1,0 +1,198 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do BR_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_nucleo_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_nucleo_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_nucleo_pkg
+# -- Loading package retardos_nucleo_pkg
+# -- Compiling entity BR
+# -- Compiling architecture compor of BR
+# 
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package cte_tipos_nucleo_pkg
+# -- Compiling package procedimientos_pkg
+# -- Compiling package body procedimientos_pkg
+# -- Loading package procedimientos_pkg
+# vcom -93 -work work {C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_nucleo_pkg
+# -- Loading package std_logic_textio
+# -- Loading package procedimientos_pkg
+# -- Loading package ENV
+# -- Compiling entity prueba_BR
+# -- Compiling architecture prueba of prueba_BR
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_BR
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_BR 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cte_tipos_nucleo_pkg
+# Loading ieee.std_logic_textio(body)
+# Loading work.procedimientos_pkg(body)
+# Loading std.env(body)
+# Loading work.prueba_br(prueba)
+# Loading work.retardos_nucleo_pkg
+# Loading work.br(compor)
+# 
+# do C:/Users/catot/Desktop/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_br/reloj
+# add wave -noupdate /prueba_br/PE
+# add wave -noupdate -radix unsigned /prueba_br/IDE
+# add wave -noupdate -radix unsigned /prueba_br/banco_reg/idedeco 
+# add wave -noupdate -radix hexadecimal /prueba_br/DE
+# add wave -noupdate -radix unsigned /prueba_br/IDL1
+# add wave -noupdate -radix hexadecimal /prueba_br/LE1
+# add wave -noupdate -radix unsigned /prueba_br/IDL2
+# add wave -noupdate -radix hexadecimal /prueba_br/LE2
+# add wave -noupdate -radix hexadecimal -childformat {{/prueba_br/banco_reg/mem(0) -radix hexadecimal} {/prueba_br/banco_reg/mem(1) -radix hexadecimal} {/prueba_br/banco_reg/mem(2) -radix hexadecimal} {/prueba_br/banco_reg/mem(3) -radix hexadecimal} {/prueba_br/banco_reg/mem(4) -radix hexadecimal} {/prueba_br/banco_reg/mem(5) -radix hexadecimal} {/prueba_br/banco_reg/mem(6) -radix hexadecimal} {/prueba_br/banco_reg/mem(7) -radix hexadecimal} {/prueba_br/banco_reg/mem(8) -radix hexadecimal} {/prueba_br/banco_reg/mem(9) -radix hexadecimal} {/prueba_br/banco_reg/mem(10) -radix hexadecimal} {/prueba_br/banco_reg/mem(11) -radix hexadecimal} {/prueba_br/banco_reg/mem(12) -radix hexadecimal} {/prueba_br/banco_reg/mem(13) -radix hexadecimal} {/prueba_br/banco_reg/mem(14) -radix hexadecimal} {/prueba_br/banco_reg/mem(15) -radix hexadecimal} {/prueba_br/banco_reg/mem(16) -radix hexadecimal} {/prueba_br/banco_reg/mem(17) -radix hexadecimal} {/prueba_br/banco_reg/mem(18) -radix hexadecimal} {/prueba_br/banco_reg/mem(19) -radix hexadecimal} {/prueba_br/banco_reg/mem(20) -radix hexadecimal} {/prueba_br/banco_reg/mem(21) -radix hexadecimal} {/prueba_br/banco_reg/mem(22) -radix hexadecimal} {/prueba_br/banco_reg/mem(23) -radix hexadecimal} {/prueba_br/banco_reg/mem(24) -radix hexadecimal} {/prueba_br/banco_reg/mem(25) -radix hexadecimal} {/prueba_br/banco_reg/mem(26) -radix hexadecimal} {/prueba_br/banco_reg/mem(27) -radix hexadecimal} {/prueba_br/banco_reg/mem(28) -radix hexadecimal} {/prueba_br/banco_reg/mem(29) -radix hexadecimal} {/prueba_br/banco_reg/mem(30) -radix hexadecimal} {/prueba_br/banco_reg/mem(31) -radix hexadecimal}} -expand -subitemconfig {/prueba_br/banco_reg/mem(0) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(1) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(2) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(3) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(4) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(5) {-height 
+# 16 -radix hexadecimal} /prueba_br/banco_reg/mem(6) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(7) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(8) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(9) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(10) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(11) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(12) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(13) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(14) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(15) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(16) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(17) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(18) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(19) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(20) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(21) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(22) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(23) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(24) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(25) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(26) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(27) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(28) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(29) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(30) {-height 16 -radix hexadecimal} /prueba_br/banco_reg/mem(31) {-height 16 -radix hexadecimal}} /prueba_br/banco_reg/mem
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+# quietly wave cursor active 0
+# configure wave -namecolwidth 100
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset {25 ns}
+# configure wave -gridperiod {50 ns}
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {2000 ns}
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# run 0 ps
+# set StdArithNoWarnings 0
+# 0
+# set NumericStdNoWarnings 0
+# 0
+# run -all
+# escritura registro:   04, dato:   7F
+# escritura registro:   02, dato:   BF
+# escritura registro:   01, dato:   DF
+# escritura registro:   00, dato:   EF
+# escritura registro:   10, dato:   F7
+# lectura registro:     04, dato:   7F
+# lectura registro:     02, dato:   BF
+# lectura registro:     01, dato:   DF
+# lectura registro:     00, dato:   00, esperado:   EF
+# ** Warning: valor no esperado
+#    Time: 500 ns  Iteration: 1  Instance: /prueba_br
+# lectura registro:     10, dato:   F7, esperado:   FB
+# ** Warning: valor no esperado
+#    Time: 550 ns  Iteration: 1  Instance: /prueba_br
+# escritura registro:   00, dato:   00
+# escritura registro:   01, dato:   0E
+# escritura registro:   02, dato:   1C
+# escritura registro:   03, dato:   2A
+# escritura registro:   04, dato:   38
+# escritura registro:   05, dato:   46
+# escritura registro:   06, dato:   54
+# escritura registro:   07, dato:   62
+# escritura registro:   08, dato:   70
+# escritura registro:   09, dato:   7E
+# escritura registro:   0A, dato:   8C
+# escritura registro:   0B, dato:   9A
+# escritura registro:   0C, dato:   A8
+# escritura registro:   0D, dato:   B6
+# escritura registro:   0E, dato:   C4
+# escritura registro:   0F, dato:   D2
+# escritura registro:   10, dato:   E0
+# escritura registro:   11, dato:   EE
+# escritura registro:   12, dato:   FC
+# escritura registro:   13, dato:   0A
+# escritura registro:   14, dato:   18
+# escritura registro:   15, dato:   26
+# escritura registro:   16, dato:   34
+# escritura registro:   17, dato:   42
+# escritura registro:   18, dato:   50
+# escritura registro:   19, dato:   5E
+# escritura registro:   1A, dato:   6C
+# escritura registro:   1B, dato:   7A
+# escritura registro:   1C, dato:   88
+# escritura registro:   1D, dato:   96
+# escritura registro:   1E, dato:   A4
+# escritura registro:   1F, dato:   B2
+# lectura registro:     00, dato:   00
+# lectura registro:     01, dato:   0E
+# lectura registro:     02, dato:   1C
+# lectura registro:     03, dato:   2A
+# lectura registro:     04, dato:   38
+# lectura registro:     05, dato:   46
+# lectura registro:     06, dato:   54
+# lectura registro:     07, dato:   62
+# lectura registro:     08, dato:   70
+# lectura registro:     09, dato:   7E
+# lectura registro:     0A, dato:   8C
+# lectura registro:     0B, dato:   9A
+# lectura registro:     0C, dato:   A8
+# lectura registro:     0D, dato:   B6
+# lectura registro:     0E, dato:   C4
+# lectura registro:     0F, dato:   D2
+# lectura registro:     10, dato:   E0
+# lectura registro:     11, dato:   EE
+# lectura registro:     12, dato:   FC
+# lectura registro:     13, dato:   0A
+# lectura registro:     14, dato:   18
+# lectura registro:     15, dato:   26
+# lectura registro:     16, dato:   34
+# lectura registro:     17, dato:   42
+# lectura registro:     18, dato:   50
+# lectura registro:     19, dato:   5E
+# lectura registro:     1A, dato:   6C
+# lectura registro:     1B, dato:   7A
+# lectura registro:     1C, dato:   88
+# lectura registro:     1D, dato:   96
+# lectura registro:     1E, dato:   A4
+# lectura registro:     1F, dato:   B2
+# ** Note: Comprobacion finalizada.
+#    Time: 3750 ns  Iteration: 1  Instance: /prueba_br
