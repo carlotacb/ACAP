@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SERIE: Fichero Fuente LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SERIE
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_46d6b64a4fd45746196c67d343a9efc2.html">LAB4</a></li><li class="navelem"><a class="el" href="dir_9535cba2e157f9639fa907ff9720a925.html">PROC_SERIE</a></li><li class="navelem"><a class="el" href="dir_429ca0f44f5fffb04dc1c4c4d6f102c9.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_309dd4c662c4b47ad99855bd765230e0.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_baa8dceeb3cd8f77b730fa596e351028.html">USecuen</a></li><li class="navelem"><a class="el" href="dir_81d9922bf60e8dd973d1dcf942877aed.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_6c6b6051687d1b78c7ed90ff883e27e7.html">EVALUACION</a></li><li class="navelem"><a class="el" href="dir_5b0ac2534f570769521e25291cbc20e7.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">eval.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="eval_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classeval.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classeval.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcuatro.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classeval.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcuatro.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classeval.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classeval.html#a0faf2daf56ca3e9206661ecf3bb23e14">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__UF__pkg.html">cte_tipos_UF_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classeval.html#aeecba09bee667068976f5bfd0a27cbab">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__pkg.html">retardos_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classeval.html">   14</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classeval.html">eval</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">   15</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a></span><span class="vhdlchar">:</span>   <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">   16</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classeval.html#a83622b9d6244d49bd5006be23cff04ba">ig</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classeval.html#a785b4db6983edc63afdae615792a9f7e">me</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">meu</a></span><span class="vhdlchar">:</span>   <span class="keywordflow">out</span> <span class="comment">std_logic</span> <span class="vhdlchar">)</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">eval</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classeval_1_1comport.html">   19</a></span>&#160;<span class="keywordflow">architecture</span> comport <span class="keywordflow">of</span> <a class="code" href="classeval.html">eval</a> is</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;   <span class="vhdlchar"><a class="code" href="classeval.html#a83622b9d6244d49bd5006be23cff04ba">ig</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a5f5f90406b18c496b6d41620ea4f4bec">igSI</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a></span> <span class="vhdlchar">=</span> <span class="vhdlchar"><a class="code" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a></span><span class="vhdlchar">)</span> <span class="keywordflow">else</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a87bbeec195aecb0bde40746426b7aa91">igNO</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <span class="vhdlchar"><a class="code" href="classeval.html#a785b4db6983edc63afdae615792a9f7e">me</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a9db148818d008b4eec45a85a7d6e2b77">meSI</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">(</span><span class="comment">signed</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a></span><span class="vhdlchar">)</span> <span class="vhdlchar">&lt;</span> <span class="comment">signed</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a></span><span class="vhdlchar">)</span><span class="vhdlchar">)</span> <span class="keywordflow">else</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a93c61fbbb3e2bcd83779e73130921fcc">meNO</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <span class="vhdlchar"><a class="code" href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">meu</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a913c4c6ca214b5634f8e1c1f3bf9172f">meuSI</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">(</span><span class="comment">unsigned</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a></span><span class="vhdlchar">)</span> <span class="vhdlchar">&lt;</span> <span class="comment">unsigned</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a></span><span class="vhdlchar">)</span><span class="vhdlchar">)</span> <span class="keywordflow">else</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__UF__pkg.html#a14462787fdcaf8abe2ae1bc9e07b5b31">meuNO</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">reteval</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordflow">end</span>;</div><div class="ttc" id="classparam__disenyo__pkg_html_ad28a6230613f0109957efc4be5801bb5"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">param_disenyo_pkg.tam_dat_camino</a></div><div class="ttdeci">std_logic_vector(   tam_dat- 1 downto  0)   tam_dat_camino</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00018">param_disenyo_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a9db148818d008b4eec45a85a7d6e2b77"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a9db148818d008b4eec45a85a7d6e2b77">cte_tipos_UF_pkg.meSI</a></div><div class="ttdeci">std_logic  := '1' meSI</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00048">cte_tipos_UF_pkg.vhd:48</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a913c4c6ca214b5634f8e1c1f3bf9172f"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a913c4c6ca214b5634f8e1c1f3bf9172f">cte_tipos_UF_pkg.meuSI</a></div><div class="ttdeci">std_logic  := '1' meuSI</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00050">cte_tipos_UF_pkg.vhd:50</a></div></div>
+<div class="ttc" id="classeval_html_a0cdec0aa6e4f1201247f1b74c4b57d1b"><div class="ttname"><a href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">eval.L1</a></div><div class="ttdeci">in L1tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00015">eval.vhd:15</a></div></div>
+<div class="ttc" id="classeval_html_ae81fb397a9e290a125656fc4f0cff45e"><div class="ttname"><a href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">eval.meu</a></div><div class="ttdeci">out meustd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classeval_html_a785b4db6983edc63afdae615792a9f7e"><div class="ttname"><a href="classeval.html#a785b4db6983edc63afdae615792a9f7e">eval.me</a></div><div class="ttdeci">out mestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html"><div class="ttname"><a href="classcte__tipos__UF__pkg.html">cte_tipos_UF_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00012">cte_tipos_UF_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a87bbeec195aecb0bde40746426b7aa91"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a87bbeec195aecb0bde40746426b7aa91">cte_tipos_UF_pkg.igNO</a></div><div class="ttdeci">std_logic  := '0' igNO</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00047">cte_tipos_UF_pkg.vhd:47</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a93c61fbbb3e2bcd83779e73130921fcc"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a93c61fbbb3e2bcd83779e73130921fcc">cte_tipos_UF_pkg.meNO</a></div><div class="ttdeci">std_logic  := '0' meNO</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00049">cte_tipos_UF_pkg.vhd:49</a></div></div>
+<div class="ttc" id="classcuatro_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcuatro.html#a0a6af6eef40212dbaf130d57ce711256">cuatro.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="cuatro_8vhd_source.html#l00006">cuatro.vhd:6</a></div></div>
+<div class="ttc" id="classretardos__pkg_html"><div class="ttname"><a href="classretardos__pkg.html">retardos_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00009">retardos_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classretardos__pkg_html_a7cc39a6e4a0d79a6b66e21790781dfb0"><div class="ttname"><a href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">retardos_pkg.reteval</a></div><div class="ttdeci">time  :=  1 ns reteval</div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00020">retardos_pkg.vhd:20</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a14462787fdcaf8abe2ae1bc9e07b5b31"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a14462787fdcaf8abe2ae1bc9e07b5b31">cte_tipos_UF_pkg.meuNO</a></div><div class="ttdeci">std_logic  := '0' meuNO</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00051">cte_tipos_UF_pkg.vhd:51</a></div></div>
+<div class="ttc" id="classeval_html_a83622b9d6244d49bd5006be23cff04ba"><div class="ttname"><a href="classeval.html#a83622b9d6244d49bd5006be23cff04ba">eval.ig</a></div><div class="ttdeci">out igstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html_a5f5f90406b18c496b6d41620ea4f4bec"><div class="ttname"><a href="classcte__tipos__UF__pkg.html#a5f5f90406b18c496b6d41620ea4f4bec">cte_tipos_UF_pkg.igSI</a></div><div class="ttdeci">std_logic  := '1' igSI</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00046">cte_tipos_UF_pkg.vhd:46</a></div></div>
+<div class="ttc" id="classeval_html"><div class="ttname"><a href="classeval.html">eval</a></div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00014">eval.vhd:14</a></div></div>
+<div class="ttc" id="classeval_html_aedc0e2e1a0901fe7a15df7ab9146e1b8"><div class="ttname"><a href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">eval.L2</a></div><div class="ttdeci">in L2tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00015">eval.vhd:15</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 29 de Marzo de 2019 12:10:38 para PROCESADOR SERIE por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

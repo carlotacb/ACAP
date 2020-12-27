@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO: Fichero Fuente LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ac83445b77b1f1e5e416d7c486604e2e.html">LAB5</a></li><li class="navelem"><a class="el" href="dir_60089776f3038d747a9b2db9dbcb2c03.html">PROC_SEGMENTADO</a></li><li class="navelem"><a class="el" href="dir_ec3678eb9e81e89f7688f35726513029.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_edceaa88ac4d6240b3b6bac94f86840c.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_7d94b1e2d89b29e0fb044c6864d0b2ac.html">USecuen</a></li><li class="navelem"><a class="el" href="dir_c767d5b5d9ddf88c4fed594644394f4f.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_f377e108fccc494ec1828afabdc833e7.html">EVALUACION</a></li><li class="navelem"><a class="el" href="dir_3b3b1e2c972733494759c3bc133edc28.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Reval.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Reval_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classReval.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classReval.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classReval.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classReval.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   10</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classReval.html#a0faf2daf56ca3e9206661ecf3bb23e14">   11</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classcte__tipos__UF__pkg.html">cte_tipos_UF_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classReval.html#a9105a791be55d3f7c7f28beee804d8e5">   12</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classcomponentes__secuenciamiento__pkg.html">componentes_secuenciamiento_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classReval.html#ad167b3da67e3106d0153fdea480d5164">   13</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRcamino__datos.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classRegDes__pkg.html">RegDes_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classReval.html">   16</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classReval.html">Reval</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">   17</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classReval.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classReval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">   18</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classReval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classReval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a></span><span class="vhdlchar">:</span>  <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classReval.html#ae81fb397a9e290a125656fc4f0cff45e">   19</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classReval.html#a83622b9d6244d49bd5006be23cff04ba">ig</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classReval.html#a785b4db6983edc63afdae615792a9f7e">me</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classReval.html#ae81fb397a9e290a125656fc4f0cff45e">meu</a></span><span class="vhdlchar">:</span>   <span class="keywordflow">out</span> <span class="comment">std_logic</span> <span class="vhdlchar">)</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">Reval</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classReval_1_1estructural.html">   22</a></span>&#160;<span class="keywordflow">architecture</span> estructural <span class="keywordflow">of</span> <a class="code" href="classReval.html">Reval</a> is</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classReval_1_1estructural.html#a496f484a562e62782f7c4e033922bf27">   23</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classReval_1_1estructural.html#aeb332d50f346eeb1d0c19a36ec788760">L1_RA4</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classReval_1_1estructural.html#a496f484a562e62782f7c4e033922bf27">L2_RA4</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;RA4_L1: <a class="code" href="classRD__N.html">RD_N</a> <span class="keywordflow">generic</span> <span class="keywordflow">map</span>(tam =&gt; <a class="code" href="classparam__disenyo__pkg.html#aeb31479c7c576867e90a11687ed7b5c9">tam_dat</a><span class="vhdlchar">)</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;         <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classRD__N.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a> =&gt; <a class="code" href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classRD__N.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a> =&gt; <a class="code" href="classReval.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>, <a class="code" href="classRD__N.html#ac511d7babc2829cc8eb775bf655e1710">e</a> =&gt; <a class="code" href="classReval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a>, <a class="code" href="classRD__N.html#a8f40346d158c5de413750b136ee9b2f9">s</a> =&gt; <a class="code" href="classReval_1_1estructural.html#aeb332d50f346eeb1d0c19a36ec788760">L1_RA4</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;         </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;RA4_L2: <a class="code" href="classRD__N.html">RD_N</a> <span class="keywordflow">generic</span> <span class="keywordflow">map</span>(tam =&gt; <a class="code" href="classparam__disenyo__pkg.html#aeb31479c7c576867e90a11687ed7b5c9">tam_dat</a><span class="vhdlchar">)</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;         <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classRD__N.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a> =&gt; <a class="code" href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classRD__N.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a> =&gt; <a class="code" href="classReval.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>, <a class="code" href="classRD__N.html#ac511d7babc2829cc8eb775bf655e1710">e</a> =&gt; <a class="code" href="classReval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a>, <a class="code" href="classRD__N.html#a8f40346d158c5de413750b136ee9b2f9">s</a> =&gt; <a class="code" href="classReval_1_1estructural.html#a496f484a562e62782f7c4e033922bf27">L2_RA4</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;R_eval: <a class="code" href="classeval.html">eval</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">L1</a> =&gt; <a class="code" href="classReval_1_1estructural.html#aeb332d50f346eeb1d0c19a36ec788760">L1_RA4</a>, <a class="code" href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">L2</a> =&gt; <a class="code" href="classReval_1_1estructural.html#a496f484a562e62782f7c4e033922bf27">L2_RA4</a>, <a class="code" href="classeval.html#a83622b9d6244d49bd5006be23cff04ba">ig</a> =&gt; <a class="code" href="classReval.html#a83622b9d6244d49bd5006be23cff04ba">ig</a>, <a class="code" href="classeval.html#a785b4db6983edc63afdae615792a9f7e">me</a> =&gt; <a class="code" href="classReval.html#a785b4db6983edc63afdae615792a9f7e">me</a>, <a class="code" href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">meu</a> =&gt; <a class="code" href="classReval.html#ae81fb397a9e290a125656fc4f0cff45e">meu</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordflow">end</span>;</div><div class="ttc" id="classparam__disenyo__pkg_html_ad28a6230613f0109957efc4be5801bb5"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">param_disenyo_pkg.tam_dat_camino</a></div><div class="ttdeci">std_logic_vector(   tam_dat- 1 downto  0)   tam_dat_camino</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00018">param_disenyo_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classRD__N_html"><div class="ttname"><a href="classRD__N.html">RD_N</a></div><div class="ttdef"><b>Definition:</b> <a href="RD__N_8vhd_source.html#l00012">RD_N.vhd:12</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classeval_html_a0cdec0aa6e4f1201247f1b74c4b57d1b"><div class="ttname"><a href="classeval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">eval.L1</a></div><div class="ttdeci">in L1tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00015">eval.vhd:15</a></div></div>
+<div class="ttc" id="classRegDes__pkg_html"><div class="ttname"><a href="classRegDes__pkg.html">RegDes_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="RegDes__pkg_8vhd_source.html#l00011">RegDes_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classReval_html_ae81fb397a9e290a125656fc4f0cff45e"><div class="ttname"><a href="classReval.html#ae81fb397a9e290a125656fc4f0cff45e">Reval.meu</a></div><div class="ttdeci">out meustd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00019">Reval.vhd:19</a></div></div>
+<div class="ttc" id="classeval_html_ae81fb397a9e290a125656fc4f0cff45e"><div class="ttname"><a href="classeval.html#ae81fb397a9e290a125656fc4f0cff45e">eval.meu</a></div><div class="ttdeci">out meustd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classeval_html_a785b4db6983edc63afdae615792a9f7e"><div class="ttname"><a href="classeval.html#a785b4db6983edc63afdae615792a9f7e">eval.me</a></div><div class="ttdeci">out mestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classReval_html_a83622b9d6244d49bd5006be23cff04ba"><div class="ttname"><a href="classReval.html#a83622b9d6244d49bd5006be23cff04ba">Reval.ig</a></div><div class="ttdeci">out igstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00019">Reval.vhd:19</a></div></div>
+<div class="ttc" id="classReval_1_1estructural_html_a496f484a562e62782f7c4e033922bf27"><div class="ttname"><a href="classReval_1_1estructural.html#a496f484a562e62782f7c4e033922bf27">Reval.estructural.L2_RA4</a></div><div class="ttdeci">tam_dat_camino   L2_RA4</div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00023">Reval.vhd:23</a></div></div>
+<div class="ttc" id="classReval_html"><div class="ttname"><a href="classReval.html">Reval</a></div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00016">Reval.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__UF__pkg_html"><div class="ttname"><a href="classcte__tipos__UF__pkg.html">cte_tipos_UF_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__UF__pkg_8vhd_source.html#l00012">cte_tipos_UF_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classReval_html_a785b4db6983edc63afdae615792a9f7e"><div class="ttname"><a href="classReval.html#a785b4db6983edc63afdae615792a9f7e">Reval.me</a></div><div class="ttdeci">out mestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00019">Reval.vhd:19</a></div></div>
+<div class="ttc" id="classcomponentes__secuenciamiento__pkg_html"><div class="ttname"><a href="classcomponentes__secuenciamiento__pkg.html">componentes_secuenciamiento_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__secuenciamiento__pkg_8vhd_source.html#l00012">componentes_secuenciamiento_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classReval_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classReval.html#aaaf76b3c92306baf67cc09a1ff48254d">Reval.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00017">Reval.vhd:17</a></div></div>
+<div class="ttc" id="classRD__N_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classRD__N.html#aaaf76b3c92306baf67cc09a1ff48254d">RD_N.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__N_8vhd_source.html#l00014">RD_N.vhd:14</a></div></div>
+<div class="ttc" id="classRD__N_html_a8f40346d158c5de413750b136ee9b2f9"><div class="ttname"><a href="classRD__N.html#a8f40346d158c5de413750b136ee9b2f9">RD_N.s</a></div><div class="ttdeci">out sstd_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="RD__N_8vhd_source.html#l00016">RD_N.vhd:16</a></div></div>
+<div class="ttc" id="classRD__N_html_ac511d7babc2829cc8eb775bf655e1710"><div class="ttname"><a href="classRD__N.html#ac511d7babc2829cc8eb775bf655e1710">RD_N.e</a></div><div class="ttdeci">in estd_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="RD__N_8vhd_source.html#l00015">RD_N.vhd:15</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_aeb31479c7c576867e90a11687ed7b5c9"><div class="ttname"><a href="classparam__disenyo__pkg.html#aeb31479c7c576867e90a11687ed7b5c9">param_disenyo_pkg.tam_dat</a></div><div class="ttdeci">integer  := 32 tam_dat</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00017">param_disenyo_pkg.vhd:17</a></div></div>
+<div class="ttc" id="classReval_1_1estructural_html_aeb332d50f346eeb1d0c19a36ec788760"><div class="ttname"><a href="classReval_1_1estructural.html#aeb332d50f346eeb1d0c19a36ec788760">Reval.estructural.L1_RA4</a></div><div class="ttdeci">tam_dat_camino   L1_RA4</div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00023">Reval.vhd:23</a></div></div>
+<div class="ttc" id="classReval_html_a0cdec0aa6e4f1201247f1b74c4b57d1b"><div class="ttname"><a href="classReval.html#a0cdec0aa6e4f1201247f1b74c4b57d1b">Reval.L1</a></div><div class="ttdeci">in L1tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00018">Reval.vhd:18</a></div></div>
+<div class="ttc" id="classReval_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">Reval.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00017">Reval.vhd:17</a></div></div>
+<div class="ttc" id="classeval_html_a83622b9d6244d49bd5006be23cff04ba"><div class="ttname"><a href="classeval.html#a83622b9d6244d49bd5006be23cff04ba">eval.ig</a></div><div class="ttdeci">out igstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00016">eval.vhd:16</a></div></div>
+<div class="ttc" id="classRD__N_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classRD__N.html#a9a2054ec7f63792c3956fe7264bbd941">RD_N.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__N_8vhd_source.html#l00014">RD_N.vhd:14</a></div></div>
+<div class="ttc" id="classReval_html_aedc0e2e1a0901fe7a15df7ab9146e1b8"><div class="ttname"><a href="classReval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">Reval.L2</a></div><div class="ttdeci">in L2tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="Reval_8vhd_source.html#l00018">Reval.vhd:18</a></div></div>
+<div class="ttc" id="classeval_html"><div class="ttname"><a href="classeval.html">eval</a></div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00014">eval.vhd:14</a></div></div>
+<div class="ttc" id="classeval_html_aedc0e2e1a0901fe7a15df7ab9146e1b8"><div class="ttname"><a href="classeval.html#aedc0e2e1a0901fe7a15df7ab9146e1b8">eval.L2</a></div><div class="ttdeci">in L2tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="eval_8vhd_source.html#l00015">eval.vhd:15</a></div></div>
+<div class="ttc" id="classRcamino__datos_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classRcamino__datos.html#a0a6af6eef40212dbaf130d57ce711256">Rcamino_datos.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="Rcamino__datos_8vhd_source.html#l00006">Rcamino_datos.vhd:6</a></div></div>
+<div class="ttc" id="classRcamino__datos_html_a9f49de6f5eed5b4488cba6c9cdd1c215"><div class="ttname"><a href="classRcamino__datos.html#a9f49de6f5eed5b4488cba6c9cdd1c215">Rcamino_datos.work</a></div><div class="ttdeci">_library_ workwork</div><div class="ttdef"><b>Definition:</b> <a href="Rcamino__datos_8vhd_source.html#l00010">Rcamino_datos.vhd:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Miércoles, 10 de Abril de 2019 12:43:23 para PROCESADOR SEGMENTADO por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

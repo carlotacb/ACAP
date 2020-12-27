@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO: Design Unit Members</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="hierarchy.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li class="current"><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li class="current"><a href="functions.html"><span>Todo</span></a></li>
+      <li><a href="functions_func.html"><span>Functions/Procedures/Processes</span></a></li>
+      <li><a href="functions_vars.html"><span>Variables</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="functions.html#index_a"><span>a</span></a></li>
+      <li><a href="functions_b.html#index_b"><span>b</span></a></li>
+      <li><a href="functions_c.html#index_c"><span>c</span></a></li>
+      <li><a href="functions_d.html#index_d"><span>d</span></a></li>
+      <li><a href="functions_e.html#index_e"><span>e</span></a></li>
+      <li><a href="functions_f.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_i.html#index_i"><span>i</span></a></li>
+      <li><a href="functions_l.html#index_l"><span>l</span></a></li>
+      <li><a href="functions_m.html#index_m"><span>m</span></a></li>
+      <li><a href="functions_n.html#index_n"><span>n</span></a></li>
+      <li><a href="functions_o.html#index_o"><span>o</span></a></li>
+      <li><a href="functions_p.html#index_p"><span>p</span></a></li>
+      <li class="current"><a href="functions_r.html#index_r"><span>r</span></a></li>
+      <li><a href="functions_s.html#index_s"><span>s</span></a></li>
+      <li><a href="functions_t.html#index_t"><span>t</span></a></li>
+      <li><a href="functions_u.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_v.html#index_v"><span>v</span></a></li>
+      <li><a href="functions_w.html#index_w"><span>w</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<div class="textblock">Lista de todos los campos de clases con enlaces a las classes a que pertenecen:</div>
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>r0
+: <a class="el" href="classLDD_1_1estructural.html#a614a30e4d371989c3bbda4c1c1ecf150">LDD.estructural</a>
+</li>
+<li>Racceso_MD
+: <a class="el" href="classRcomponentes__MD__pkg.html#a7e5b3eee8483429dce909e05b0b19470">Rcomponentes_MD_pkg</a>
+</li>
+<li>Ralu
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#a456340cbf9ca7ae630f665349fc2c68c">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>ram
+: <a class="el" href="classRMD_1_1rtl.html#a216b9a2faa557be8350156a79efdac29">RMD.rtl</a>
+, <a class="el" href="classRMI_1_1rtl.html#a67e1975843dc9a0a280e031fa0bc0f89">RMI.rtl</a>
+</li>
+<li>RBR
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#ac772cc5570cfad0d89d1429780613a69">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>Rcam_MEM_DATOS
+: <a class="el" href="classRcomponentes__proc__MD__MI__pkg.html#ac26d3766d976f740567d95fea04a8d56">Rcomponentes_proc_MD_MI_pkg</a>
+</li>
+<li>Rcam_MEM_INST
+: <a class="el" href="classRcomponentes__MI__pkg.html#ad182cce95ce9f752fcc904ef3abfdc3f">Rcomponentes_MI_pkg</a>
+</li>
+<li>Rcam_MEM_INST_INY_Pcero
+: <a class="el" href="classRcomponentes__MI__pkg.html#a45aae4668d5ea0738176c4b9e1b76273">Rcomponentes_MI_pkg</a>
+, <a class="el" href="classRcomponentes__proc__MD__MI__pkg.html#a45aae4668d5ea0738176c4b9e1b76273">Rcomponentes_proc_MD_MI_pkg</a>
+</li>
+<li>Rcamino_datos
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#ae39b4bd65f62a752530e5542d8b53c29">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>Rcamino_secuen
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#a15da0445073aaa5fed674227e64d898d">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>Rcomponentes_cam_datos_pkg
+: <a class="el" href="classRcamino__datos.html#a5808ee42bfd5af37fd5ba7e42b6a76e1">Rcamino_datos</a>
+, <a class="el" href="classRDeco__cam__dat__secu.html#a5808ee42bfd5af37fd5ba7e42b6a76e1">RDeco_cam_dat_secu</a>
+</li>
+<li>Rcomponentes_decodificador_pkg
+: <a class="el" href="classRDeco__cam__dat__secu.html#af4d52ca0420196b52c2b132f7fb572fe">RDeco_cam_dat_secu</a>
+</li>
+<li>Rcomponentes_MD_pkg
+: <a class="el" href="classRcam__MEM__DATOS.html#a4b32f7b83c45aeb84d817facc8dd911a">Rcam_MEM_DATOS</a>
+</li>
+<li>Rcomponentes_MI_pkg
+: <a class="el" href="classRcam__MEM__INST.html#a0021cea83c395c133597eae46f350e5d">Rcam_MEM_INST</a>
+, <a class="el" href="classRcam__MEM__INST__INY__Pcero.html#a0021cea83c395c133597eae46f350e5d">Rcam_MEM_INST_INY_Pcero</a>
+</li>
+<li>Rcomponentes_proc_MD_MI_pkg
+: <a class="el" href="classRproc__MD__MI.html#a291c49d46d58d52a539287ee161db178">Rproc_MD_MI</a>
+</li>
+<li>Rcomponentes_secuenciamiento_pkg
+: <a class="el" href="classRcamino__secuen.html#af74219f810307ed21e4bc574c3f906b0">Rcamino_secuen</a>
+, <a class="el" href="classRDeco__cam__dat__secu.html#af74219f810307ed21e4bc574c3f906b0">RDeco_cam_dat_secu</a>
+</li>
+<li>rd
+: <a class="el" href="classensam__RD_1_1estructural.html#a175751bc50065b4aa65668ab94c171fd">ensam_RD.estructural</a>
+</li>
+<li>RD
+: <a class="el" href="classLDRD.html#a83d8027dc961d9a9453ac0ce060d91eb">LDRD</a>
+</li>
+<li>rd
+: <a class="el" href="classsenya__cntlRD.html#ab19aae8a2738a3d271090a31786377e9">senya_cntlRD</a>
+</li>
+<li>RD_1
+: <a class="el" href="classRegDes__pkg.html#a23830565ee291a4c726d704d6a4b9fca">RegDes_pkg</a>
+</li>
+<li>RD_D
+: <a class="el" href="classRegDes__pkg.html#a4b49aab49add632534b2d1aa79c8cb1c">RegDes_pkg</a>
+</li>
+<li>RD_N
+: <a class="el" href="classRegDes__pkg.html#ac84e0234b8911fa49f3fd5a02f99255c">RegDes_pkg</a>
+</li>
+<li>rdA
+: <a class="el" href="classensam__RD_1_1estructural.html#a447bfa7433945426c3d8212734dd56ac">ensam_RD.estructural</a>
+, <a class="el" href="classLDD.html#a157d08ab9277a1532d9c25cc392aff9f">LDD</a>
+, <a class="el" href="classsenya__cntlRD.html#a53dfa7d7f29daae8f5fab51a0c973546">senya_cntlRD</a>
+</li>
+<li>RDB_DL_N
+: <a class="el" href="classRegDes__pkg.html#a1cc1516ace532871a769def4bdba5bf5">RegDes_pkg</a>
+</li>
+<li>RDB_N
+: <a class="el" href="classRegDes__pkg.html#abb91ba39d35ffd683d5494b305722f10">RegDes_pkg</a>
+</li>
+<li>rdE
+: <a class="el" href="classensam__RD_1_1estructural.html#a86ffb76b4ac4904de4ee72dc842749c4">ensam_RD.estructural</a>
+, <a class="el" href="classLDD.html#a1fe8a9367d9d8b899296bd9fd68f4a0f">LDD</a>
+, <a class="el" href="classsenya__cntlRD.html#a9a212f3ea9587693436911bf4aad269b">senya_cntlRD</a>
+</li>
+<li>RDeco_cam_dat_secu
+: <a class="el" href="classRcomponentes__proc__MD__MI__pkg.html#a5b7ef9ddc07d7aafd8ae72a56f8dcff3">Rcomponentes_proc_MD_MI_pkg</a>
+</li>
+<li>Rdecodificador
+: <a class="el" href="classRcomponentes__decodificador__pkg.html#a688a35b3fea02d5505a59e8fab5b880a">Rcomponentes_decodificador_pkg</a>
+</li>
+<li>RdecoPBRopSEC
+: <a class="el" href="classcomponentes__control__seg__pkg.html#a9ed13b938418d51a26adc50d4aeefdb3">componentes_control_seg_pkg</a>
+</li>
+<li>RDECS
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#a10ed7c0fc45eb0a2c4c6b088eb1d4b71">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>rdF
+: <a class="el" href="classensam__RD_1_1estructural.html#aeb93614a75e136cf6afe949c1eaa5f3e">ensam_RD.estructural</a>
+, <a class="el" href="classLDD.html#a4c901def0b2e4371ec330b94294083c3">LDD</a>
+, <a class="el" href="classsenya__cntlRD.html#a16e901084dadaefebef5d62e61d86e99">senya_cntlRD</a>
+</li>
+<li>RDI_1
+: <a class="el" href="classRegDes__pkg.html#a5a4571ea91f866d03d9b1d6727cd3709">RegDes_pkg</a>
+</li>
+<li>RDI_N
+: <a class="el" href="classRegDes__pkg.html#a880ec5bdd16deb8d3e3cd6104ee6c804">RegDes_pkg</a>
+</li>
+<li>rdM
+: <a class="el" href="classensam__RD_1_1estructural.html#a4241170b098685e2e98a4f58bc1b770e">ensam_RD.estructural</a>
+, <a class="el" href="classLDD.html#a9ff5aa84f0cdedc75d83d0410a9baf25">LDD</a>
+, <a class="el" href="classsenya__cntlRD.html#a6cbcc7ee2a956c55936a2faec4e1c679">senya_cntlRD</a>
+</li>
+<li>reg
+: <a class="el" href="classLDD_1_1estructural.html#a1d9c2149b3f2b1c42afd4f1ce4b5ac35">LDD.estructural</a>
+</li>
+<li>reg_dest
+: <a class="el" href="classLDD_1_1estructural.html#aa4e12c5965d598d51ff34bba6a004c77">LDD.estructural</a>
+</li>
+<li>reg_font
+: <a class="el" href="classLDD_1_1estructural.html#a1888c63ec9e978aa6c304e6d0560f519">LDD.estructural</a>
+</li>
+<li>regCP
+: <a class="el" href="classcomponentes__proc__MD__MI__pkg.html#a060cf941ab300aa137c5fc23518879c9">componentes_proc_MD_MI_pkg</a>
+</li>
+<li>RegDes_pkg
+: <a class="el" href="classRacceso__MD.html#ad167b3da67e3106d0153fdea480d5164">Racceso_MD</a>
+, <a class="el" href="classRalu.html#ad167b3da67e3106d0153fdea480d5164">Ralu</a>
+, <a class="el" href="classRBR.html#ad167b3da67e3106d0153fdea480d5164">RBR</a>
+, <a class="el" href="classRcam__MEM__DATOS.html#ad167b3da67e3106d0153fdea480d5164">Rcam_MEM_DATOS</a>
+, <a class="el" href="classRcamino__secuen.html#ad167b3da67e3106d0153fdea480d5164">Rcamino_secuen</a>
+, <a class="el" href="classRdecodificador.html#ad167b3da67e3106d0153fdea480d5164">Rdecodificador</a>
+, <a class="el" href="classRdecoPBRopSEC.html#ad167b3da67e3106d0153fdea480d5164">RdecoPBRopSEC</a>
+, <a class="el" href="classRDECS.html#ad167b3da67e3106d0153fdea480d5164">RDECS</a>
+, <a class="el" href="classReval.html#ad167b3da67e3106d0153fdea480d5164">Reval</a>
+, <a class="el" href="classRFMTD.html#ad167b3da67e3106d0153fdea480d5164">RFMTD</a>
+, <a class="el" href="classRFMTE.html#ad167b3da67e3106d0153fdea480d5164">RFMTE</a>
+, <a class="el" href="classRFMTL.html#ad167b3da67e3106d0153fdea480d5164">RFMTL</a>
+, <a class="el" href="classRFMTS.html#ad167b3da67e3106d0153fdea480d5164">RFMTS</a>
+, <a class="el" href="classRmES.html#ad167b3da67e3106d0153fdea480d5164">RmES</a>
+, <a class="el" href="classRmL1.html#ad167b3da67e3106d0153fdea480d5164">RmL1</a>
+, <a class="el" href="classRmL2.html#ad167b3da67e3106d0153fdea480d5164">RmL2</a>
+, <a class="el" href="classRmuxdirec.html#ad167b3da67e3106d0153fdea480d5164">Rmuxdirec</a>
+, <a class="el" href="classRmuxmSIC.html#ad167b3da67e3106d0153fdea480d5164">RmuxmSIC</a>
+, <a class="el" href="classRmxsecseg.html#ad167b3da67e3106d0153fdea480d5164">Rmxsecseg</a>
+, <a class="el" href="classRsum__secu.html#ad167b3da67e3106d0153fdea480d5164">Rsum_secu</a>
+, <a class="el" href="classsenya__cntlRD.html#ad167b3da67e3106d0153fdea480d5164">senya_cntlRD</a>
+, <a class="el" href="classsenya__cntlRS.html#ad167b3da67e3106d0153fdea480d5164">senya_cntlRS</a>
+</li>
+<li>reloj
+: <a class="el" href="classBR.html#a9a2054ec7f63792c3956fe7264bbd941">BR</a>
+, <a class="el" href="classensam__RD.html#a9a2054ec7f63792c3956fe7264bbd941">ensam_RD</a>
+, <a class="el" href="classensam__RS.html#a9a2054ec7f63792c3956fe7264bbd941">ensam_RS</a>
+, <a class="el" href="classLIB.html#a9a2054ec7f63792c3956fe7264bbd941">LIB</a>
+, <a class="el" href="classRacceso__MD.html#a9a2054ec7f63792c3956fe7264bbd941">Racceso_MD</a>
+, <a class="el" href="classRalu.html#a9a2054ec7f63792c3956fe7264bbd941">Ralu</a>
+, <a class="el" href="classRBR.html#a9a2054ec7f63792c3956fe7264bbd941">RBR</a>
+, <a class="el" href="classRcam__MEM__DATOS.html#a9a2054ec7f63792c3956fe7264bbd941">Rcam_MEM_DATOS</a>
+, <a class="el" href="classRcam__MEM__INST.html#a9a2054ec7f63792c3956fe7264bbd941">Rcam_MEM_INST</a>
+, <a class="el" href="classRcam__MEM__INST__INY__Pcero.html#a9a2054ec7f63792c3956fe7264bbd941">Rcam_MEM_INST_INY_Pcero</a>
+, <a class="el" href="classRcamino__datos.html#ae81c37951d56ba49636dc2d009a5f316">Rcamino_datos</a>
+, <a class="el" href="classRcamino__secuen.html#a9a2054ec7f63792c3956fe7264bbd941">Rcamino_secuen</a>
+, <a class="el" href="classRD__1.html#a9a2054ec7f63792c3956fe7264bbd941">RD_1</a>
+, <a class="el" href="classRD__D.html#a9a2054ec7f63792c3956fe7264bbd941">RD_D</a>
+, <a class="el" href="classRD__N.html#a9a2054ec7f63792c3956fe7264bbd941">RD_N</a>
+, <a class="el" href="classRDB__DL__N.html#a9a2054ec7f63792c3956fe7264bbd941">RDB_DL_N</a>
+, <a class="el" href="classRDB__N.html#a9a2054ec7f63792c3956fe7264bbd941">RDB_N</a>
+, <a class="el" href="classRDeco__cam__dat__secu.html#ae81c37951d56ba49636dc2d009a5f316">RDeco_cam_dat_secu</a>
+, <a class="el" href="classRdecodificador.html#a9a2054ec7f63792c3956fe7264bbd941">Rdecodificador</a>
+, <a class="el" href="classRdecoPBRopSEC.html#ae81c37951d56ba49636dc2d009a5f316">RdecoPBRopSEC</a>
+, <a class="el" href="classRDECS.html#a9a2054ec7f63792c3956fe7264bbd941">RDECS</a>
+, <a class="el" href="classRDI__1.html#a9a2054ec7f63792c3956fe7264bbd941">RDI_1</a>
+, <a class="el" href="classRDI__N.html#a9a2054ec7f63792c3956fe7264bbd941">RDI_N</a>
+, <a class="el" href="classReval.html#a9a2054ec7f63792c3956fe7264bbd941">Reval</a>
+, <a class="el" href="classRFMTD.html#a9a2054ec7f63792c3956fe7264bbd941">RFMTD</a>
+, <a class="el" href="classRFMTE.html#a9a2054ec7f63792c3956fe7264bbd941">RFMTE</a>
+, <a class="el" href="classRFMTL.html#a9a2054ec7f63792c3956fe7264bbd941">RFMTL</a>
+, <a class="el" href="classRFMTS.html#a9a2054ec7f63792c3956fe7264bbd941">RFMTS</a>
+, <a class="el" href="classRMD.html#a9a2054ec7f63792c3956fe7264bbd941">RMD</a>
+, <a class="el" href="classRmES.html#a9a2054ec7f63792c3956fe7264bbd941">RmES</a>
+, <a class="el" href="classRMI.html#a9a2054ec7f63792c3956fe7264bbd941">RMI</a>
+, <a class="el" href="classRmL1.html#a9a2054ec7f63792c3956fe7264bbd941">RmL1</a>
+, <a class="el" href="classRmL2.html#ae81c37951d56ba49636dc2d009a5f316">RmL2</a>
+, <a class="el" href="classRmuxdirec.html#a9a2054ec7f63792c3956fe7264bbd941">Rmuxdirec</a>
+, <a class="el" href="classRmuxmSIC.html#a9a2054ec7f63792c3956fe7264bbd941">RmuxmSIC</a>
+, <a class="el" href="classRmxsecseg.html#a9a2054ec7f63792c3956fe7264bbd941">Rmxsecseg</a>
+, <a class="el" href="classRproc__MD__MI.html#a9a2054ec7f63792c3956fe7264bbd941">Rproc_MD_MI</a>
+, <a class="el" href="classRregCP.html#a9a2054ec7f63792c3956fe7264bbd941">RregCP</a>
+, <a class="el" href="classRsum__secu.html#a9a2054ec7f63792c3956fe7264bbd941">Rsum_secu</a>
+, <a class="el" href="classsenya__cntlRD.html#a9a2054ec7f63792c3956fe7264bbd941">senya_cntlRD</a>
+, <a class="el" href="classsenya__cntlRS.html#a9a2054ec7f63792c3956fe7264bbd941">senya_cntlRS</a>
+</li>
+<li>retALU
+: <a class="el" href="classretardos__pkg.html#a9250aed34af0542cde31bf0627962896">retardos_pkg</a>
+</li>
+<li>retardos_cntl_seg_pkg
+: <a class="el" href="classensam__RD.html#a0e63da680666abdb754f3f6e08d19b07">ensam_RD</a>
+, <a class="el" href="classensam__RS.html#a0e63da680666abdb754f3f6e08d19b07">ensam_RS</a>
+, <a class="el" href="classLDD.html#a0e63da680666abdb754f3f6e08d19b07">LDD</a>
+, <a class="el" href="classLDRD.html#a0e63da680666abdb754f3f6e08d19b07">LDRD</a>
+, <a class="el" href="classLDRS.html#a0e63da680666abdb754f3f6e08d19b07">LDRS</a>
+, <a class="el" href="classLGR.html#a0e63da680666abdb754f3f6e08d19b07">LGR</a>
+, <a class="el" href="classLIB.html#a0e63da680666abdb754f3f6e08d19b07">LIB</a>
+, <a class="el" href="classsenya__cntlRD.html#a0e63da680666abdb754f3f6e08d19b07">senya_cntlRD</a>
+, <a class="el" href="classsenya__cntlRS.html#a0e63da680666abdb754f3f6e08d19b07">senya_cntlRS</a>
+</li>
+<li>retardos_even_pkg
+: <a class="el" href="classacceso__MD.html#aae2b55ceaf8b2c95b5d98a55375127f9">acceso_MD</a>
+, <a class="el" href="classacceso__MI.html#aae2b55ceaf8b2c95b5d98a55375127f9">acceso_MI</a>
+, <a class="el" href="classRacceso__MD.html#aae2b55ceaf8b2c95b5d98a55375127f9">Racceso_MD</a>
+</li>
+<li>retardos_pkg
+: <a class="el" href="classalu.html#aeecba09bee667068976f5bfd0a27cbab">alu</a>
+, <a class="el" href="classBR.html#aeecba09bee667068976f5bfd0a27cbab">BR</a>
+, <a class="el" href="classdecodificador.html#aeecba09bee667068976f5bfd0a27cbab">decodificador</a>
+, <a class="el" href="classDECS.html#aeecba09bee667068976f5bfd0a27cbab">DECS</a>
+, <a class="el" href="classeval.html#aeecba09bee667068976f5bfd0a27cbab">eval</a>
+, <a class="el" href="classFMTD.html#aeecba09bee667068976f5bfd0a27cbab">FMTD</a>
+, <a class="el" href="classFMTE.html#aeecba09bee667068976f5bfd0a27cbab">FMTE</a>
+, <a class="el" href="classFMTL.html#aeecba09bee667068976f5bfd0a27cbab">FMTL</a>
+, <a class="el" href="classFMTS.html#aeecba09bee667068976f5bfd0a27cbab">FMTS</a>
+, <a class="el" href="classmux2.html#aeecba09bee667068976f5bfd0a27cbab">mux2</a>
+, <a class="el" href="classmux3.html#aeecba09bee667068976f5bfd0a27cbab">mux3</a>
+, <a class="el" href="classmuxdirec.html#aeecba09bee667068976f5bfd0a27cbab">muxdirec</a>
+, <a class="el" href="classmuxIns.html#aeecba09bee667068976f5bfd0a27cbab">muxIns</a>
+, <a class="el" href="classRcam__MEM__DATOS.html#aeecba09bee667068976f5bfd0a27cbab">Rcam_MEM_DATOS</a>
+, <a class="el" href="classRcam__MEM__INST.html#aeecba09bee667068976f5bfd0a27cbab">Rcam_MEM_INST</a>
+, <a class="el" href="classRcamino__datos.html#aeecba09bee667068976f5bfd0a27cbab">Rcamino_datos</a>
+, <a class="el" href="classRMD.html#aeecba09bee667068976f5bfd0a27cbab">RMD</a>
+, <a class="el" href="classRmES.html#aeecba09bee667068976f5bfd0a27cbab">RmES</a>
+, <a class="el" href="classRMI.html#aeecba09bee667068976f5bfd0a27cbab">RMI</a>
+, <a class="el" href="classRmL1.html#aeecba09bee667068976f5bfd0a27cbab">RmL1</a>
+, <a class="el" href="classRmL2.html#aeecba09bee667068976f5bfd0a27cbab">RmL2</a>
+, <a class="el" href="classRregCP.html#aeecba09bee667068976f5bfd0a27cbab">RregCP</a>
+, <a class="el" href="classsum__secu.html#aeecba09bee667068976f5bfd0a27cbab">sum_secu</a>
+, <a class="el" href="classsumador.html#aeecba09bee667068976f5bfd0a27cbab">sumador</a>
+</li>
+<li>retardos_RegDes_pkg
+: <a class="el" href="classRD__1.html#a1afeb77cb920a46f1f60373ccd04fd42">RD_1</a>
+, <a class="el" href="classRD__D.html#a1afeb77cb920a46f1f60373ccd04fd42">RD_D</a>
+, <a class="el" href="classRD__N.html#a1afeb77cb920a46f1f60373ccd04fd42">RD_N</a>
+, <a class="el" href="classRDB__DL__N.html#a1afeb77cb920a46f1f60373ccd04fd42">RDB_DL_N</a>
+, <a class="el" href="classRDB__N.html#a1afeb77cb920a46f1f60373ccd04fd42">RDB_N</a>
+, <a class="el" href="classRDI__1.html#a1afeb77cb920a46f1f60373ccd04fd42">RDI_1</a>
+, <a class="el" href="classRDI__N.html#a1afeb77cb920a46f1f60373ccd04fd42">RDI_N</a>
+</li>
+<li>retDECO
+: <a class="el" href="classretardos__pkg.html#a5a9818b412c88060e0826dcffed990a6">retardos_pkg</a>
+</li>
+<li>retdecoBR
+: <a class="el" href="classretardos__pkg.html#afd1e37c0e921862bb7c1801d21a51f5b">retardos_pkg</a>
+</li>
+<li>retdecoMD
+: <a class="el" href="classretardos__pkg.html#a0cd79665c5caf0f5a988b58890c8a452">retardos_pkg</a>
+</li>
+<li>retdecoMI
+: <a class="el" href="classretardos__pkg.html#a74c370ff71e36c08c2d7272c93697bd4">retardos_pkg</a>
+</li>
+<li>retDECS
+: <a class="el" href="classretardos__pkg.html#a38759c5555cae957c36440e66e901937">retardos_pkg</a>
+</li>
+<li>retescBR
+: <a class="el" href="classretardos__pkg.html#aad11d8ff042ca8f488b420392f82d97a">retardos_pkg</a>
+</li>
+<li>retescMD
+: <a class="el" href="classretardos__pkg.html#a1afbdacab90bc473767aebb5cfd084be">retardos_pkg</a>
+</li>
+<li>reteval
+: <a class="el" href="classretardos__pkg.html#a7cc39a6e4a0d79a6b66e21790781dfb0">retardos_pkg</a>
+</li>
+<li>retexcepMD
+: <a class="el" href="classretardos__even__pkg.html#ab9c77fd6c6cf519b288ef40d37da313a">retardos_even_pkg</a>
+</li>
+<li>retexcepMI
+: <a class="el" href="classretardos__even__pkg.html#a21a0629dae1563296a1da20037a9fb9d">retardos_even_pkg</a>
+</li>
+<li>retfmtD
+: <a class="el" href="classretardos__pkg.html#af064102818529fdd4e48135e701bbef6">retardos_pkg</a>
+</li>
+<li>retFMTE
+: <a class="el" href="classretardos__pkg.html#a116f472a0e7954824fc51b81bd194f88">retardos_pkg</a>
+</li>
+<li>retFMTL
+: <a class="el" href="classretardos__pkg.html#ad52693671020656c2f3210758ec4f0ab">retardos_pkg</a>
+</li>
+<li>retfmtS
+: <a class="el" href="classretardos__pkg.html#acb0d80169fa0aa670a5038dc53fc18dd">retardos_pkg</a>
+</li>
+<li>retLDD
+: <a class="el" href="classretardos__cntl__seg__pkg.html#a956375da2fffa866fc7dcf7e01ad8b2d">retardos_cntl_seg_pkg</a>
+</li>
+<li>retLDRD
+: <a class="el" href="classretardos__cntl__seg__pkg.html#ac8750705d599c7433216513bd41f04cb">retardos_cntl_seg_pkg</a>
+</li>
+<li>retLDRS
+: <a class="el" href="classretardos__cntl__seg__pkg.html#a20eed64c55d68559f8efc7928f81d0db">retardos_cntl_seg_pkg</a>
+</li>
+<li>retlecBR
+: <a class="el" href="classretardos__pkg.html#a11007e95093b070624056b87ed6ea720">retardos_pkg</a>
+</li>
+<li>retlecMD
+: <a class="el" href="classretardos__pkg.html#acb8c38cac71e036221bd3b745ceac224">retardos_pkg</a>
+</li>
+<li>retlecMI
+: <a class="el" href="classretardos__pkg.html#aedaf7a40118349db0dcd74f08ec39451">retardos_pkg</a>
+</li>
+<li>retLGR
+: <a class="el" href="classretardos__cntl__seg__pkg.html#ad69fe7a78f9df8836c1aff95396f34c1">retardos_cntl_seg_pkg</a>
+</li>
+<li>retlogicaexcep
+: <a class="el" href="classretardos__even__pkg.html#a8c581f0ddd0c6540eaa5842c0034d14f">retardos_even_pkg</a>
+</li>
+<li>retMUX2
+: <a class="el" href="classretardos__pkg.html#a6ea5e537e5a5426fb1b807d2342ced5c">retardos_pkg</a>
+</li>
+<li>retMUX3
+: <a class="el" href="classretardos__pkg.html#a07d432f4b210e9600a5697ce40d0e140">retardos_pkg</a>
+</li>
+<li>retREGCP
+: <a class="el" href="classretardos__pkg.html#a20cf002d97cdc835726fc56914452956">retardos_pkg</a>
+</li>
+<li>retREGDES
+: <a class="el" href="classretardos__RegDes__pkg.html#a0e585df5642f85399a4d5ca1fab56d34">retardos_RegDes_pkg</a>
+</li>
+<li>retSUMADOR
+: <a class="el" href="classretardos__pkg.html#a79fa05c74a3d15a9c5ed1ad93af73181">retardos_pkg</a>
+</li>
+<li>Reval
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#abdcc086bd119df9d8ab4b0b7cff62346">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>RFMTD
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#a37466746edac5b9b2edf0800c10a9b44">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>RFMTE
+: <a class="el" href="classRcomponentes__MD__pkg.html#af2914d48b861f5bba42ea2d813199384">Rcomponentes_MD_pkg</a>
+</li>
+<li>RFMTL
+: <a class="el" href="classRcomponentes__MD__pkg.html#a1959965a68ec721cbeaf21e75470e326">Rcomponentes_MD_pkg</a>
+</li>
+<li>RFMTS
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#a97dc1f0982c069af231237e930d18b97">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>RID
+: <a class="el" href="classensam__RD.html#a84a93f7c2a9b2bdb4c1567ae6bed421a">ensam_RD</a>
+, <a class="el" href="classLGR.html#aa0fd30021ff09c6fbf344e0de03c7968">LGR</a>
+, <a class="el" href="classLIB_1_1estructural.html#ae29559bc382ecac0db68a6af59eda7dc">LIB.estructural</a>
+</li>
+<li>riscv32_coop_funct_pkg
+: <a class="el" href="classcte__tipos__UF__pkg.html#ab4767f9fdd1c6a456646c588d170f808">cte_tipos_UF_pkg</a>
+, <a class="el" href="classdeco__excep.html#ab4767f9fdd1c6a456646c588d170f808">deco_excep</a>
+, <a class="el" href="classdecocamino.html#ab4767f9fdd1c6a456646c588d170f808">decocamino</a>
+, <a class="el" href="classdecoopALU.html#ab4767f9fdd1c6a456646c588d170f808">decoopALU</a>
+, <a class="el" href="classdecoopMD.html#ab4767f9fdd1c6a456646c588d170f808">decoopMD</a>
+, <a class="el" href="classdecoopSEC.html#ab4767f9fdd1c6a456646c588d170f808">decoopSEC</a>
+, <a class="el" href="classdecoPBRopSEC.html#ab4767f9fdd1c6a456646c588d170f808">decoPBRopSEC</a>
+, <a class="el" href="classDECS.html#ab4767f9fdd1c6a456646c588d170f808">DECS</a>
+, <a class="el" href="classRDECS.html#ab4767f9fdd1c6a456646c588d170f808">RDECS</a>
+, <a class="el" href="classvalreg.html#ab4767f9fdd1c6a456646c588d170f808">valreg</a>
+</li>
+<li>RMD
+: <a class="el" href="classRcomponentes__MD__pkg.html#afa9306a348cab3c5e070e4312904c046">Rcomponentes_MD_pkg</a>
+</li>
+<li>RmES
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#ab4c957480fd3dcf30f0318b47aec0dca">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>RMI
+: <a class="el" href="classRcomponentes__MI__pkg.html#afd90a153759e85900d2f338bf35dee05">Rcomponentes_MI_pkg</a>
+</li>
+<li>RmL1
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#ae17cfd393cd3cea2ce8dee8442c6114c">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>RmL2
+: <a class="el" href="classRcomponentes__cam__datos__pkg.html#a83e3f6b317c78bfd3ed7c02392ae05cc">Rcomponentes_cam_datos_pkg</a>
+</li>
+<li>Rmuxdirec
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#ad10c2bf1c654d3b438a4030f45391ad0">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>RmuxmSIC
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#ad320deacbc7fd28a8e730d10dff55aef">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>Rmxsecseg
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#a4a01f7ada4f58ad44ce528b90e01da17">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+<li>RregCP
+: <a class="el" href="classRcomponentes__proc__MD__MI__pkg.html#a68b3a7a6292b2325b19b76335fa81c02">Rcomponentes_proc_MD_MI_pkg</a>
+</li>
+<li>RS
+: <a class="el" href="classensam__RS.html#ad1d89d390bcbae3a309896d83848183b">ensam_RS</a>
+, <a class="el" href="classLDRS.html#ad1d89d390bcbae3a309896d83848183b">LDRS</a>
+, <a class="el" href="classLGR.html#abcfa57b839d637709525a11dfbde6b80">LGR</a>
+, <a class="el" href="classLIB_1_1estructural.html#a2e2b9de9764ab236275b0f5b1289f393">LIB.estructural</a>
+</li>
+<li>Rsum_secu
+: <a class="el" href="classRcomponentes__secuenciamiento__pkg.html#a361c21b79a7e3056ec4ed493b4de6a91">Rcomponentes_secuenciamiento_pkg</a>
+</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Miércoles, 10 de Abril de 2019 12:43:23 para PROCESADOR SEGMENTADO por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

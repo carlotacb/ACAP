@@ -1,0 +1,73 @@
+
+../char_sort.dir/char_sort.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	10001117          	auipc	x2,0x10001
+   4:	00010113          	addi	x2,x2,0 # 10001000 <__mem_top__>
+   8:	fe010113          	addi	x2,x2,-32
+   c:	000000b3          	add	x1,x0,x0
+  10:	000001b3          	add	x3,x0,x0
+  14:	00000233          	add	x4,x0,x0
+  18:	000002b3          	add	x5,x0,x0
+  1c:	00000333          	add	x6,x0,x0
+  20:	000003b3          	add	x7,x0,x0
+  24:	00000433          	add	x8,x0,x0
+  28:	000004b3          	add	x9,x0,x0
+  2c:	00000533          	add	x10,x0,x0
+  30:	000005b3          	add	x11,x0,x0
+  34:	00000633          	add	x12,x0,x0
+  38:	000006b3          	add	x13,x0,x0
+  3c:	00000733          	add	x14,x0,x0
+  40:	000007b3          	add	x15,x0,x0
+  44:	00000833          	add	x16,x0,x0
+  48:	000008b3          	add	x17,x0,x0
+  4c:	00000933          	add	x18,x0,x0
+  50:	000009b3          	add	x19,x0,x0
+  54:	00000a33          	add	x20,x0,x0
+  58:	00000ab3          	add	x21,x0,x0
+  5c:	00000b33          	add	x22,x0,x0
+  60:	00000bb3          	add	x23,x0,x0
+  64:	00000c33          	add	x24,x0,x0
+  68:	00000cb3          	add	x25,x0,x0
+  6c:	00000d33          	add	x26,x0,x0
+  70:	00000db3          	add	x27,x0,x0
+  74:	00000e33          	add	x28,x0,x0
+  78:	00000eb3          	add	x29,x0,x0
+  7c:	00000f33          	add	x30,x0,x0
+  80:	00000fb3          	add	x31,x0,x0
+  84:	07c000ef          	jal	x1,100 <main>
+  88:	00000013          	addi	x0,x0,0
+  8c:	00000013          	addi	x0,x0,0
+  90:	00000013          	addi	x0,x0,0
+  94:	00000013          	addi	x0,x0,0
+  98:	00000013          	addi	x0,x0,0
+  9c:	00100073          	ebreak
+
+Disassembly of section .text.startup:
+
+00000100 <main>:
+ 100:	100007b7          	lui	x15,0x10000
+ 104:	01400713          	addi	x14,x0,20
+ 108:	100005b7          	lui	x11,0x10000
+ 10c:	06e7a223          	sw	x14,100(x15) # 10000064 <__heap>
+ 110:	01300613          	addi	x12,x0,19
+ 114:	00058593          	addi	x11,x11,0 # 10000000 <vector>
+ 118:	00058793          	addi	x15,x11,0
+ 11c:	40b78733          	sub	x14,x15,x11
+ 120:	00000513          	addi	x10,x0,0
+ 124:	02c75463          	bge	x14,x12,14c <main+0x4c>
+ 128:	0007c703          	lbu	x14,0(x15)
+ 12c:	0017c683          	lbu	x13,1(x15)
+ 130:	00e6f863          	bgeu	x13,x14,140 <main+0x40>
+ 134:	00d78023          	sb	x13,0(x15)
+ 138:	00e780a3          	sb	x14,1(x15)
+ 13c:	00150513          	addi	x10,x10,1
+ 140:	00178793          	addi	x15,x15,1
+ 144:	40b78733          	sub	x14,x15,x11
+ 148:	fec740e3          	blt	x14,x12,128 <main+0x28>
+ 14c:	fff60613          	addi	x12,x12,-1
+ 150:	fc0514e3          	bne	x10,x0,118 <main+0x18>
+ 154:	00008067          	jalr	x0,0(x1)

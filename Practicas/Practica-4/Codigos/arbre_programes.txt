@@ -1,0 +1,70 @@
+./AULA/LAB4/programes/
+├── base_2_tot_alu.dir
+│   ├── base_2_tot_alu.c
+│   ├── base_2_tot_alu.disassembled
+│   ├── base_2_tot_alu_dmem.hex
+│   └── base_2_tot_alu_imem.hex
+├── base_4_tot_alu.dir
+│   ├── base_4_tot_alu.c
+│   ├── base_4_tot_alu.disassembled
+│   ├── base_4_tot_alu_dmem.hex
+│   └── base_4_tot_alu_imem.hex
+├── char_sort.dir
+│   ├── char_sort.c
+│   ├── char_sort.disassembled
+│   ├── char_sort_dmem.hex
+│   └── char_sort_imem.hex
+├── euclides.dir
+│   ├── euclides
+│   ├── euclides.c
+│   ├── euclides.disassembled
+│   ├── euclides_dmem.hex
+│   └── euclides_imem.hex
+├── fact_recurs.dir
+│   ├── fact_recurs
+│   ├── fact_recurs.c
+│   ├── fact_recurs.disassembled
+│   ├── fact_recurs_dmem.hex
+│   └── fact_recurs_imem.hex
+├── sort.dir
+│   ├── sort.c
+│   ├── sort.disassembled
+│   ├── sort_dmem.hex
+│   └── sort_imem.hex
+├── suma.dir
+│   ├── suma
+│   ├── suma.c
+│   ├── suma_codigo.hex
+│   ├── suma.disassembled
+│   ├── suma_dmem.hex
+│   └── suma_imem.hex
+├── suma_int16.dir
+│   ├── suma_int16.c
+│   ├── suma_int16.disassembled
+│   ├── suma_int16_dmem.hex
+│   └── suma_int16_imem.hex
+├── suma_longlong64.dir
+│   ├── suma_longlong64.c
+│   ├── suma_longlong64.disassembled
+│   ├── suma_longlong64_dmem.hex
+│   └── suma_longlong64_imem.hex
+├── suma_sshort8.dir
+│   ├── suma_sshort8.c
+│   ├── suma_sshort8.disassembled
+│   ├── suma_sshort8_dmem.hex
+│   └── suma_sshort8_imem.hex
+├── suma_uint16.dir
+│   ├── suma_uint16.c
+│   ├── suma_uint16.disassembled
+│   ├── suma_uint16_dmem.hex
+│   └── suma_uint16_imem.hex
+├── suma_ulonglong64.dir
+│   ├── suma_ulonglong64.c
+│   ├── suma_ulonglong64.disassembled
+│   ├── suma_ulonglong64_dmem.hex
+│   └── suma_ulonglong64_imem.hex
+└── suma_ushort8.dir
+    ├── suma_ushort8.c
+    ├── suma_ushort8.disassembled
+    ├── suma_ushort8_dmem.hex
+    └── suma_ushort8_imem.hex

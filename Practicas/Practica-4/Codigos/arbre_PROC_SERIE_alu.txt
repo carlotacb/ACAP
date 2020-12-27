@@ -1,0 +1,36 @@
+./AULA/LAB4/PROC_SERIE_alu/
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── proc_MD_MI_alu.vhd
+│   ├── PRUEBAS
+│   │   ├── CODI_imem.hex -> ../../../programes/euclides.dir/euclides_imem.hex
+│   │   ├── DADES_dmem.hex -> ../../../programes/euclides.dir/euclides_dmem.hex
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_proc_MD_MI_alu.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── proc_MD_MI_alu.qpf
+│   │   └── proc_MD_MI_alu.qsf
+│   └── RESULTADOS
+└── PROCESADOR
+    └── CAMINO_DATOS
+        └── UCalculo
+            └── COMPONENTES
+                └── ALU
+                    ├── CODIGO
+                    │   ├── alu.vhd
+                    │   ├── componentes_ALU_pkg.vhd
+                    │   ├── despla.vhd
+                    │   ├── logica.vhd
+                    │   ├── mx2.vhd
+                    │   ├── slt.vhd
+                    │   └── sumalg.vhd
+                    ├── PRUEBAS
+                    │   ├── alu_ref.vhd
+                    │   ├── alu.vhd
+                    │   ├── formato_ventanas.do
+                    │   ├── prueba_alu.vhd
+                    │   └── wave.do
+                    └── QUARTUS
+                        ├── alu.qpf
+                        └── alu.qsf

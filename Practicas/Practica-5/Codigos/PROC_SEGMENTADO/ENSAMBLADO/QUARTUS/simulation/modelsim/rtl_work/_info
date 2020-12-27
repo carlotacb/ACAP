@@ -1,0 +1,4416 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\catot\Desktop\LAB5\PROC_SEGMENTADO\ENSAMBLADO\QUARTUS\simulation\modelsim
+Eacceso_md
+Z1 w1534671490
+Z2 DPx4 work 17 retardos_even_pkg 0 22 >0fRA@5_4S=N]ANjc@@fN3
+Z3 DPx4 work 25 cte_tipos_deco_camino_pkg 0 22 h2gDIY<;0M4GQEZ8JLU[;1
+Z4 DPx4 work 17 param_disenyo_pkg 0 22 dQO[:VbkRS]1;1_96^i:H0
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dC:\Users\catot\Desktop\LAB5\PROC_SEGMENTADO\ENSAMBLADO\QUARTUS\simulation\modelsim
+Z9 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_md.vhd
+Z10 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_md.vhd
+l0
+L15
+VhQ:SI;ao;D?F4]oP:LMW]3
+Z11 OV;C;10.1d;51
+31
+Z12 !s108 1607965271.670000
+Z13 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_md.vhd|
+Z14 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_md.vhd|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 izhJEO6@zbjUE7^K8V7:c2
+!i10b 1
+Acomport
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 acceso_md 0 22 hQ:SI;ao;D?F4]oP:LMW]3
+l53
+L22
+VQ7go[:McP;Wo^K^FAXWCM3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 F6ZYd3>gE[k[3YE?cPVXd2
+!i10b 1
+Eacceso_mi
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z17 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_mi.vhd
+Z18 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_mi.vhd
+l0
+L15
+VY74T?4cL>RCQzA9=>nm`E0
+R11
+31
+Z19 !s108 1607965271.541000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_mi.vhd|
+Z21 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_mi.vhd|
+R15
+R16
+!s100 f@Y;W7E_zb;C2O3dJ2LoQ3
+!i10b 1
+Acomport
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 acceso_mi 0 22 Y74T?4cL>RCQzA9=>nm`E0
+l38
+L21
+VS5bBg06>?X<l4OHBJ?B:20
+R11
+31
+R19
+R20
+R21
+R15
+R16
+!s100 NXCnMRbSiLiXgN]AGXB;L2
+!i10b 1
+Ealinear
+R1
+R3
+Z22 DPx4 work 18 componentes_md_pkg 0 22 L`P8A@J@OGRm:j[DdK2I60
+Z23 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+Z24 DPx4 work 25 tipos_constan_memoria_pkg 0 22 g7hGX<m?PiFf9Z0C2zMPJ1
+R4
+R5
+R6
+R7
+R8
+Z25 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd
+Z26 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd
+l0
+L14
+VS]K:o^nVW3e<hlc78foQ62
+R11
+31
+Z27 !s108 1607965279.593000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd|
+Z29 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd|
+R15
+R16
+!s100 cl^]7d;RSL4P[=DkY90833
+!i10b 1
+Aestructural
+R3
+R22
+R23
+R24
+R4
+R5
+R6
+R7
+DEx4 work 7 alinear 0 22 S]K:o^nVW3e<hlc78foQ62
+l35
+L20
+V[3N_JigXV2KGLWC>PZ6:_2
+R11
+31
+R27
+R28
+R29
+R15
+R16
+!s100 e]_gbMTHZ8@jAEUc_P1D62
+!i10b 1
+Ealineare
+R1
+R3
+R22
+R24
+R4
+R23
+R5
+R6
+R7
+R8
+Z30 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alineare.vhd
+Z31 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alineare.vhd
+l0
+L15
+V`DE>[1hLdeW2kXZF`IL3G0
+R11
+31
+Z32 !s108 1607965278.985000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alineare.vhd|
+Z34 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alineare.vhd|
+R15
+R16
+!s100 :U>>8;n5gkg45m19NBXL@1
+!i10b 1
+Aestructura
+R3
+R22
+R24
+R4
+R23
+R5
+R6
+R7
+DEx4 work 8 alineare 0 22 `DE>[1hLdeW2kXZF`IL3G0
+l47
+L21
+V_;bfX<AhE3;3jZJo:Z6M42
+R11
+31
+R32
+R33
+R34
+R15
+R16
+!s100 iH@gN;9MBD91dYWejEOb00
+!i10b 1
+Ealu
+R1
+Z35 DPx4 work 12 retardos_pkg 0 22 fETc?bEQY_h3MOmQ85?^_0
+Z36 DPx4 work 22 riscv32_coop_funct_pkg 0 22 ;5Xo@eC]DBCLkHZ^SI_gG3
+Z37 DPx4 work 16 cte_tipos_uf_pkg 0 22 kdDRDaT`aV2L?W5`5:=Ef2
+R4
+R3
+R5
+R6
+R7
+R8
+Z38 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
+Z39 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
+l0
+L15
+VOBL4fU^[4YH4adaCLTbk40
+R11
+31
+Z40 !s108 1607965274.322000
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
+Z42 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
+R15
+R16
+!s100 `OWQ0EiOgf7XKNIkQL[B02
+!i10b 1
+Acompor
+R35
+R36
+R37
+R4
+R3
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 OBL4fU^[4YH4adaCLTbk40
+l24
+L22
+VEmiC:n0kChO_S8kOb:oeJ0
+R11
+31
+R40
+R41
+R42
+R15
+R16
+!s100 _8e9OP[_EEbg204gO0g0n1
+!i10b 1
+Eandv1n
+R1
+R6
+R7
+R8
+Z43 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+Z44 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+l0
+L10
+V_HijFbVmnG=h<?V0=Oz::0
+R11
+31
+Z45 !s108 1607965267.015000
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+Z47 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+R15
+R16
+!s100 3<9Ka`D0]McVAe:<BY^KP1
+!i10b 1
+Acomportamiento
+R6
+R7
+DEx4 work 6 andv1n 0 22 _HijFbVmnG=h<?V0=Oz::0
+l17
+L15
+V8@eQM0f[0UHDNb818I8Oc0
+R11
+31
+R45
+R46
+R47
+R15
+R16
+!s100 BmFNFd^KM>V7P`Ii5:B7o2
+!i10b 1
+Ebr
+Z48 w1553361165
+R35
+R4
+R5
+R6
+R7
+R8
+Z49 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/br.vhd
+Z50 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/br.vhd
+l0
+L13
+VEz>I>GA1Ni836DeFSzLM41
+R11
+31
+Z51 !s108 1607965270.180000
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/br.vhd|
+Z53 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/br.vhd|
+R15
+R16
+!s100 56VZ[g=AFb3OG:Kn_IGSa3
+!i10b 1
+Acompor
+R35
+R4
+R5
+R6
+R7
+DEx4 work 2 br 0 22 Ez>I>GA1Ni836DeFSzLM41
+l31
+L24
+V]lmSLIgeYD[f>VXSYKK9L2
+R11
+31
+R51
+R52
+R53
+R15
+R16
+!s100 <=LVWgf@RnN1GY:Gh<0XF2
+!i10b 1
+Ecmp
+R1
+R4
+R6
+R7
+R8
+Z54 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+Z55 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+l0
+L11
+VW1j9SkEkPfUhDc[IMKoC92
+R11
+31
+Z56 !s108 1607965271.945000
+Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+Z58 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+R15
+R16
+!s100 `Fm;]mOBG9cT1lgNbzGg<3
+!i10b 1
+Acompor
+R4
+R6
+R7
+DEx4 work 3 cmp 0 22 W1j9SkEkPfUhDc[IMKoC92
+l20
+L17
+V?2f8K@M`L^]]@:cS`zaIM0
+R11
+31
+R56
+R57
+R58
+R15
+R16
+!s100 bhQzElo7]Xz1Z`TYOUn1H3
+!i10b 1
+Pcomponentes_cam_datos_pkg
+R5
+R3
+R4
+R6
+R7
+w1553157332
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd
+l0
+L12
+VgIOHzVU^<5Q=Agj28fWBB2
+R11
+31
+R15
+R16
+!s100 R^CB<Ed[XKkY5c9XhgnfH2
+!i10b 1
+!s108 1607965267.514000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd|
+Pcomponentes_control_seg_pkg
+R5
+R3
+R4
+R6
+R7
+w1554888664
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+l0
+L12
+VoS>;6AnRn[<2<;R[gUleI2
+R11
+31
+R15
+R16
+!s100 UIRDnXnbHaBYdjhkI6X^n2
+!i10b 1
+!s108 1607965268.172000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+Pcomponentes_decodificador_pkg
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd
+l0
+L12
+V[b>i8f1:Q2PHKdXYDcRzC0
+R11
+31
+R15
+R16
+!s100 eS_nj5jeNl]S?UAJ:[iEG3
+!i10b 1
+!s108 1607965267.732000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd|
+Pcomponentes_md_pkg
+R23
+R24
+R5
+R3
+R4
+R6
+R7
+w1553266166
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd
+l0
+L13
+VL`P8A@J@OGRm:j[DdK2I60
+R11
+31
+R15
+R16
+!s100 564a1HzXjW2@?:L:=EB2B0
+!i10b 1
+!s108 1607965272.073000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd|
+Pcomponentes_secuenciamiento_pkg
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd
+l0
+L12
+VRW`AlG@RNn:D@]g1zZVfc3
+R11
+31
+R15
+R16
+!s100 f7XVH=T<:RfcJBaI`_bFg0
+!i10b 1
+!s108 1607965267.264000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd|
+Pcte_tipos_deco_camino_pkg
+R5
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+l0
+L10
+Vh2gDIY<;0M4GQEZ8JLU[;1
+R11
+31
+R15
+R16
+!s100 LWMoGeUhi@F]=k277M<360
+!i10b 1
+!s108 1607965265.661000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+Pcte_tipos_uf_pkg
+R36
+R5
+R3
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+l0
+L12
+VkdDRDaT`aV2L?W5`5:=Ef2
+R11
+31
+R15
+R16
+!s100 P^M^710HLOX12LT2A3=fj0
+!i10b 1
+!s108 1607965268.059000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+Ecuatro
+R1
+R4
+R5
+R6
+R7
+R8
+Z59 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
+Z60 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
+l0
+L12
+V:1hH]_f5FbJTh8VlazCYj3
+R11
+31
+Z61 !s108 1607965270.854000
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
+Z63 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
+R15
+R16
+!s100 CGXiKY<0;0>gbcaTc@cfT1
+!i10b 1
+Acomportamiento
+R4
+R5
+R6
+R7
+DEx4 work 6 cuatro 0 22 :1hH]_f5FbJTh8VlazCYj3
+l17
+L16
+Vgi@<gl`D8Tgo4=YZz[:A22
+R11
+31
+R61
+R62
+R63
+R15
+R16
+!s100 leWFNIGMo5?HkMYVK=:Jj1
+!i10b 1
+Edeco_excep
+R1
+R36
+R3
+R4
+R5
+R6
+R7
+R8
+Z64 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
+Z65 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
+l0
+L14
+V8c^<D2=YocnPRlEBcKgbN1
+R11
+31
+Z66 !s108 1607965269.343000
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
+Z68 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
+R15
+R16
+!s100 jT46^_<mnY6YLQ98VZ[A53
+!i10b 1
+Acomportamiento
+R36
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 deco_excep 0 22 8c^<D2=YocnPRlEBcKgbN1
+l21
+L19
+VRS8[RVH?eI9UZcM@XkDAF2
+R11
+31
+R66
+R67
+R68
+R15
+R16
+!s100 4[I9U[cVHF3Mca;HdP>S41
+!i10b 1
+Pdeco_inst_impri_pkg
+Z69 DPx4 work 23 imprimir_inst_ascii_pkg 0 22 `mnm`nmK9DUZOBh9dE?]J0
+R4
+R36
+Z70 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R5
+R6
+R7
+R1
+R8
+Z71 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+Z72 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+l0
+L18
+V0R2:FZQF]kF48a5O4@TaC3
+R11
+31
+b1
+Z73 !s108 1607965280.156000
+Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+Z75 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+R15
+R16
+!s100 33HKLV_0llC2A`H6GJC651
+!i10b 1
+Bbody
+Z76 DPx4 work 19 deco_inst_impri_pkg 0 22 0R2:FZQF]kF48a5O4@TaC3
+R69
+R4
+R36
+R70
+R5
+R6
+R7
+l0
+L25
+VJ:jdoRa]72=W156=gGeFZ3
+R11
+31
+R73
+R74
+R75
+R15
+R16
+nbody
+!s100 4hh6NkLJ`=<7DSQQ0]WkE0
+!i10b 1
+Edecocamino
+R1
+R36
+R3
+R5
+R6
+R7
+R8
+Z77 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd
+Z78 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd
+l0
+L14
+VLnha6JaDFl;2O]QD2H4i[3
+R11
+31
+Z79 !s108 1607965268.919000
+Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd|
+Z81 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd|
+R15
+R16
+!s100 Q1QZab1hTd@D8z^lLdHa71
+!i10b 1
+Acomportamiento
+R36
+R3
+R5
+R6
+R7
+DEx4 work 10 decocamino 0 22 Lnha6JaDFl;2O]QD2H4i[3
+l39
+L25
+V5Mm:G7637OP3GFo`WlKP11
+R11
+31
+R79
+R80
+R81
+R15
+R16
+!s100 EHgeS@:clI5:RWLX8QDAz0
+!i10b 1
+Edecodificador
+R1
+Z82 DPx4 work 29 componentes_decodificador_pkg 0 22 [b>i8f1:Q2PHKdXYDcRzC0
+R35
+R4
+R3
+R5
+R6
+R7
+R8
+Z83 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd
+Z84 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd
+l0
+L17
+VIkLDi`2zD3?g9;fMHPZ3]0
+R11
+31
+Z85 !s108 1607965273.128000
+Z86 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd|
+Z87 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd|
+R15
+R16
+!s100 0KJ2]NFaA5O<Uo1`7X2E23
+!i10b 1
+Aestructural
+R82
+R35
+R4
+R3
+R5
+R6
+R7
+DEx4 work 13 decodificador 0 22 IkLDi`2zD3?g9;fMHPZ3]0
+l47
+L32
+VgzBWUjZ9_O^Eb62i^:YaN0
+R11
+31
+R85
+R86
+R87
+R15
+R16
+!s100 BR;46UHYPG?Dm8zTZ1CV`3
+!i10b 1
+Edecoopalu
+R1
+R4
+R36
+R3
+R5
+R6
+R7
+R8
+Z88 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopalu.vhd
+Z89 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopalu.vhd
+l0
+L15
+V^5UdNihd8ZnMPnbE6gzUX3
+R11
+31
+Z90 !s108 1607965269.040000
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopalu.vhd|
+Z92 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopalu.vhd|
+R15
+R16
+!s100 [IZ2H`CU01eaG2zzzAV4Z0
+!i10b 1
+Acomportamiento
+R4
+R36
+R3
+R5
+R6
+R7
+DEx4 work 9 decoopalu 0 22 ^5UdNihd8ZnMPnbE6gzUX3
+l28
+L20
+VA;cJe>3G9Cb:o?K?BVaNQ0
+R11
+31
+R90
+R91
+R92
+R15
+R16
+!s100 YPAa997zbE36lSlMSEVP32
+!i10b 1
+Edecoopmd
+R1
+R4
+R36
+R3
+R5
+R6
+R7
+R8
+Z93 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopmd.vhd
+Z94 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopmd.vhd
+l0
+L15
+VY_h2BnmRmEFWJZF6FLB]K1
+R11
+31
+Z95 !s108 1607965269.153000
+Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopmd.vhd|
+Z97 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopmd.vhd|
+R15
+R16
+!s100 XI<KdChCYIRLBR89AnPg00
+!i10b 1
+Acomportamiento
+R4
+R36
+R3
+R5
+R6
+R7
+DEx4 work 8 decoopmd 0 22 Y_h2BnmRmEFWJZF6FLB]K1
+l28
+L20
+V4Y_F`JR;V<?cNAj2O@h^]2
+R11
+31
+R95
+R96
+R97
+R15
+R16
+!s100 nDd3o<?[Az?`O^AQa9^<>1
+!i10b 1
+Edecoopsec
+R1
+R4
+R37
+R36
+R3
+R5
+R6
+R7
+R8
+Z98 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopsec.vhd
+Z99 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopsec.vhd
+l0
+L16
+VE8MIG5fF1ClZ`ZN<8Y3Gj2
+R11
+31
+Z100 !s108 1607965273.275000
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopsec.vhd|
+Z102 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopsec.vhd|
+R15
+R16
+!s100 EY<_<^[Di2h<Si>aY7KP[0
+!i10b 1
+Acomportamiento
+R4
+R37
+R36
+R3
+R5
+R6
+R7
+DEx4 work 9 decoopsec 0 22 E8MIG5fF1ClZ`ZN<8Y3Gj2
+l29
+L21
+VFGSY918e5Lo=nKA=jdhfX0
+R11
+31
+R100
+R101
+R102
+R15
+R16
+!s100 Rf;XOdbU_KjY2=biPh]8=1
+!i10b 1
+Edecopbropsec
+R1
+R4
+R37
+R36
+R3
+R5
+R6
+R7
+R8
+Z103 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd
+Z104 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd
+l0
+L15
+VEWlgcL6P2k8Pm8ATgdnH>3
+R11
+31
+Z105 !s108 1607965276.581000
+Z106 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd|
+Z107 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd|
+R15
+R16
+!s100 R^L?WPg:@DIJm^@NocW[Y0
+!i10b 1
+Acomportamiento
+R4
+R37
+R36
+R3
+R5
+R6
+R7
+DEx4 work 12 decopbropsec 0 22 EWlgcL6P2k8Pm8ATgdnH>3
+l29
+L21
+Vl_;SPdQ43@0QU<6f6Xc[J3
+R11
+31
+R105
+R106
+R107
+R15
+R16
+!s100 PmYB=2Z;5hAS:=X]<oaGH2
+!i10b 1
+Edecs
+R1
+R35
+R3
+R37
+R36
+R5
+R6
+R7
+R8
+Z108 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/decs.vhd
+Z109 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/decs.vhd
+l0
+L15
+V;2gHVL:co2BHL4B:MX08c2
+R11
+31
+Z110 !s108 1607965274.740000
+Z111 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/decs.vhd|
+Z112 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/decs.vhd|
+R15
+R16
+!s100 TcX8LO72GT8WWX]f2Jd>01
+!i10b 1
+Acomporta
+R35
+R3
+R37
+R36
+R5
+R6
+R7
+DEx4 work 4 decs 0 22 ;2gHVL:co2BHL4B:MX08c2
+l22
+L21
+VTcT69TUEoo=O50Td@_i9W1
+R11
+31
+R110
+R111
+R112
+R15
+R16
+!s100 0<bjmTMR1?Jbh1HH>[BN;0
+!i10b 1
+Eensam_rd
+Z113 w1544376429
+Z114 DPx4 work 21 retardos_cntl_seg_pkg 0 22 kbaJG1dD7;BKICTb9]CN<2
+Z115 DPx4 work 27 componentes_control_seg_pkg 0 22 oS>;6AnRn[<2<;R[gUleI2
+R5
+R3
+R4
+R6
+R7
+R8
+Z116 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd
+Z117 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd
+l0
+L15
+V3[E7jh`A1VGj4SHo=L8YF3
+R11
+31
+Z118 !s108 1607965276.714000
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd|
+Z120 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd|
+R15
+R16
+!s100 79`UE]lFLo6KVT3<6_C[d3
+!i10b 1
+Aestructural
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+DEx4 work 8 ensam_rd 0 22 3[E7jh`A1VGj4SHo=L8YF3
+l37
+L23
+Vne8:K4]mn;LQ>5dlUIT6:3
+R11
+31
+R118
+R119
+R120
+R15
+R16
+!s100 UGVnK2gG=;J[a@>OGMIFb0
+!i10b 1
+Eensam_rs
+R1
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+R8
+Z121 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd
+Z122 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd
+l0
+L15
+VNDed>AXW;6OAJYJaD5Y<g2
+R11
+31
+Z123 !s108 1607965277.328000
+Z124 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd|
+Z125 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd|
+R15
+R16
+!s100 ?V83SRDBb:IX76z1Af5D>2
+!i10b 1
+Aestructural
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+DEx4 work 8 ensam_rs 0 22 NDed>AXW;6OAJYJaD5Y<g2
+l24
+L22
+V9Hd?lOX8Fnd2AV=30z52e0
+R11
+31
+R123
+R124
+R125
+R15
+R16
+!s100 BWE4VDH:T1QRABP6mkl=72
+!i10b 1
+Eeval
+R1
+R35
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+R8
+Z126 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
+Z127 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
+l0
+L14
+VdVe`oTNMT;bzM=@j914kn0
+R11
+31
+Z128 !s108 1607965275.582000
+Z129 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
+Z130 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
+R15
+R16
+!s100 C7YODhjPjzC_GQag32?ho0
+!i10b 1
+Acomport
+R35
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+DEx4 work 4 eval 0 22 dVe`oTNMT;bzM=@j914kn0
+l20
+L19
+VXH38e@2Bb0PJfhaVH7P<h3
+R11
+31
+R128
+R129
+R130
+R15
+R16
+!s100 d2n6h6RgTo=9?FkBgd_<U3
+!i10b 1
+Efmtd
+R1
+R35
+R5
+R3
+R4
+R6
+R7
+R8
+Z131 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/fmtd.vhd
+Z132 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/fmtd.vhd
+l0
+L13
+VeFZS]8l[]Ya8AH8N<U;=C3
+R11
+31
+Z133 !s108 1607965269.600000
+Z134 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/fmtd.vhd|
+Z135 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/fmtd.vhd|
+R15
+R16
+!s100 T_m9jfliiQXRaRcRgIJUS0
+!i10b 1
+Acompor
+R35
+R5
+R3
+R4
+R6
+R7
+DEx4 work 4 fmtd 0 22 eFZS]8l[]Ya8AH8N<U;=C3
+l20
+L19
+VVUf@Q@A]giXHU1H7KfL8L0
+R11
+31
+R133
+R134
+R135
+R15
+R16
+!s100 _YoQ`M<mzm>VN<8QIRGFS3
+!i10b 1
+Efmte
+R1
+R22
+R35
+R4
+R23
+R24
+R3
+R5
+R6
+R7
+R8
+Z136 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/fmte.vhd
+Z137 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/fmte.vhd
+l0
+L15
+VW6gGGLcYi_^kIZ:aF8VFW3
+R11
+31
+Z138 !s108 1607965278.847000
+Z139 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/fmte.vhd|
+Z140 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/fmte.vhd|
+R15
+R16
+!s100 EF`MIMD2_VfNEf:4E5F>N3
+!i10b 1
+Aestructural
+R22
+R35
+R4
+R23
+R24
+R3
+R5
+R6
+R7
+DEx4 work 4 fmte 0 22 W6gGGLcYi_^kIZ:aF8VFW3
+l28
+L23
+VVnFV3E71LIBh^P;nRHW_b2
+R11
+31
+R138
+R139
+R140
+R15
+R16
+!s100 kdN0C9BL0SIX2lfMa;cl@0
+!i10b 1
+Efmtl
+Z141 w1539958455
+R22
+R35
+R4
+R23
+R24
+R5
+R3
+R6
+R7
+R8
+Z142 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/fmtl.vhd
+Z143 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/fmtl.vhd
+l0
+L10
+V4izWzMhCMHTdP15Gj8W@[1
+R11
+31
+Z144 !s108 1607965279.453000
+Z145 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/fmtl.vhd|
+Z146 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/fmtl.vhd|
+R15
+R16
+!s100 m_=b:L6fVWC5O:?2S=A[50
+!i10b 1
+Aestructural
+R22
+R35
+R4
+R23
+R24
+R5
+R3
+R6
+R7
+DEx4 work 4 fmtl 0 22 4izWzMhCMHTdP15Gj8W@[1
+l24
+L17
+VdcQGN<72o914TY_e4zega2
+R11
+31
+R144
+R145
+R146
+R15
+R16
+!s100 U]0nHT2aCXC2EW3`@iAC53
+!i10b 1
+Efmtl_extsig
+Z147 w1539958412
+R22
+R23
+R24
+R5
+R3
+R4
+R6
+R7
+R8
+Z148 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/fmtl_extsig.vhd
+Z149 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/fmtl_extsig.vhd
+l0
+L14
+VOJ<B5DfzWG:k4>AQnl]]X1
+R11
+31
+Z150 !s108 1607965279.728000
+Z151 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/fmtl_extsig.vhd|
+Z152 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/fmtl_extsig.vhd|
+R15
+R16
+!s100 cPZ6jznTe[>O_YV8RR>e=1
+!i10b 1
+Aestructural
+R22
+R23
+R24
+R5
+R3
+R4
+R6
+R7
+DEx4 work 11 fmtl_extsig 0 22 OJ<B5DfzWG:k4>AQnl]]X1
+l25
+L21
+VPVFOY<bLWlSQF8kE_`@GC0
+R11
+31
+R150
+R151
+R152
+R15
+R16
+!s100 <F^CcNj>[0?ag[gJ?hiiP3
+!i10b 1
+Efmtl_sel_signo
+R1
+R3
+R4
+R23
+R24
+R5
+R6
+R7
+R8
+Z153 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/fmtl_sel_signo.vhd
+Z154 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/fmtl_sel_signo.vhd
+l0
+L13
+VINYlkZEbzWUI`bdPBM^W61
+R11
+31
+Z155 !s108 1607965276.151000
+Z156 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/fmtl_sel_signo.vhd|
+Z157 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/fmtl_sel_signo.vhd|
+R15
+R16
+!s100 `S0TFoUXU=@zfFV?bA[o83
+!i10b 1
+Acomportamiento
+R3
+R4
+R23
+R24
+R5
+R6
+R7
+DEx4 work 14 fmtl_sel_signo 0 22 INYlkZEbzWUI`bdPBM^W61
+l22
+L20
+V^A=k_IJI=g74k8ge:Ic1]1
+R11
+31
+R155
+R156
+R157
+R15
+R16
+!s100 Oi`4BPkkd7PhbTS1WXdC<0
+!i10b 1
+Efmts
+R1
+R35
+R5
+R3
+R4
+R6
+R7
+R8
+Z158 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/fmts.vhd
+Z159 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/fmts.vhd
+l0
+L13
+VN1j71J<_Dg?0`3:B[eB:01
+R11
+31
+Z160 !s108 1607965271.127000
+Z161 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/fmts.vhd|
+Z162 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/fmts.vhd|
+R15
+R16
+!s100 S]a?4[Z@oooz7lKC41TAh0
+!i10b 1
+Acompor
+R35
+R5
+R3
+R4
+R6
+R7
+DEx4 work 4 fmts 0 22 N1j71J<_Dg?0`3:B[eB:01
+l20
+L19
+VoUeFc1UNK4;;N_K?GNUaG0
+R11
+31
+R160
+R161
+R162
+R15
+R16
+!s100 1DVj7;MTT4iXg<@P5L0AV0
+!i10b 1
+Pimpri_br_pkg
+R4
+R70
+R23
+R5
+R6
+R7
+R1
+R8
+Z163 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
+Z164 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
+l0
+L16
+VD^_L<dFeC^0iD=SL58_Sf2
+R11
+33
+b1
+Z165 !s108 1607965280.447000
+Z166 !s90 -reportprogress|300|-2008|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
+Z167 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
+Z168 o-2008 -work work -O0
+R16
+!s100 ;AXU4MRNECHB99De_J2Wn1
+!i10b 1
+Bbody
+Z169 DPx4 work 12 impri_br_pkg 0 22 D^_L<dFeC^0iD=SL58_Sf2
+R4
+R70
+R23
+R5
+R6
+R7
+l0
+L27
+V:OgYF5BjdHL3`?hIh8nPS0
+R11
+33
+R165
+R166
+R167
+R168
+R16
+nbody
+!s100 Tkf9M3T098D=;XNJm2iG=0
+!i10b 1
+Pimpri_memoria_d_pkg
+R24
+R4
+R70
+R23
+R5
+R6
+R7
+R1
+R8
+Z170 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
+Z171 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
+l0
+L17
+VJOUehYc:[5SG7k]g:2FCL2
+R11
+33
+b1
+Z172 !s108 1607965280.636000
+Z173 !s90 -reportprogress|300|-2008|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
+Z174 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
+R168
+R16
+!s100 oKYdjGKzoBG68dYcBNzbI0
+!i10b 1
+Bbody
+Z175 DPx4 work 19 impri_memoria_d_pkg 0 22 JOUehYc:[5SG7k]g:2FCL2
+R24
+R4
+R70
+R23
+R5
+R6
+R7
+l0
+L25
+VTNY`KH5>5Mn]E0J[bHZU70
+R11
+33
+R172
+R173
+R174
+R168
+R16
+nbody
+!s100 :4828G?QkFTLTB63:CLI13
+!i10b 1
+Pimpri_memoria_i_pkg
+R69
+R36
+R76
+Z176 DPx4 work 27 tipos_constan_memoria_i_pkg 0 22 ZG`Wgh8_ZW<_:i1_RMdJ^0
+R4
+R70
+R23
+R5
+R6
+R7
+R1
+R8
+Z177 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
+Z178 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
+l0
+L18
+VGoIbdE6=A:DRKRf1@0V8e0
+R11
+33
+b1
+Z179 !s108 1607965280.780000
+Z180 !s90 -reportprogress|300|-2008|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
+Z181 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
+R168
+R16
+!s100 BK:Z[m7CznDYXR^=]]h=<3
+!i10b 1
+Bbody
+Z182 DPx4 work 19 impri_memoria_i_pkg 0 22 GoIbdE6=A:DRKRf1@0V8e0
+R69
+R36
+R76
+R176
+R4
+R70
+R23
+R5
+R6
+R7
+l0
+L26
+V^<9^<AfY3REWz18HPZ9Tk0
+R11
+33
+R179
+R180
+R181
+R168
+R16
+nbody
+!s100 Rm_0ocn052ja9Q8YD2T2P2
+!i10b 1
+Pimpri_traza_pkg
+R69
+R76
+R176
+R23
+R24
+R36
+R3
+R4
+Z183 DPx3 std 3 env 0 22 kU@g3bh3dSQ6SKX7=V`LE3
+R70
+R5
+R6
+R7
+R1
+R8
+Z184 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd
+Z185 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd
+l0
+L20
+V`fMN:GKTPO4:P7D@MekY_1
+R11
+33
+b1
+Z186 !s108 1607965280.297000
+Z187 !s90 -reportprogress|300|-2008|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd|
+Z188 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd|
+R168
+R16
+!s100 RU<fmcjn27m<>Q:QUVjP?1
+!i10b 1
+Bbody
+Z189 DPx4 work 15 impri_traza_pkg 0 22 `fMN:GKTPO4:P7D@MekY_1
+R69
+R76
+R176
+R23
+R24
+R36
+R3
+R4
+R183
+R70
+R5
+R6
+R7
+l0
+L29
+V?dfVeHE6AZFX5fj7HNn4f1
+R11
+33
+R186
+R187
+R188
+R168
+R16
+nbody
+!s100 <]h[bAE<nQWj9m[iI_D[:3
+!i10b 1
+Pimprimir_inst_ascii_pkg
+R4
+R36
+R70
+R5
+R6
+R7
+R1
+R8
+Z190 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+Z191 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+l0
+L16
+V`mnm`nmK9DUZOBh9dE?]J0
+R11
+31
+b1
+Z192 !s108 1607965280.007000
+Z193 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+Z194 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+R15
+R16
+!s100 :Za::RiJHXX<ZGG`PBC]M2
+!i10b 1
+Bbody
+R69
+R4
+R36
+R70
+R5
+R6
+R7
+l0
+L30
+VVjl9io6B67[>C]<97b<ND2
+R11
+31
+R192
+R193
+R194
+R15
+R16
+nbody
+!s100 [j4aXG;G5@Id3CHo1A58o3
+!i10b 1
+Pinicializa_mem_i_pkg
+R23
+R176
+R4
+R70
+R5
+Z195 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z196 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R6
+R7
+R1
+R8
+Z197 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
+Z198 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
+l0
+L19
+VejFhBXh5218L1P1S]D=Qz2
+R11
+31
+b1
+Z199 !s108 1607965272.561000
+Z200 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
+Z201 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
+R15
+R16
+!s100 52hH:h9HEGbLn9CbBf<O73
+!i10b 1
+Bbody
+Z202 DPx4 work 20 inicializa_mem_i_pkg 0 22 ejFhBXh5218L1P1S]D=Qz2
+R23
+R176
+R4
+R70
+R5
+R195
+R196
+R6
+R7
+l0
+L24
+VdHH[nYbJK6USV5QY2>DcO3
+R11
+31
+R199
+R200
+R201
+R15
+R16
+nbody
+!s100 z@6RJ=30YZoQR:Wmz5>m20
+!i10b 1
+Pinicializa_mem_pkg
+R4
+R23
+R24
+R70
+R5
+R195
+R196
+R6
+R7
+R1
+R8
+Z203 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
+Z204 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
+l0
+L18
+VDJJ9[d>ofU64XmefaIVlJ2
+R11
+31
+b1
+Z205 !s108 1607965272.689000
+Z206 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
+Z207 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
+R15
+R16
+!s100 2c9=322;OTn_3WJLzeT?L0
+!i10b 1
+Bbody
+Z208 DPx4 work 18 inicializa_mem_pkg 0 22 DJJ9[d>ofU64XmefaIVlJ2
+R4
+R23
+R24
+R70
+R5
+R195
+R196
+R6
+R7
+l0
+L23
+VcAOXF4B2S[XCTGfJKT2hL2
+R11
+31
+R205
+R206
+R207
+R15
+R16
+nbody
+!s100 f0MRF8z2TOWa@J9Y?@_MS0
+!i10b 1
+Eldd
+Z209 w1607952034
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+R8
+Z210 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd
+Z211 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd
+l0
+L14
+VYUn=Uk1I?R0mPQN[6fa:@2
+R11
+31
+Z212 !s108 1607965277.031000
+Z213 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd|
+Z214 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd|
+R15
+R16
+!s100 a=VCFcNCm?hLK:J2zYz270
+!i10b 1
+Aestructural
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+DEx4 work 3 ldd 0 22 YUn=Uk1I?R0mPQN[6fa:@2
+l45
+L24
+VHYXgK_aNg[2cbg[aB[MBX1
+R11
+31
+R212
+R213
+R214
+R15
+R16
+!s100 [C9n?mRY>QkR_0N^GM50F1
+!i10b 1
+Eldrd
+Z215 w1607951914
+R114
+R5
+R3
+R115
+R4
+R6
+R7
+R8
+Z216 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd
+Z217 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd
+l0
+L13
+V7N5Nc_8zQhD7e:oalmiLb2
+R11
+31
+Z218 !s108 1607965277.179000
+Z219 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd|
+Z220 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd|
+R15
+R16
+!s100 hKfeC550e<^<0K>0:m:AN2
+!i10b 1
+Acomportamiento
+R114
+R5
+R3
+R115
+R4
+R6
+R7
+DEx4 work 4 ldrd 0 22 7N5Nc_8zQhD7e:oalmiLb2
+l31
+L20
+VR[I1Fef81gf^jm?Rc_Vik2
+R11
+31
+R218
+R219
+R220
+R15
+R16
+!s100 :JFgei>;OhTm<nW8FIlBg0
+!i10b 1
+Eldrs
+Z221 w1607951804
+R114
+R4
+R115
+R5
+R3
+R6
+R7
+R8
+Z222 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd
+Z223 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd
+l0
+L13
+V>50L7]e^28]fnHCl<b:P:2
+R11
+31
+Z224 !s108 1607965277.717000
+Z225 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd|
+Z226 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd|
+R15
+R16
+!s100 zVODCZdKJU;?EVC`ZPV_`2
+!i10b 1
+Acomportamiento
+R114
+R4
+R115
+R5
+R3
+R6
+R7
+DEx4 work 4 ldrs 0 22 >50L7]e^28]fnHCl<b:P:2
+l28
+L19
+V=>U<^BcoT_OgWO:JAOa<a1
+R11
+31
+R224
+R225
+R226
+R15
+R16
+!s100 BDm_@HIQ^dRmERKXa`Pjh2
+!i10b 1
+Elgr
+Z227 w1607951595
+R114
+R4
+R115
+R5
+R3
+R6
+R7
+R8
+Z228 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd
+Z229 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd
+l0
+L13
+V_c7Z^<Z<VK4YcL58ZocmY2
+R11
+31
+Z230 !s108 1607965277.858000
+Z231 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd|
+Z232 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd|
+R15
+R16
+!s100 3EIz_HiAK4a3I=CbC>gRZ2
+!i10b 1
+Acomportamiento
+R114
+R4
+R115
+R5
+R3
+R6
+R7
+DEx4 work 3 lgr 0 22 _c7Z^<Z<VK4YcL58ZocmY2
+l28
+L19
+Vb_f^QUT4SZ3nH7;NWX;gP3
+R11
+31
+R230
+R231
+R232
+R15
+R16
+!s100 =]MTeP@mz0TS5kzOHmf1[2
+!i10b 1
+Elib
+R1
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+R8
+Z233 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/lib.vhd
+Z234 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/lib.vhd
+l0
+L15
+V^0X4gE_56W_OeVmRZlA[12
+R11
+31
+Z235 !s108 1607965276.318000
+Z236 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/lib.vhd|
+Z237 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/lib.vhd|
+R15
+R16
+!s100 ^1T3bOOW1;Gi2A9oYS@I53
+!i10b 1
+Aestructural
+R114
+R115
+R5
+R3
+R4
+R6
+R7
+DEx4 work 3 lib 0 22 ^0X4gE_56W_OeVmRZlA[12
+l29
+L21
+VL@6OV4akmn3jIWVW?1D<62
+R11
+31
+R235
+R236
+R237
+R15
+R16
+!s100 Z4HL>k^LF>]IUIC>GcPZT3
+!i10b 1
+Emux2
+R1
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z238 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
+Z239 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
+l0
+L14
+VI<cEV7RC;GeO5P]=9YgW[0
+R11
+31
+Z240 !s108 1607965270.580000
+Z241 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
+Z242 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
+R15
+R16
+!s100 X;R_We6X:UF5N=g0QnAd22
+!i10b 1
+Acomportamiento
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 4 mux2 0 22 I<cEV7RC;GeO5P]=9YgW[0
+l22
+L21
+VX40C^5Xg^GiC5^ZANa6KH2
+R11
+31
+R240
+R241
+R242
+R15
+R16
+!s100 i5OhNDEULgfiYiJNf6fbA3
+!i10b 1
+Emux2m
+R1
+R5
+R6
+R7
+R8
+Z243 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2m.vhd
+Z244 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2m.vhd
+l0
+L10
+VEcBB7B>[GU:K^BNC8LcD21
+R11
+31
+Z245 !s108 1607965265.952000
+Z246 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2m.vhd|
+Z247 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2m.vhd|
+R15
+R16
+!s100 3l0VG8PaN@DA4Lk[8RDU`0
+!i10b 1
+Acomportamiento
+R5
+R6
+R7
+DEx4 work 5 mux2m 0 22 EcBB7B>[GU:K^BNC8LcD21
+l18
+L17
+VKZ<8>4nJOX;lAb>z7;0a43
+R11
+31
+R245
+R246
+R247
+R15
+R16
+!s100 OXoLfiz<]kM95ALQIUB=70
+!i10b 1
+Emux3
+R1
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z248 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
+Z249 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
+l0
+L14
+VGOl<BE]3BDH7DW^N72VU30
+R11
+31
+Z250 !s108 1607965270.440000
+Z251 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
+Z252 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
+R15
+R16
+!s100 BH5M^I@Q>V;0G2>5FJ4CU2
+!i10b 1
+Acomportamiento
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 4 mux3 0 22 GOl<BE]3BDH7DW^N72VU30
+l22
+L21
+V`dI[7JTOA^[U1f[Ji9`Qo1
+R11
+31
+R250
+R251
+R252
+R15
+R16
+!s100 3DGLnVbblBC8WJIh8>fHT2
+!i10b 1
+Emuxdirec
+R1
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z253 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
+Z254 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
+l0
+L14
+Vfk]7k3cle?M?SnD<jncod3
+R11
+31
+Z255 !s108 1607965271.262000
+Z256 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
+Z257 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
+R15
+R16
+!s100 dSCf_ggQdMUQ:_1EleF:A3
+!i10b 1
+Acomportamiento
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 8 muxdirec 0 22 fk]7k3cle?M?SnD<jncod3
+l22
+L21
+VcPc@iVlFTYRH1Jz_jh6PU2
+R11
+31
+R255
+R256
+R257
+R15
+R16
+!s100 _lA:zfn@aFIF]Jh7h2jVQ0
+!i10b 1
+Emuxins
+R1
+R4
+R35
+R5
+R6
+R7
+R8
+Z258 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxins.vhd
+Z259 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxins.vhd
+l0
+L13
+VR[<CC57GXS^`AzfZLCV><1
+R11
+31
+Z260 !s108 1607965268.594000
+Z261 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxins.vhd|
+Z262 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxins.vhd|
+R15
+R16
+!s100 ;QNFS1:Ua6VB_EW9nJlZd0
+!i10b 1
+Acomportamiento
+R4
+R35
+R5
+R6
+R7
+DEx4 work 6 muxins 0 22 R[<CC57GXS^`AzfZLCV><1
+l20
+L19
+V6VY2;mBgNh`;645ho^D8E2
+R11
+31
+R260
+R261
+R262
+R15
+R16
+!s100 agl0HPWVHSP54:?_5m@a;2
+!i10b 1
+Eorv2
+Z263 w1544284798
+R6
+R7
+R8
+Z264 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+Z265 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+l0
+L10
+VV<VUQ0h@dgZKN0bQ:HcVK2
+R11
+31
+Z266 !s108 1607965266.904000
+Z267 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+Z268 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+R15
+R16
+!s100 z2M@Qoc;^7PAcednJcD?J2
+!i10b 1
+Acomportamiento
+R6
+R7
+DEx4 work 4 orv2 0 22 V<VUQ0h@dgZKN0bQ:HcVK2
+l17
+L15
+V[;HJaI0B3@P2Ho>aIbP3G2
+R11
+31
+R266
+R267
+R268
+R15
+R16
+!s100 >9?Iz2W6jhYIeIb71:36G0
+!i10b 1
+Pparam_disenyo_pkg
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+l0
+L9
+VdQO[:VbkRS]1;1_96^i:H0
+R11
+31
+R15
+R16
+!s100 3R_1M]JfV9Cjd@Th67g]o0
+!i10b 1
+!s108 1607965265.800000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+Eprueba_rproc_md_mi
+Z269 w1607965085
+R189
+R169
+R69
+R76
+R182
+R175
+R176
+R23
+R24
+R36
+R3
+R4
+R183
+R70
+R5
+R6
+R7
+R8
+Z270 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd
+Z271 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd
+l0
+L25
+VND0JZaHPK8z]MdoJzBTVK0
+!s100 9BVE1HR6JWOZCgJL]n9Zk3
+R11
+33
+!i10b 1
+Z272 !s108 1607965280.919000
+Z273 !s90 -reportprogress|300|-2008|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd|
+Z274 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd|
+R168
+R16
+Acomportamiento
+R189
+R169
+R69
+R76
+R182
+R175
+R176
+R23
+R24
+R36
+R3
+R4
+R183
+R70
+R5
+R6
+R7
+DEx4 work 18 prueba_rproc_md_mi 0 22 ND0JZaHPK8z]MdoJzBTVK0
+l115
+L34
+VJb37BXJRVR2OC8Hh6ANiF3
+!s100 G9KC@:j_XQKFET>k]U8970
+R11
+33
+!i10b 1
+R272
+R273
+R274
+R168
+R16
+Eracceso_md
+R1
+Z275 DPx4 work 10 regdes_pkg 0 22 ldi8l2Qb2EcjVfm2i<:1G1
+R23
+R24
+R22
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z276 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/racceso_md.vhd
+Z277 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/racceso_md.vhd
+l0
+L18
+VQMP_Xn[>[TLooaJTVaFCf1
+R11
+31
+Z278 !s108 1607965279.862000
+Z279 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/racceso_md.vhd|
+Z280 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/racceso_md.vhd|
+R15
+R16
+!s100 L16k47zg7hHJT5g]>1bA13
+!i10b 1
+Aestructural
+R275
+R23
+R24
+R22
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 racceso_md 0 22 QMP_Xn[>[TLooaJTVaFCf1
+l29
+L26
+VC>=3iUV7W9LNaoSZjOM2]1
+R11
+31
+R278
+R279
+R280
+R15
+R16
+!s100 lz6;QK`Jm<Q6ERk0?TaJc3
+!i10b 1
+Eralu
+R1
+R275
+Z281 DPx4 work 25 componentes_cam_datos_pkg 0 22 gIOHzVU^<5Q=Agj28fWBB2
+R4
+R3
+R5
+R6
+R7
+R8
+Z282 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/ralu.vhd
+Z283 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/ralu.vhd
+l0
+L16
+V@loeH`nH=Pgz2<E<`:BcO3
+R11
+31
+Z284 !s108 1607965274.182000
+Z285 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/ralu.vhd|
+Z286 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/ralu.vhd|
+R15
+R16
+!s100 7HTB3CgAN>9WE?<eTU9A63
+!i10b 1
+Acompor
+R275
+R281
+R4
+R3
+R5
+R6
+R7
+DEx4 work 4 ralu 0 22 @loeH`nH=Pgz2<E<`:BcO3
+l28
+L24
+V[]]VjAX0OF<K0F@f3e4R21
+R11
+31
+R284
+R285
+R286
+R15
+R16
+!s100 FRX>eL;Blc7OYF7UYNHdI3
+!i10b 1
+Erbr
+R1
+R275
+R3
+R281
+R4
+R5
+R6
+R7
+R8
+Z287 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/rbr.vhd
+Z288 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/rbr.vhd
+l0
+L15
+V7fl3?c[fgYmfBmW5O]QQJ0
+R11
+31
+Z289 !s108 1607965273.733000
+Z290 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/rbr.vhd|
+Z291 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/rbr.vhd|
+R15
+R16
+!s100 [S;MzBzT?baVCfY51b8]M0
+!i10b 1
+Acompor
+R275
+R3
+R281
+R4
+R5
+R6
+R7
+DEx4 work 3 rbr 0 22 7fl3?c[fgYmfBmW5O]QQJ0
+l32
+L26
+V?Ub59S9b;fL8diQ`JVh:[2
+R11
+31
+R289
+R290
+R291
+R15
+R16
+!s100 okDjAiQb9oYei2VkDTA4J1
+!i10b 1
+Ercam_mem_datos
+R1
+R275
+Z292 DPx4 work 19 rcomponentes_md_pkg 0 22 CdhA^[QZhZGOWbL[@4K2>0
+R35
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+R8
+Z293 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/rcam_mem_datos.vhd
+Z294 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/rcam_mem_datos.vhd
+l0
+L18
+VM_jn>994_XP>kRe1E]EEc1
+R11
+31
+Z295 !s108 1607965278.564000
+Z296 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/rcam_mem_datos.vhd|
+Z297 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/rcam_mem_datos.vhd|
+R15
+R16
+!s100 HZMB3m@LY_clQj99hb>]92
+!i10b 1
+Aestruc
+R275
+R292
+R35
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 rcam_mem_datos 0 22 M_jn>994_XP>kRe1E]EEc1
+l35
+L28
+VkcjC6jQAVG1]UbRTEnO603
+R11
+31
+R295
+R296
+R297
+R15
+R16
+!s100 GTjzmY48IU02kV<N[X2T^0
+!i10b 1
+Ercam_mem_inst
+R1
+Z298 DPx4 work 19 rcomponentes_mi_pkg 0 22 S6CS]8gU>N>moOnBJkV5K3
+R35
+R23
+R176
+R3
+R4
+R5
+R6
+R7
+R8
+Z299 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst.vhd
+Z300 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst.vhd
+l0
+L16
+VAnKZdNiT`0<lnJ:feL:1O0
+R11
+31
+Z301 !s108 1607965278.287000
+Z302 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst.vhd|
+Z303 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst.vhd|
+R15
+R16
+!s100 ]oXBAPbef6PI_H9Lhg3@22
+!i10b 1
+Aestruc
+R298
+R35
+R23
+R176
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 rcam_mem_inst 0 22 AnKZdNiT`0<lnJ:feL:1O0
+l25
+L23
+VMhKU=bnZ[0@im2A=DJ][k3
+R11
+31
+R301
+R302
+R303
+R15
+R16
+!s100 ??2C_TEj61S^;MganESbY3
+!i10b 1
+Ercam_mem_inst_iny_pcero
+R1
+R176
+R298
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+R8
+Z304 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst_iny_pcero.vhd
+Z305 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst_iny_pcero.vhd
+l0
+L17
+VGfd6cI8i@QEJ>doBnGKn43
+R11
+31
+Z306 !s108 1607965278.149000
+Z307 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst_iny_pcero.vhd|
+Z308 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/rcam_mem_inst_iny_pcero.vhd|
+R15
+R16
+!s100 of6IXS>1`VjoImdghMOB21
+!i10b 1
+Aestructural
+R176
+R298
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+DEx4 work 23 rcam_mem_inst_iny_pcero 0 22 Gfd6cI8i@QEJ>doBnGKn43
+l31
+L24
+V`RczQCIZ5AWd;1B59HYlB1
+R11
+31
+R306
+R307
+R308
+R15
+R16
+!s100 cheGTAzAJie0cm2XlKV?83
+!i10b 1
+Ercamino_datos
+R1
+Z309 DPx4 work 26 rcomponentes_cam_datos_pkg 0 22 e9[Y]?>fRomVGc;:I9:RA0
+R281
+R36
+R3
+R37
+R4
+R35
+R5
+R6
+R7
+R8
+Z310 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/rcamino_datos.vhd
+Z311 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/rcamino_datos.vhd
+l0
+L19
+VSKcGi88R0zn@@nmKj<bJX1
+R11
+31
+Z312 !s108 1607965273.461000
+Z313 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/rcamino_datos.vhd|
+Z314 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/rcamino_datos.vhd|
+R15
+R16
+!s100 9D4;h<VB9CZoZT`@4z[iP1
+!i10b 1
+Aestructural
+R309
+R281
+R36
+R3
+R37
+R4
+R35
+R5
+R6
+R7
+DEx4 work 13 rcamino_datos 0 22 SKcGi88R0zn@@nmKj<bJX1
+l51
+L38
+Vz1ACgUm1b;l;U_63FE@m00
+R11
+31
+R312
+R313
+R314
+R15
+R16
+!s100 ?LR<zaF13i>MVM7BmJ0;80
+!i10b 1
+Ercamino_secuen
+R1
+R275
+Z315 DPx4 work 32 rcomponentes_secuenciamiento_pkg 0 22 =M?9Mh;DU=F=JNN9hgBY;1
+Z316 DPx4 work 31 componentes_secuenciamiento_pkg 0 22 RW`AlG@RNn:D@]g1zZVfc3
+R3
+R4
+R5
+R6
+R7
+R8
+Z317 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/rcamino_secuen.vhd
+Z318 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/rcamino_secuen.vhd
+l0
+L17
+VQM6J`z@Y<A6iYNj]3dEjU1
+R11
+31
+Z319 !s108 1607965274.877000
+Z320 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/rcamino_secuen.vhd|
+Z321 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/rcamino_secuen.vhd|
+R15
+R16
+!s100 W?MB8VHDOkSced?c3H]XL2
+!i10b 1
+Aestructural
+R275
+R315
+R316
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 rcamino_secuen 0 22 QM6J`z@Y<A6iYNj]3dEjU1
+l42
+L33
+V:?H[V86GL]XPLHgD:Z>VC3
+R11
+31
+R319
+R320
+R321
+R15
+R16
+!s100 ?b>FzMkhef@GXjSS2JQLV0
+!i10b 1
+Prcomponentes_cam_datos_pkg
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd
+l0
+L12
+Ve9[Y]?>fRomVGc;:I9:RA0
+R11
+31
+R15
+R16
+!s100 AU<^Yn:o_]Jz]e5]eG0840
+!i10b 1
+!s108 1607965267.624000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd|
+Prcomponentes_decodificador_pkg
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd
+l0
+L12
+V27MhOQzX1HP7BGLUXZOUH3
+R11
+31
+R15
+R16
+!s100 7_zzg8m]n2zX;k2lYL?7Y3
+!i10b 1
+!s108 1607965267.836000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd|
+Prcomponentes_md_pkg
+R24
+R3
+R4
+R23
+R5
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd
+l0
+L15
+VCdhA^[QZhZGOWbL[@4K2>0
+R11
+31
+R15
+R16
+!s100 DW?fBlY55?o4;Yh;h__j=2
+!i10b 1
+!s108 1607965272.200000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd|
+Prcomponentes_mi_pkg
+R176
+R3
+R4
+R23
+R5
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd
+l0
+L15
+VS6CS]8gU>N>moOnBJkV5K3
+R11
+31
+R15
+R16
+!s100 IFofEb?:[GjQ^j?Sl57?81
+!i10b 1
+!s108 1607965272.323000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd|
+Prcomponentes_proc_md_mi_pkg
+R176
+R23
+R24
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd
+l0
+L14
+VoFz83R`5E394`>VQR0lW^1
+R11
+31
+R15
+R16
+!s100 OUPD9Ogc`oZGJDoV]V>Mj0
+!i10b 1
+!s108 1607965272.442000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd|
+Prcomponentes_secuenciamiento_pkg
+R5
+R3
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd
+l0
+L12
+V=M?9Mh;DU=F=JNN9hgBY;1
+R11
+31
+R15
+R16
+!s100 3l3bDKV5gi@PFTCakf>bX1
+!i10b 1
+!s108 1607965267.397000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd|
+Erd_1
+R1
+Z322 DPx4 work 19 retardos_regdes_pkg 0 22 o9KB=IOC;BXch]EnERG9i3
+R4
+R6
+R7
+R8
+Z323 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd
+Z324 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd
+l0
+L12
+Vg<;@=ek4EWfXLOW_AD<KE2
+R11
+31
+Z325 !s108 1607965270.064000
+Z326 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd|
+Z327 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd|
+R15
+R16
+!s100 F1k05m=gJh0PjWcf1B<]00
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 4 rd_1 0 22 g<;@=ek4EWfXLOW_AD<KE2
+l19
+L18
+VKHCY4L5bU]cT8l3D9N94P1
+R11
+31
+R325
+R326
+R327
+R15
+R16
+!s100 B[`A7h^B<98UGD^0lRaQA3
+!i10b 1
+Erd_d
+R1
+R322
+R4
+R6
+R7
+R8
+Z328 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_d.vhd
+Z329 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_d.vhd
+l0
+L12
+VHOaZQ]9@giI`5a]QngF6[3
+R11
+31
+Z330 !s108 1607965270.719000
+Z331 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_d.vhd|
+Z332 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_d.vhd|
+R15
+R16
+!s100 [@S;NjRINUS7LLGd>[V:>3
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 4 rd_d 0 22 HOaZQ]9@giI`5a]QngF6[3
+l19
+L18
+VaaPlTJ]<mzgoKkoV[z9AB3
+R11
+31
+R330
+R331
+R332
+R15
+R16
+!s100 BOakZz5jVOC@NFml5`iH:3
+!i10b 1
+Erd_n
+R1
+R322
+R4
+R6
+R7
+R8
+Z333 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd
+Z334 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd
+l0
+L12
+VO7RJf^8zM?D7hc;7?0h7i3
+R11
+31
+Z335 !s108 1607965269.743000
+Z336 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd|
+Z337 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd|
+R15
+R16
+!s100 2DoMWl`YikSEQbQmiZo`T2
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 4 rd_n 0 22 O7RJf^8zM?D7hc;7?0h7i3
+l20
+L19
+V=:J6mSnOMbEljRiHOJ@z@2
+R11
+31
+R335
+R336
+R337
+R15
+R16
+!s100 NbHbEZdGMK`RR<:6j:1<T1
+!i10b 1
+Erdb_dl_n
+R1
+R322
+R4
+R6
+R7
+R8
+Z338 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_dl_n.vhd
+Z339 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_dl_n.vhd
+l0
+L12
+VzDH39NQP@8L@VT5QLK2Mz3
+R11
+31
+Z340 !s108 1607965268.730000
+Z341 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_dl_n.vhd|
+Z342 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_dl_n.vhd|
+R15
+R16
+!s100 XX[^E_j>Oz^dg<oN6@_6A2
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 8 rdb_dl_n 0 22 zDH39NQP@8L@VT5QLK2Mz3
+l20
+L19
+VlB_C;ce4OHD=F0mSigd_z2
+R11
+31
+R340
+R341
+R342
+R15
+R16
+!s100 ;00F^oY[hg@FAL@LcfnBz1
+!i10b 1
+Erdb_n
+R1
+R322
+R4
+R6
+R7
+R8
+Z343 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd
+Z344 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd
+l0
+L12
+VFbPDdf?NQ6K]oeXRm6]PC2
+R11
+31
+Z345 !s108 1607965269.471000
+Z346 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd|
+Z347 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd|
+R15
+R16
+!s100 j:PT3gGL24IkU1AHe<QE;0
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 5 rdb_n 0 22 FbPDdf?NQ6K]oeXRm6]PC2
+l20
+L19
+Vmifg8Dm`]dZTc^?17hlSX1
+R11
+31
+R345
+R346
+R347
+R15
+R16
+!s100 =CKYV_M]Z[_3H4`MlJ]JV2
+!i10b 1
+Erdeco_cam_dat_secu
+R1
+R315
+Z348 DPx4 work 30 rcomponentes_decodificador_pkg 0 22 27MhOQzX1HP7BGLUXZOUH3
+R309
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+R8
+Z349 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/rdeco_cam_dat_secu.vhd
+Z350 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/rdeco_cam_dat_secu.vhd
+l0
+L19
+VY@oD]0Yf8KoS0DR@]ZbSN1
+R11
+31
+Z351 !s108 1607965272.866000
+Z352 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/rdeco_cam_dat_secu.vhd|
+Z353 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/rdeco_cam_dat_secu.vhd|
+R15
+R16
+!s100 LYCU7GIVk8AYdKe_6^?U30
+!i10b 1
+Aestructural
+R315
+R348
+R309
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+DEx4 work 18 rdeco_cam_dat_secu 0 22 Y@oD]0Yf8KoS0DR@]ZbSN1
+l52
+L33
+Vd?KeYl=3JO`J??KU2Jz?12
+R11
+31
+R351
+R352
+R353
+R15
+R16
+!s100 ?ejC01ZK@k6OU2hz=E]hY1
+!i10b 1
+Erdecodificador
+R1
+R275
+R82
+R4
+R3
+R5
+R6
+R7
+R8
+Z354 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/rdecodificador.vhd
+Z355 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/rdecodificador.vhd
+l0
+L17
+VgV72j7nbe^kT`ZaJ2b<2g2
+R11
+31
+Z356 !s108 1607965273.004000
+Z357 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/rdecodificador.vhd|
+Z358 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/rdecodificador.vhd|
+R15
+R16
+!s100 OS9J7AKOa8DhiJ62UYJ[:2
+!i10b 1
+Aestructural
+R275
+R82
+R4
+R3
+R5
+R6
+R7
+DEx4 work 14 rdecodificador 0 22 gV72j7nbe^kT`ZaJ2b<2g2
+l36
+L33
+V?<EIUM4L8R63^gQBBdKb;3
+R11
+31
+R356
+R357
+R358
+R15
+R16
+!s100 zXEmFHJ]BVK@Wo2FlA4Q61
+!i10b 1
+Erdecopbropsec
+R1
+R275
+R115
+R4
+R3
+R5
+R6
+R7
+R8
+Z359 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd
+Z360 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd
+l0
+L17
+Vzm>CQ1UL@0IJ5@BkYinCS0
+R11
+31
+Z361 !s108 1607965276.462000
+Z362 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd|
+Z363 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd|
+R15
+R16
+!s100 DMl;B;FhfJT`zZ=H[=f8W3
+!i10b 1
+Aestructural
+R275
+R115
+R4
+R3
+R5
+R6
+R7
+DEx4 work 13 rdecopbropsec 0 22 zm>CQ1UL@0IJ5@BkYinCS0
+l27
+L25
+Vcd>e<O8n0<IW^h0Kdm2=G3
+R11
+31
+R361
+R362
+R363
+R15
+R16
+!s100 DZdfbBj`@3H_e@h11a7zD0
+!i10b 1
+Erdecs
+R1
+R275
+R4
+R316
+R3
+R37
+R36
+R5
+R6
+R7
+R8
+Z364 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/rdecs.vhd
+Z365 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/rdecs.vhd
+l0
+L17
+V6I>eU]:ZRncPJiV]bh^zm2
+R11
+31
+Z366 !s108 1607965274.596000
+Z367 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/rdecs.vhd|
+Z368 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/rdecs.vhd|
+R15
+R16
+!s100 =J]>SE7oL2`IIOOmDNmRB3
+!i10b 1
+Aestructural
+R275
+R4
+R316
+R3
+R37
+R36
+R5
+R6
+R7
+DEx4 work 5 rdecs 0 22 6I>eU]:ZRncPJiV]bh^zm2
+l27
+L24
+VTS4GLh]zz:;M2GYf0KV=O1
+R11
+31
+R366
+R367
+R368
+R15
+R16
+!s100 f?^WPa]I?V3F47Cfo6>of3
+!i10b 1
+Erdi_1
+R1
+R322
+R4
+R6
+R7
+R8
+Z369 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd
+Z370 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd
+l0
+L12
+VHcEnj2FWc>7AMO1mb?F271
+R11
+31
+Z371 !s108 1607965269.890000
+Z372 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd|
+Z373 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd|
+R15
+R16
+!s100 kM?Y8=UZ9?FUC^PDP7L4]0
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 5 rdi_1 0 22 HcEnj2FWc>7AMO1mb?F271
+l19
+L18
+VGd[FHA6ojiHnH[dg::Lb81
+R11
+31
+R371
+R372
+R373
+R15
+R16
+!s100 U9>=R@<S9W;keSc?K[XT?1
+!i10b 1
+Erdi_n
+R1
+R322
+R4
+R6
+R7
+R8
+Z374 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd
+Z375 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd
+l0
+L12
+V`cB@aVZZBQf^`SFEEKBeA1
+R11
+31
+Z376 !s108 1607965270.325000
+Z377 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd|
+Z378 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd|
+R15
+R16
+!s100 g6JGlH^b@I0a>I;689lO:0
+!i10b 1
+Acomportamiento
+R322
+R4
+R6
+R7
+DEx4 work 5 rdi_n 0 22 `cB@aVZZBQf^`SFEEKBeA1
+l20
+L19
+V<1N?[`dQN>aZQCDW3Sl^k0
+R11
+31
+R376
+R377
+R378
+R15
+R16
+!s100 dcWOh0VEXAVQ5a<UmEMDN2
+!i10b 1
+Pregdes_pkg
+R4
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+l0
+L11
+Vldi8l2Qb2EcjVfm2i<:1G1
+R11
+31
+R15
+R16
+!s100 NKoelAo_ImT5cD:DjNAU43
+!i10b 1
+!s108 1607965268.313000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+Pretardos_cntl_seg_pkg
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+l0
+L9
+VkbaJG1dD7;BKICTb9]CN<2
+R11
+31
+R15
+R16
+!s100 3<F92iFb;gIB7Q95Nn0]]3
+!i10b 1
+!s108 1607965265.095000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+Pretardos_even_pkg
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd
+l0
+L9
+V>0fRA@5_4S=N]ANjc@@fN3
+R11
+31
+R15
+R16
+!s100 :iZ`bA[Ra_6XTj:QNK>Kb3
+!i10b 1
+!s108 1607965265.434000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
+Pretardos_pkg
+R6
+R7
+w1547656540
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+l0
+L9
+VfETc?bEQY_h3MOmQ85?^_0
+R11
+31
+R15
+R16
+!s100 RT:1ejKh58bXFMoB?Ch;z1
+!i10b 1
+!s108 1607965265.335000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+Pretardos_regdes_pkg
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+l0
+L9
+Vo9KB=IOC;BXch]EnERG9i3
+R11
+31
+R15
+R16
+!s100 4fC79Ahc9XT8IiegUZW3Q1
+!i10b 1
+!s108 1607965265.544000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+Ereval
+R1
+R275
+R316
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+R8
+Z379 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/reval.vhd
+Z380 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/reval.vhd
+l0
+L16
+Vjj?a;Z3dB_N8`XTR1GC[=3
+R11
+31
+Z381 !s108 1607965275.444000
+Z382 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/reval.vhd|
+Z383 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/reval.vhd|
+R15
+R16
+!s100 G97^h1kl1ZA>YXWI_C5`a3
+!i10b 1
+Aestructural
+R275
+R316
+R36
+R3
+R37
+R4
+R5
+R6
+R7
+DEx4 work 5 reval 0 22 jj?a;Z3dB_N8`XTR1GC[=3
+l25
+L22
+VeGWmW=Dh3PGa=06<FT=Dk0
+R11
+31
+R381
+R382
+R383
+R15
+R16
+!s100 NN?7iMZ_:JZ7@ReIeN=[d2
+!i10b 1
+Erfmtd
+R1
+R275
+R281
+R5
+R3
+R4
+R6
+R7
+R8
+Z384 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/rfmtd.vhd
+Z385 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/rfmtd.vhd
+l0
+L15
+V[zZYCoe7KLe1>[[H>LCVY1
+R11
+31
+Z386 !s108 1607965273.599000
+Z387 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/rfmtd.vhd|
+Z388 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/rfmtd.vhd|
+R15
+R16
+!s100 6@gW5jANz:0ldMCcT<f_l0
+!i10b 1
+Aestructural
+R275
+R281
+R5
+R3
+R4
+R6
+R7
+DEx4 work 5 rfmtd 0 22 [zZYCoe7KLe1>[[H>LCVY1
+l25
+L22
+VaSk[bE1E9e[>N3gcmS60l1
+R11
+31
+R386
+R387
+R388
+R15
+R16
+!s100 ZI4@zcjUkn<W0MAJbXIAU0
+!i10b 1
+Erfmte
+R1
+R275
+R22
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+R8
+Z389 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/rfmte.vhd
+Z390 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/rfmte.vhd
+l0
+L17
+VB@`daC]]1zD^9@N1bemB03
+R11
+31
+Z391 !s108 1607965278.706000
+Z392 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/rfmte.vhd|
+Z393 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/rfmte.vhd|
+R15
+R16
+!s100 k<O3g604e::<ee9_L1VWM2
+!i10b 1
+Aestructural
+R275
+R22
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+DEx4 work 5 rfmte 0 22 B@`daC]]1zD^9@N1bemB03
+l31
+L26
+VB=]XA4T6;fz86CUgo_5KJ0
+R11
+31
+R391
+R392
+R393
+R15
+R16
+!s100 SgAa6=L;fo39[VOM1m7NW0
+!i10b 1
+Erfmtl
+R1
+R275
+R22
+R24
+R3
+R4
+R23
+R5
+R6
+R7
+R8
+Z394 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/rfmtl.vhd
+Z395 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/rfmtl.vhd
+l0
+L14
+V]KEQY5bg=XiX[Em2`nBRW1
+R11
+31
+Z396 !s108 1607965279.291000
+Z397 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/rfmtl.vhd|
+Z398 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/rfmtl.vhd|
+R15
+R16
+!s100 Z1Nd?JZ94ML::P>;F5^nZ2
+!i10b 1
+Aestructural
+R275
+R22
+R24
+R3
+R4
+R23
+R5
+R6
+R7
+DEx4 work 5 rfmtl 0 22 ]KEQY5bg=XiX[Em2`nBRW1
+l28
+L22
+ViYNQzjcIICM`_YW]>FKb:1
+R11
+31
+R396
+R397
+R398
+R15
+R16
+!s100 VV^]lLY_eP^n:e6FM@[;C2
+!i10b 1
+Erfmts
+R1
+R275
+R316
+R5
+R3
+R4
+R6
+R7
+R8
+Z399 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/rfmts.vhd
+Z400 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/rfmts.vhd
+l0
+L15
+V;jej=zc46]<@0:J2HG3G:0
+R11
+31
+Z401 !s108 1607965275.012000
+Z402 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/rfmts.vhd|
+Z403 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/rfmts.vhd|
+R15
+R16
+!s100 WWT04VSPgmIl:94g^dGCU2
+!i10b 1
+Aestructural
+R275
+R316
+R5
+R3
+R4
+R6
+R7
+DEx4 work 5 rfmts 0 22 ;jej=zc46]<@0:J2HG3G:0
+l25
+L22
+VLFOMjT3@iT`NZR7mhPYkb3
+R11
+31
+R401
+R402
+R403
+R15
+R16
+!s100 NO]i^]n1OW^>nb@ZU_WJz3
+!i10b 1
+Priscv32_coop_funct_pkg
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+l0
+L9
+V;5Xo@eC]DBCLkHZ^SI_gG3
+R11
+31
+R15
+R16
+!s100 jD0FZXWb2O>Y@61fTR4?R1
+!i10b 1
+!s108 1607965265.217000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+Ermd
+R1
+R70
+R195
+R196
+R208
+R35
+R4
+R23
+R24
+R5
+R6
+R7
+R8
+Z404 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/rmd.vhd
+Z405 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/rmd.vhd
+l0
+L19
+V307aDAQdzAOMzkIP8`o<51
+R11
+31
+Z406 !s108 1607965279.136000
+Z407 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/rmd.vhd|
+Z408 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/rmd.vhd|
+R15
+R16
+!s100 mbD]6]Ck<lX=5]=jMU3c83
+!i10b 1
+Artl
+R70
+R195
+R196
+R208
+R35
+R4
+R23
+R24
+R5
+R6
+R7
+DEx4 work 3 rmd 0 22 307aDAQdzAOMzkIP8`o<51
+l36
+L27
+V_3jbT2579bF?=OS?6DH>]3
+R11
+31
+R406
+R407
+R408
+R15
+R16
+!s100 QRAS6Qob=CoM=e8@[Q;Dk3
+!i10b 1
+Ermes
+R1
+R281
+R275
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z409 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rmes.vhd
+Z410 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rmes.vhd
+l0
+L16
+V^?j[Ad[zzc=Y^USdgLlLb2
+R11
+31
+Z411 !s108 1607965274.446000
+Z412 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rmes.vhd|
+Z413 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rmes.vhd|
+R15
+R16
+!s100 dBl`F:NXGL5^Q@8Ae`aU81
+!i10b 1
+Aestructural
+R281
+R275
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 4 rmes 0 22 ^?j[Ad[zzc=Y^USdgLlLb2
+l30
+L25
+Vf?kjF=`J0K79T5XRa:PA10
+R11
+31
+R411
+R412
+R413
+R15
+R16
+!s100 9PQnmR]F[=9IUcXkJT4B_0
+!i10b 1
+Ermi
+R1
+R70
+R195
+R196
+R202
+R35
+R23
+R176
+R4
+R5
+R6
+R7
+R8
+Z414 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/rmi.vhd
+Z415 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/rmi.vhd
+l0
+L19
+VnOzC9kE2K3PBK<@IaBZJE1
+R11
+31
+Z416 !s108 1607965278.427000
+Z417 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/rmi.vhd|
+Z418 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/rmi.vhd|
+R15
+R16
+!s100 kGzTzK]VTE4SXUM>WX5az0
+!i10b 1
+Artl
+R70
+R195
+R196
+R202
+R35
+R23
+R176
+R4
+R5
+R6
+R7
+DEx4 work 3 rmi 0 22 nOzC9kE2K3PBK<@IaBZJE1
+l34
+L26
+V`l^h92Q6J8CSIOF8W<b[Q2
+R11
+31
+R416
+R417
+R418
+R15
+R16
+!s100 gHGkfJMAFXDE]zbzCjddo1
+!i10b 1
+Erml1
+R1
+R275
+R281
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z419 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml1.vhd
+Z420 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml1.vhd
+l0
+L17
+VF0O@SbiWb1d;^Da4c_OQD0
+R11
+31
+Z421 !s108 1607965273.858000
+Z422 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml1.vhd|
+Z423 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml1.vhd|
+R15
+R16
+!s100 5WlO3OW_EkfC^EIC[Y^mD3
+!i10b 1
+Aestructural
+R275
+R281
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 4 rml1 0 22 F0O@SbiWb1d;^Da4c_OQD0
+l30
+L25
+VLJ2iIcJA@bCzDmWPbJHkQ1
+R11
+31
+R421
+R422
+R423
+R15
+R16
+!s100 LgRJ=4dQ9Q?DK>hf[kkM[1
+!i10b 1
+Erml2
+R1
+R275
+R281
+R3
+R4
+R35
+R5
+R6
+R7
+R8
+Z424 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml2.vhd
+Z425 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml2.vhd
+l0
+L12
+V6z3bW]iR0DEdd8eKGd5iU1
+R11
+31
+Z426 !s108 1607965274.045000
+Z427 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml2.vhd|
+Z428 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/rml2.vhd|
+R15
+R16
+!s100 S<?Y8W<hCF31`T^5Q8^AC1
+!i10b 1
+Aestructural
+R275
+R281
+R3
+R4
+R35
+R5
+R6
+R7
+DEx4 work 4 rml2 0 22 6z3bW]iR0DEdd8eKGd5iU1
+l25
+L20
+VmNzS4Gm9bZS`:1_ok2XCf2
+R11
+31
+R426
+R427
+R428
+R15
+R16
+!s100 H24O<8nA6IdKQEVHaVUV92
+!i10b 1
+Ermuxdirec
+R1
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+R8
+Z429 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxdirec.vhd
+Z430 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxdirec.vhd
+l0
+L16
+VEOHAH5DFjMGT4R@KBiniK2
+R11
+31
+Z431 !s108 1607965275.154000
+Z432 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxdirec.vhd|
+Z433 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxdirec.vhd|
+R15
+R16
+!s100 jiHDdQ17WWdNN8dV<k>8e3
+!i10b 1
+Aestructural
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 rmuxdirec 0 22 EOHAH5DFjMGT4R@KBiniK2
+l29
+L24
+Vfn8oW:T8g96;^Pd^WX_F@3
+R11
+31
+R431
+R432
+R433
+R15
+R16
+!s100 9_gL>VWAM?dQBiAL6mh2`3
+!i10b 1
+Ermuxmsic
+R1
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+R8
+Z434 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxmsic.vhd
+Z435 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxmsic.vhd
+l0
+L16
+Ve@61hc5EHBF7bl45VG?Cj2
+R11
+31
+Z436 !s108 1607965275.730000
+Z437 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxmsic.vhd|
+Z438 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmuxmsic.vhd|
+R15
+R16
+!s100 4?aoJ916SbJ;nCKiEA^Z41
+!i10b 1
+Aestructural
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 rmuxmsic 0 22 e@61hc5EHBF7bl45VG?Cj2
+l27
+L24
+VWlWST>MIDPLl[iGZ3eK@d2
+R11
+31
+R436
+R437
+R438
+R15
+R16
+!s100 ICd[KY?^RzMac8Aj>@4SC1
+!i10b 1
+Ermxsecseg
+R1
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+R8
+Z439 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmxsecseg.vhd
+Z440 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmxsecseg.vhd
+l0
+L16
+Vcg7e<DzRBhdAA?Snb[1]70
+R11
+31
+Z441 !s108 1607965275.870000
+Z442 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmxsecseg.vhd|
+Z443 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/rmxsecseg.vhd|
+R15
+R16
+!s100 8_mkH3V:cXYbI[7C@f_d_0
+!i10b 1
+Aestructural
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 rmxsecseg 0 22 cg7e<DzRBhdAA?Snb[1]70
+l27
+L24
+VbVcgL]6Z5P@c_`mob>:`f1
+R11
+31
+R441
+R442
+R443
+R15
+R16
+!s100 6ARQod[ohg98=57?U_>M_2
+!i10b 1
+Erproc_md_mi
+R1
+R115
+R176
+Z444 DPx4 work 27 rcomponentes_proc_md_mi_pkg 0 22 oFz83R`5E394`>VQR0lW^1
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+R8
+Z445 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd
+Z446 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd
+l0
+L17
+VGC[cfK4eo4:XlbzRLKji<0
+R11
+31
+Z447 !s108 1607965278.005000
+Z448 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd|
+Z449 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd|
+R15
+R16
+!s100 8`P8O:jK07kzRlHT;Kk6^1
+!i10b 1
+Aestructural
+R115
+R176
+R444
+R23
+R24
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 rproc_md_mi 0 22 GC[cfK4eo4:XlbzRLKji<0
+l35
+L22
+VZXM>DMjHHd6SAW<<JHW]10
+R11
+31
+R447
+R448
+R449
+R15
+R16
+!s100 EJ?lfPOkiHJ51<8VI]S3I2
+!i10b 1
+Erregcp
+R1
+R35
+R4
+R5
+R6
+R7
+R8
+Z450 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/rregcp.vhd
+Z451 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/rregcp.vhd
+l0
+L13
+VF1U<>^E3kGR5eSo^93DT<3
+R11
+31
+Z452 !s108 1607965268.455000
+Z453 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/rregcp.vhd|
+Z454 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/rregcp.vhd|
+R15
+R16
+!s100 Va_>[lKO^CCDml8BeUb3n3
+!i10b 1
+Acomportamiento
+R35
+R4
+R5
+R6
+R7
+DEx4 work 6 rregcp 0 22 F1U<>^E3kGR5eSo^93DT<3
+l20
+L19
+VD2<SZ?@f^5OlYWAH_@P3L1
+R11
+31
+R452
+R453
+R454
+R15
+R16
+!s100 21=PfzMO1Sf4IZ3^Y?D8g3
+!i10b 1
+Ersum_secu
+R1
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+R8
+Z455 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/rsum_secu.vhd
+Z456 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/rsum_secu.vhd
+l0
+L16
+VgNO??aXTQ1VoGZESh1f^e1
+R11
+31
+Z457 !s108 1607965275.295000
+Z458 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/rsum_secu.vhd|
+Z459 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/rsum_secu.vhd|
+R15
+R16
+!s100 Hh;oabXMVIeBQ<^k91Q5>2
+!i10b 1
+Aestructural
+R275
+R316
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 rsum_secu 0 22 gNO??aXTQ1VoGZESh1f^e1
+l27
+L23
+V8X6[9;I`PfL?3icgUKK0?1
+R11
+31
+R457
+R458
+R459
+R15
+R16
+!s100 R>Y[KdK5]GZk1^UIV7=LA2
+!i10b 1
+Esel_byte
+Z460 w1539958369
+R4
+R23
+R24
+R3
+R5
+R6
+R7
+R8
+Z461 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
+Z462 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
+l0
+L13
+VjF>kiZhVZFDSNj^99^E`Q2
+R11
+31
+Z463 !s108 1607965276.007000
+Z464 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
+Z465 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
+R15
+R16
+!s100 1UbE`KFHO7bgUbm9Q=ZWS0
+!i10b 1
+Aestructura
+R4
+R23
+R24
+R3
+R5
+R6
+R7
+DEx4 work 8 sel_byte 0 22 jF>kiZhVZFDSNj^99^E`Q2
+l24
+L19
+VWcezjAD^nBX_iL4BPOSXk3
+R11
+31
+R463
+R464
+R465
+R15
+R16
+!s100 zAeYGEX=[QEDNBE6WFUef1
+!i10b 1
+Esenya_cntlrd
+R1
+R275
+R114
+R5
+R3
+R4
+R6
+R7
+R8
+Z466 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd
+Z467 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd
+l0
+L15
+V6VOQHY7k_Ag:=iNaM3Xo;0
+R11
+31
+Z468 !s108 1607965276.885000
+Z469 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd|
+Z470 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd|
+R15
+R16
+!s100 OzPiOizBn7ZWS168b1Y3J0
+!i10b 1
+Aestructural
+R275
+R114
+R5
+R3
+R4
+R6
+R7
+DEx4 work 12 senya_cntlrd 0 22 6VOQHY7k_Ag:=iNaM3Xo;0
+l28
+L24
+VPEWk;zYfFj6EAg>QL]ZzL0
+R11
+31
+R468
+R469
+R470
+R15
+R16
+!s100 X5fSKgQbml1E;KlCnbOz;2
+!i10b 1
+Esenya_cntlrs
+R1
+R275
+R114
+R5
+R3
+R4
+R6
+R7
+R8
+Z471 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd
+Z472 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd
+l0
+L14
+Vf8zL^]a5`a>hnU1ikJMKJ2
+R11
+31
+Z473 !s108 1607965277.572000
+Z474 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd|
+Z475 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd|
+R15
+R16
+!s100 <57i`Ta9__59JRH42a]]50
+!i10b 1
+Aestructural
+R275
+R114
+R5
+R3
+R4
+R6
+R7
+DEx4 work 12 senya_cntlrs 0 22 f8zL^]a5`a>hnU1ikJMKJ2
+l22
+L21
+VbGNhR?DMG7kP@a__dbVi:3
+R11
+31
+R473
+R474
+R475
+R15
+R16
+!s100 _Lh4inkZofOT]:V40]ncL3
+!i10b 1
+Esum_secu
+R1
+R35
+R3
+R4
+R5
+R6
+R7
+R8
+Z476 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd
+Z477 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd
+l0
+L14
+VieSNiL_TmPN6bgSm_R8NM2
+R11
+31
+Z478 !s108 1607965271.400000
+Z479 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd|
+Z480 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd|
+R15
+R16
+!s100 @jI:]^amL>A8B8L_he<=L1
+!i10b 1
+Acomportamiento
+R35
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 sum_secu 0 22 ieSNiL_TmPN6bgSm_R8NM2
+l22
+L20
+V0h8@?ngYE==0aOS?z<YJ<2
+R11
+31
+R478
+R479
+R480
+R15
+R16
+!s100 U4=BXJbRbP7Y17MBaXLA;0
+!i10b 1
+Esumador
+R1
+R35
+R4
+R5
+R6
+R7
+R8
+Z481 8C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
+Z482 FC:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
+l0
+L13
+V3Ce@BEW86VAd1U9n^;3Jb1
+R11
+31
+Z483 !s108 1607965270.988000
+Z484 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
+Z485 !s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
+R15
+R16
+!s100 c3bmS2U2M@3Q3Kemjm?[Y3
+!i10b 1
+Acomportamiento
+R35
+R4
+R5
+R6
+R7
+DEx4 work 7 sumador 0 22 3Ce@BEW86VAd1U9n^;3Jb1
+l19
+L18
+VY;>1^HBfGI5m0^>L`EgFZ3
+R11
+31
+R483
+R484
+R485
+R15
+R16
+!s100 CRRfO7_U@2zUeW581LV7W0
+!i10b 1
+Ptipos_constan_memoria_i_pkg
+R4
+R23
+R6
+R7
+w1539958558
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd
+l0
+L12
+VZG`Wgh8_ZW<_:i1_RMdJ^0
+R11
+31
+R15
+R16
+!s100 gSNAQWOc;5[7US`Wi7D_31
+!i10b 1
+!s108 1607965267.147000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd|
+Ptipos_constan_memoria_pkg
+R4
+R23
+R5
+R6
+R7
+R1
+R8
+8C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
+FC:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
+l0
+L13
+Vg7hGX<m?PiFf9Z0C2zMPJ1
+R11
+31
+R15
+R16
+!s100 5hkKL2bg8BOSMNMZ0UKAL0
+!i10b 1
+!s108 1607965267.952000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd|
+!s107 C:/Users/catot/Desktop/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd|
+Evalreg
+R1
+R4
+R36
+R3
+R5
+R6
+R7
+R8
+Z486 8C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+Z487 FC:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+l0
+L14
+VJ>M@@IlM^T;1W7jQDP4FJ3
+R11
+31
+Z488 !s108 1607965271.814000
+Z489 !s90 -reportprogress|300|-93|-work|work|C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+Z490 !s107 C:/Users/catot/Desktop/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+R15
+R16
+!s100 50NzEOB^jJ3mLA^aljLE?1
+!i10b 1
+Acompor
+R4
+R36
+R3
+R5
+R6
+R7
+DEx4 work 6 valreg 0 22 J>M@@IlM^T;1W7jQDP4FJ3
+l21
+L19
+V13<S^kOc68dInGb^aQoBi1
+R11
+31
+R488
+R489
+R490
+R15
+R16
+!s100 Hk[2Q=15J9[TB9B19OdfG3
+!i10b 1

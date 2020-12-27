@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SERIE: Fichero Fuente LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SERIE
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_46d6b64a4fd45746196c67d343a9efc2.html">LAB4</a></li><li class="navelem"><a class="el" href="dir_9535cba2e157f9639fa907ff9720a925.html">PROC_SERIE</a></li><li class="navelem"><a class="el" href="dir_2e5b46362ca3b2af82afe3e223d5d986.html">MD</a></li><li class="navelem"><a class="el" href="dir_a5d339dab35972dc16d16df21cb9d594.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_8b9463b3b2941c1e365d18717ab48580.html">ELEMENTOS</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mux2M.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mux2M_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classmux2M.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;     </div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classmux2M.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classacceso__MD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;     </div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classmux2M.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classacceso__MD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classmux2M.html">   10</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classmux2M.html">mux2M</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classmux2M.html#a4ac5cd309227fc25608b848a3b6d0e6b">   11</a></span>&#160;<span class="keywordflow">generic</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmux2M.html#a4ac5cd309227fc25608b848a3b6d0e6b">tam_mux_datos</a></span><span class="vhdlchar">:</span> <span class="comment">natural</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">8</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classmux2M.html#a69898492694e0ef1fe3aae718c31df68">   12</a></span>&#160;   <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmux2M.html#aca7cc835581d1a7ad452bf0c6c21c43b">d0</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classmux2M.html#a69898492694e0ef1fe3aae718c31df68">d1</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmux2M.html#a4ac5cd309227fc25608b848a3b6d0e6b">tam_mux_datos</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classmux2M.html#ade645ba51bce7e64d8a3e94a80d11476">   13</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classmux2M.html#ade645ba51bce7e64d8a3e94a80d11476">SEL</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classmux2M.html#ab1be2fac26b558e9cf735039fbb90ebb">   14</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classmux2M.html#ab1be2fac26b558e9cf735039fbb90ebb">s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic_vector</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmux2M.html#a4ac5cd309227fc25608b848a3b6d0e6b">tam_mux_datos</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">mux2M</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classmux2M_1_1comportamiento.html">   17</a></span>&#160;<span class="keywordflow">architecture</span> comportamiento <span class="keywordflow">of</span> <a class="code" href="classmux2M.html">mux2M</a> is</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;   <span class="keywordflow">with</span> <span class="vhdlchar"><a class="code" href="classmux2M.html#ade645ba51bce7e64d8a3e94a80d11476">SEL</a></span> <span class="keywordflow">select</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <span class="vhdlchar"><a class="code" href="classmux2M.html#ab1be2fac26b558e9cf735039fbb90ebb">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classmux2M.html#aca7cc835581d1a7ad452bf0c6c21c43b">d0</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">,</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;         <span class="vhdlchar"><a class="code" href="classmux2M.html#a69898492694e0ef1fe3aae718c31df68">d1</a></span>  <span class="keywordflow">when</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">1</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">,</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;         <span class="vhdlchar">(</span><span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdlchar">-</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span> <span class="keywordflow">when</span> <span class="keywordflow">others</span>; </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">comportamiento</span>;</div><div class="ttc" id="classmux2M_html"><div class="ttname"><a href="classmux2M.html">mux2M</a></div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00010">mux2M.vhd:10</a></div></div>
+<div class="ttc" id="classmux2M_html_ab1be2fac26b558e9cf735039fbb90ebb"><div class="ttname"><a href="classmux2M.html#ab1be2fac26b558e9cf735039fbb90ebb">mux2M.s</a></div><div class="ttdeci">out sstd_logic_vector(   tam_mux_datos- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00014">mux2M.vhd:14</a></div></div>
+<div class="ttc" id="classmux2M_html_a4ac5cd309227fc25608b848a3b6d0e6b"><div class="ttname"><a href="classmux2M.html#a4ac5cd309227fc25608b848a3b6d0e6b">mux2M.tam_mux_datos</a></div><div class="ttdeci">tam_mux_datosnatural  := 8</div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00011">mux2M.vhd:11</a></div></div>
+<div class="ttc" id="classmux2M_html_aca7cc835581d1a7ad452bf0c6c21c43b"><div class="ttname"><a href="classmux2M.html#aca7cc835581d1a7ad452bf0c6c21c43b">mux2M.d0</a></div><div class="ttdeci">in d0std_logic_vector(   tam_mux_datos- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00012">mux2M.vhd:12</a></div></div>
+<div class="ttc" id="classacceso__MD_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classacceso__MD.html#a0a6af6eef40212dbaf130d57ce711256">acceso_MD.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="acceso__MD_8vhd_source.html#l00006">acceso_MD.vhd:6</a></div></div>
+<div class="ttc" id="classmux2M_html_a69898492694e0ef1fe3aae718c31df68"><div class="ttname"><a href="classmux2M.html#a69898492694e0ef1fe3aae718c31df68">mux2M.d1</a></div><div class="ttdeci">in d1std_logic_vector(   tam_mux_datos- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00012">mux2M.vhd:12</a></div></div>
+<div class="ttc" id="classmux2M_html_ade645ba51bce7e64d8a3e94a80d11476"><div class="ttname"><a href="classmux2M.html#ade645ba51bce7e64d8a3e94a80d11476">mux2M.SEL</a></div><div class="ttdeci">in SELstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mux2M_8vhd_source.html#l00013">mux2M.vhd:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 29 de Marzo de 2019 12:10:38 para PROCESADOR SERIE por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

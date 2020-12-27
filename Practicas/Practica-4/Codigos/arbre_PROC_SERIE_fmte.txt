@@ -1,0 +1,35 @@
+./AULA/LAB4/PROC_SERIE_fmte/
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── proc_MD_MI_fmte.vhd
+│   ├── PRUEBAS
+│   │   ├── CODI_imem.hex -> ../../../programes/euclides.dir/euclides_imem.hex
+│   │   ├── DADES_dmem.hex -> ../../../programes/euclides.dir/euclides_dmem.hex
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_proc_MD_MI_fmte.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── proc_MD_MI_fmte.qpf
+│   │   └── proc_MD_MI_fmte.qsf
+│   └── RESULTADOS
+└── MD
+    ├── COMPONENTES
+    │   └── FMTE
+    │       ├── COMPONENTES
+    │       │   └── ALINEARE
+    │       │       ├── CODIGO
+    │       │       │   └── alinearE.vhd
+    │       │       ├── PRUEBAS
+    │       │       │   ├── formato_ventanas.do
+    │       │       │   ├── prueba_alinearE.vhd
+    │       │       │   └── wave.do
+    │       │       └── QUARTUS
+    │       │           ├── alinearE.qpf
+    │       │           └── alinearE.qsf
+    │       ├── componentes_FMTE_pkg
+    │       │   └── componentes_FMTE_pkg.vhd
+    │       └── ENSAMBLADO_FMTE
+    │           └── CODIGO
+    │               └── FMTE.vhd
+    └── componentes_MD_fmte_pkg
+        └── componentes_MD_pkg.vhd

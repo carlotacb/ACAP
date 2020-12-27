@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SERIE: Fichero Fuente LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SERIE
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_46d6b64a4fd45746196c67d343a9efc2.html">LAB4</a></li><li class="navelem"><a class="el" href="dir_9535cba2e157f9639fa907ff9720a925.html">PROC_SERIE</a></li><li class="navelem"><a class="el" href="dir_429ca0f44f5fffb04dc1c4c4d6f102c9.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_309dd4c662c4b47ad99855bd765230e0.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_3881efe2b7832079735675e9ba3829e0.html">UCalculo</a></li><li class="navelem"><a class="el" href="dir_5312dd3f7a4154035a3ccf20059281c0.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_ed383c9defac83b984f8bea0d963e0fa.html">FMTD</a></li><li class="navelem"><a class="el" href="dir_aaf669ecce1e5cce7494898fde60cba8.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FMTD.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="FMTD_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classFMTD.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classFMTD.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classBR.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classFMTD.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classFMTD.html#a9ba79191d29a85e638dc8edd1fb43209">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classFMTD.html#aeecba09bee667068976f5bfd0a27cbab">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__pkg.html">retardos_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classFMTD.html">   13</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classFMTD.html">FMTD</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">   14</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#a2f340d91bb2d81cba1d248f4379190bf">tipo_inst_busq</a></span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classFMTD.html#a4535b0615f48e368eedce4e8fcd30239">   15</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classFMTD.html#a4535b0615f48e368eedce4e8fcd30239">inmD</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#ae3640b8ffd9e87354a689f2bef9ba9d1">st_fmtD</a></span>; </div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classFMTD.html#ab4bd254aa63352e8db39ee19acfcf6a3">   16</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classFMTD.html#ab4bd254aa63352e8db39ee19acfcf6a3">inmediato</a></span>   <span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">FMTD</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classFMTD_1_1compor.html">   19</a></span>&#160;<span class="keywordflow">architecture</span> compor <span class="keywordflow">of</span> <a class="code" href="classFMTD.html">FMTD</a> is</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classFMTD_1_1compor.html#a4a0c87f66b44e8b83e8afa352100c1a2">   21</a></span>&#160;selecformatoD: <span class="keywordflow">process</span>(<a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a>, <a class="code" href="classFMTD.html#a4535b0615f48e368eedce4e8fcd30239">inmD</a>)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordflow">variable</span> <span class="vhdlchar">t_inmediato</span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <span class="keywordflow">case</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a4535b0615f48e368eedce4e8fcd30239">inmD</a></span> <span class="keywordflow">is</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      <span class="keywordflow">when</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a9209c2e1cff1429d97c6f407057c1473">fmtD_U</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span><span class="keyword"> -- U type</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;         <span class="vhdlchar">t_inmediato</span> <span class="vhdlchar">:=</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">31</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">12</span><span class="vhdlchar">)</span> <span class="vhdlchar">&amp;</span> <span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">11</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      <span class="keywordflow">when</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a5a91c34d963a5a13da479ae3fbeb1f40">fmtD_I</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span><span class="keyword"> -- I type</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;         <span class="vhdlchar">t_inmediato</span> <span class="vhdlchar">:=</span> <span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">31</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">11</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">31</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span> <span class="vhdlchar">&amp;</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">30</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">20</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordflow">when</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a7bc721c5fd2b13ac465f6aadba5c0cac">fmtD_S</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span><span class="keyword"> -- S type</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;         <span class="vhdlchar">t_inmediato</span> <span class="vhdlchar">:=</span> <span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">31</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">11</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">31</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span> <span class="vhdlchar">&amp;</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">30</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">25</span><span class="vhdlchar">)</span> <span class="vhdlchar">&amp;</span> <span class="vhdlchar"><a class="code" href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">instr</a></span><span class="vhdlchar">(</span><span class="vhdllogic"></span><span class="vhdllogic">11</span> <span class="keywordflow">downto</span> <span class="vhdllogic"></span><span class="vhdllogic">7</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordflow">when</span> <span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;         <span class="vhdlchar">t_inmediato</span> <span class="vhdlchar">:=</span> <span class="vhdlchar">(</span><span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;   <span class="keywordflow">end</span> <span class="keywordflow">case</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="vhdlchar"><a class="code" href="classFMTD.html#ab4bd254aa63352e8db39ee19acfcf6a3">inmediato</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar">t_inmediato</span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#af064102818529fdd4e48135e701bbef6">retfmtD</a></span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">process</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="ttc" id="classparam__disenyo__pkg_html_ad28a6230613f0109957efc4be5801bb5"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">param_disenyo_pkg.tam_dat_camino</a></div><div class="ttdeci">std_logic_vector(   tam_dat- 1 downto  0)   tam_dat_camino</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00018">param_disenyo_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a5a91c34d963a5a13da479ae3fbeb1f40"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a5a91c34d963a5a13da479ae3fbeb1f40">cte_tipos_deco_camino_pkg.fmtD_I</a></div><div class="ttdeci">st_fmtD  :=   &quot;01&quot; fmtD_I</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00050">cte_tipos_deco_camino_pkg.vhd:50</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a9209c2e1cff1429d97c6f407057c1473"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a9209c2e1cff1429d97c6f407057c1473">cte_tipos_deco_camino_pkg.fmtD_U</a></div><div class="ttdeci">st_fmtD  :=   &quot;00&quot; fmtD_U</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00049">cte_tipos_deco_camino_pkg.vhd:49</a></div></div>
+<div class="ttc" id="classFMTD_html_ab4bd254aa63352e8db39ee19acfcf6a3"><div class="ttname"><a href="classFMTD.html#ab4bd254aa63352e8db39ee19acfcf6a3">FMTD.inmediato</a></div><div class="ttdeci">out inmediatotam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="FMTD_8vhd_source.html#l00016">FMTD.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_ae3640b8ffd9e87354a689f2bef9ba9d1"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#ae3640b8ffd9e87354a689f2bef9ba9d1">cte_tipos_deco_camino_pkg.st_fmtD</a></div><div class="ttdeci">std_logic_vector(   num_fmtD- 1 downto  0)   st_fmtD</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00018">cte_tipos_deco_camino_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classFMTD_html_a4535b0615f48e368eedce4e8fcd30239"><div class="ttname"><a href="classFMTD.html#a4535b0615f48e368eedce4e8fcd30239">FMTD.inmD</a></div><div class="ttdeci">in inmDst_fmtD  </div><div class="ttdef"><b>Definition:</b> <a href="FMTD_8vhd_source.html#l00015">FMTD.vhd:15</a></div></div>
+<div class="ttc" id="classretardos__pkg_html"><div class="ttname"><a href="classretardos__pkg.html">retardos_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00009">retardos_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classFMTD_html_a1ee48549503bd89ff596b4c339a5fd1a"><div class="ttname"><a href="classFMTD.html#a1ee48549503bd89ff596b4c339a5fd1a">FMTD.instr</a></div><div class="ttdeci">in instrtipo_inst_busq  </div><div class="ttdef"><b>Definition:</b> <a href="FMTD_8vhd_source.html#l00014">FMTD.vhd:14</a></div></div>
+<div class="ttc" id="classFMTD_html"><div class="ttname"><a href="classFMTD.html">FMTD</a></div><div class="ttdef"><b>Definition:</b> <a href="FMTD_8vhd_source.html#l00013">FMTD.vhd:13</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a7bc721c5fd2b13ac465f6aadba5c0cac"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a7bc721c5fd2b13ac465f6aadba5c0cac">cte_tipos_deco_camino_pkg.fmtD_S</a></div><div class="ttdeci">st_fmtD  :=   &quot;10&quot; fmtD_S</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00051">cte_tipos_deco_camino_pkg.vhd:51</a></div></div>
+<div class="ttc" id="classretardos__pkg_html_af064102818529fdd4e48135e701bbef6"><div class="ttname"><a href="classretardos__pkg.html#af064102818529fdd4e48135e701bbef6">retardos_pkg.retfmtD</a></div><div class="ttdeci">time  :=  1 ns retfmtD</div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00029">retardos_pkg.vhd:29</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_a2f340d91bb2d81cba1d248f4379190bf"><div class="ttname"><a href="classparam__disenyo__pkg.html#a2f340d91bb2d81cba1d248f4379190bf">param_disenyo_pkg.tipo_inst_busq</a></div><div class="ttdeci">std_logic_vector(   tam_instruc- 1 downto  0)   tipo_inst_busq</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00022">param_disenyo_pkg.vhd:22</a></div></div>
+<div class="ttc" id="classBR_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classBR.html#a0a6af6eef40212dbaf130d57ce711256">BR.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="BR_8vhd_source.html#l00006">BR.vhd:6</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 29 de Marzo de 2019 12:10:38 para PROCESADOR SERIE por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

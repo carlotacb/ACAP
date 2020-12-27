@@ -1,0 +1,1029 @@
+|LIB
+reloj => RdecoPBRopSEC:R_decPBRSEC.reloj
+reloj => ensam_RD:R_dat.reloj
+reloj => ensam_RS:R_Sec.reloj
+pcero => RdecoPBRopSEC:R_decPBRSEC.pcero
+pcero => ensam_RD:R_dat.pcero
+pcero => ensam_RS:R_Sec.pcero
+B => RdecoPBRopSEC:R_decPBRSEC.B
+I => ensam_RD:R_dat.I
+I => ensam_RS:R_Sec.I
+instruc[0] => RdecoPBRopSEC:R_decPBRSEC.instruc[0]
+instruc[1] => RdecoPBRopSEC:R_decPBRSEC.instruc[1]
+instruc[2] => RdecoPBRopSEC:R_decPBRSEC.instruc[2]
+instruc[3] => RdecoPBRopSEC:R_decPBRSEC.instruc[3]
+instruc[4] => RdecoPBRopSEC:R_decPBRSEC.instruc[4]
+instruc[5] => RdecoPBRopSEC:R_decPBRSEC.instruc[5]
+instruc[6] => RdecoPBRopSEC:R_decPBRSEC.instruc[6]
+instruc[7] => RdecoPBRopSEC:R_decPBRSEC.instruc[7]
+instruc[8] => RdecoPBRopSEC:R_decPBRSEC.instruc[8]
+instruc[9] => RdecoPBRopSEC:R_decPBRSEC.instruc[9]
+instruc[10] => RdecoPBRopSEC:R_decPBRSEC.instruc[10]
+instruc[11] => RdecoPBRopSEC:R_decPBRSEC.instruc[11]
+instruc[12] => RdecoPBRopSEC:R_decPBRSEC.instruc[12]
+instruc[13] => RdecoPBRopSEC:R_decPBRSEC.instruc[13]
+instruc[14] => RdecoPBRopSEC:R_decPBRSEC.instruc[14]
+instruc[15] => RdecoPBRopSEC:R_decPBRSEC.instruc[15]
+instruc[16] => RdecoPBRopSEC:R_decPBRSEC.instruc[16]
+instruc[17] => RdecoPBRopSEC:R_decPBRSEC.instruc[17]
+instruc[18] => RdecoPBRopSEC:R_decPBRSEC.instruc[18]
+instruc[19] => RdecoPBRopSEC:R_decPBRSEC.instruc[19]
+instruc[20] => RdecoPBRopSEC:R_decPBRSEC.instruc[20]
+instruc[21] => RdecoPBRopSEC:R_decPBRSEC.instruc[21]
+instruc[22] => RdecoPBRopSEC:R_decPBRSEC.instruc[22]
+instruc[23] => RdecoPBRopSEC:R_decPBRSEC.instruc[23]
+instruc[24] => RdecoPBRopSEC:R_decPBRSEC.instruc[24]
+instruc[25] => RdecoPBRopSEC:R_decPBRSEC.instruc[25]
+instruc[26] => RdecoPBRopSEC:R_decPBRSEC.instruc[26]
+instruc[27] => RdecoPBRopSEC:R_decPBRSEC.instruc[27]
+instruc[28] => RdecoPBRopSEC:R_decPBRSEC.instruc[28]
+instruc[29] => RdecoPBRopSEC:R_decPBRSEC.instruc[29]
+instruc[30] => RdecoPBRopSEC:R_decPBRSEC.instruc[30]
+instruc[31] => RdecoPBRopSEC:R_decPBRSEC.instruc[31]
+bloqCP <= LGR:R_lgr.bloqCP
+bloqBDL <= LGR:R_lgr.bloqBDL
+inyecBDL <= LGR:R_lgr.inyecBDL
+inyecDLA <= LGR:R_lgr.inyecDLA
+
+
+|LIB|RdecoPBRopSEC:R_decPBRSEC
+reloj => RDB_N:RDDL3_instrucDL.reloj
+pcero => RDB_N:RDDL3_instrucDL.pcero
+B => RDB_N:RDDL3_instrucDL.B
+instruc[0] => RDB_N:RDDL3_instrucDL.e[0]
+instruc[1] => RDB_N:RDDL3_instrucDL.e[1]
+instruc[2] => RDB_N:RDDL3_instrucDL.e[2]
+instruc[3] => RDB_N:RDDL3_instrucDL.e[3]
+instruc[4] => RDB_N:RDDL3_instrucDL.e[4]
+instruc[5] => RDB_N:RDDL3_instrucDL.e[5]
+instruc[6] => RDB_N:RDDL3_instrucDL.e[6]
+instruc[7] => RDB_N:RDDL3_instrucDL.e[7]
+instruc[8] => RDB_N:RDDL3_instrucDL.e[8]
+instruc[9] => RDB_N:RDDL3_instrucDL.e[9]
+instruc[10] => RDB_N:RDDL3_instrucDL.e[10]
+instruc[11] => RDB_N:RDDL3_instrucDL.e[11]
+instruc[12] => RDB_N:RDDL3_instrucDL.e[12]
+instruc[13] => RDB_N:RDDL3_instrucDL.e[13]
+instruc[14] => RDB_N:RDDL3_instrucDL.e[14]
+instruc[15] => RDB_N:RDDL3_instrucDL.e[15]
+instruc[16] => RDB_N:RDDL3_instrucDL.e[16]
+instruc[17] => RDB_N:RDDL3_instrucDL.e[17]
+instruc[18] => RDB_N:RDDL3_instrucDL.e[18]
+instruc[19] => RDB_N:RDDL3_instrucDL.e[19]
+instruc[20] => RDB_N:RDDL3_instrucDL.e[20]
+instruc[21] => RDB_N:RDDL3_instrucDL.e[21]
+instruc[22] => RDB_N:RDDL3_instrucDL.e[22]
+instruc[23] => RDB_N:RDDL3_instrucDL.e[23]
+instruc[24] => RDB_N:RDDL3_instrucDL.e[24]
+instruc[25] => RDB_N:RDDL3_instrucDL.e[25]
+instruc[26] => RDB_N:RDDL3_instrucDL.e[26]
+instruc[27] => RDB_N:RDDL3_instrucDL.e[27]
+instruc[28] => RDB_N:RDDL3_instrucDL.e[28]
+instruc[29] => RDB_N:RDDL3_instrucDL.e[29]
+instruc[30] => RDB_N:RDDL3_instrucDL.e[30]
+instruc[31] => RDB_N:RDDL3_instrucDL.e[31]
+instrucDL[0] <= RDB_N:RDDL3_instrucDL.s[0]
+instrucDL[1] <= RDB_N:RDDL3_instrucDL.s[1]
+instrucDL[2] <= RDB_N:RDDL3_instrucDL.s[2]
+instrucDL[3] <= RDB_N:RDDL3_instrucDL.s[3]
+instrucDL[4] <= RDB_N:RDDL3_instrucDL.s[4]
+instrucDL[5] <= RDB_N:RDDL3_instrucDL.s[5]
+instrucDL[6] <= RDB_N:RDDL3_instrucDL.s[6]
+instrucDL[7] <= RDB_N:RDDL3_instrucDL.s[7]
+instrucDL[8] <= RDB_N:RDDL3_instrucDL.s[8]
+instrucDL[9] <= RDB_N:RDDL3_instrucDL.s[9]
+instrucDL[10] <= RDB_N:RDDL3_instrucDL.s[10]
+instrucDL[11] <= RDB_N:RDDL3_instrucDL.s[11]
+instrucDL[12] <= RDB_N:RDDL3_instrucDL.s[12]
+instrucDL[13] <= RDB_N:RDDL3_instrucDL.s[13]
+instrucDL[14] <= RDB_N:RDDL3_instrucDL.s[14]
+instrucDL[15] <= RDB_N:RDDL3_instrucDL.s[15]
+instrucDL[16] <= RDB_N:RDDL3_instrucDL.s[16]
+instrucDL[17] <= RDB_N:RDDL3_instrucDL.s[17]
+instrucDL[18] <= RDB_N:RDDL3_instrucDL.s[18]
+instrucDL[19] <= RDB_N:RDDL3_instrucDL.s[19]
+instrucDL[20] <= RDB_N:RDDL3_instrucDL.s[20]
+instrucDL[21] <= RDB_N:RDDL3_instrucDL.s[21]
+instrucDL[22] <= RDB_N:RDDL3_instrucDL.s[22]
+instrucDL[23] <= RDB_N:RDDL3_instrucDL.s[23]
+instrucDL[24] <= RDB_N:RDDL3_instrucDL.s[24]
+instrucDL[25] <= RDB_N:RDDL3_instrucDL.s[25]
+instrucDL[26] <= RDB_N:RDDL3_instrucDL.s[26]
+instrucDL[27] <= RDB_N:RDDL3_instrucDL.s[27]
+instrucDL[28] <= RDB_N:RDDL3_instrucDL.s[28]
+instrucDL[29] <= RDB_N:RDDL3_instrucDL.s[29]
+instrucDL[30] <= RDB_N:RDDL3_instrucDL.s[30]
+instrucDL[31] <= RDB_N:RDDL3_instrucDL.s[31]
+PBRDL <= decoPBRopSEC:decPBRSEC.PBR
+opSECDL[0] <= decoPBRopSEC:decPBRSEC.opSEC[0]
+opSECDL[1] <= decoPBRopSEC:decPBRSEC.opSEC[1]
+opSECDL[2] <= decoPBRopSEC:decPBRSEC.opSEC[2]
+opSECDL[3] <= decoPBRopSEC:decPBRSEC.opSEC[3]
+
+
+|LIB|RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+reloj => s[4]~reg0.CLK
+reloj => s[5]~reg0.CLK
+reloj => s[6]~reg0.CLK
+reloj => s[7]~reg0.CLK
+reloj => s[8]~reg0.CLK
+reloj => s[9]~reg0.CLK
+reloj => s[10]~reg0.CLK
+reloj => s[11]~reg0.CLK
+reloj => s[12]~reg0.CLK
+reloj => s[13]~reg0.CLK
+reloj => s[14]~reg0.CLK
+reloj => s[15]~reg0.CLK
+reloj => s[16]~reg0.CLK
+reloj => s[17]~reg0.CLK
+reloj => s[18]~reg0.CLK
+reloj => s[19]~reg0.CLK
+reloj => s[20]~reg0.CLK
+reloj => s[21]~reg0.CLK
+reloj => s[22]~reg0.CLK
+reloj => s[23]~reg0.CLK
+reloj => s[24]~reg0.CLK
+reloj => s[25]~reg0.CLK
+reloj => s[26]~reg0.CLK
+reloj => s[27]~reg0.CLK
+reloj => s[28]~reg0.CLK
+reloj => s[29]~reg0.CLK
+reloj => s[30]~reg0.CLK
+reloj => s[31]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+pcero => s[4]~reg0.ACLR
+pcero => s[5]~reg0.ACLR
+pcero => s[6]~reg0.ACLR
+pcero => s[7]~reg0.ACLR
+pcero => s[8]~reg0.ACLR
+pcero => s[9]~reg0.ACLR
+pcero => s[10]~reg0.ACLR
+pcero => s[11]~reg0.ACLR
+pcero => s[12]~reg0.ACLR
+pcero => s[13]~reg0.ACLR
+pcero => s[14]~reg0.ACLR
+pcero => s[15]~reg0.ACLR
+pcero => s[16]~reg0.ACLR
+pcero => s[17]~reg0.ACLR
+pcero => s[18]~reg0.ACLR
+pcero => s[19]~reg0.ACLR
+pcero => s[20]~reg0.ACLR
+pcero => s[21]~reg0.ACLR
+pcero => s[22]~reg0.ACLR
+pcero => s[23]~reg0.ACLR
+pcero => s[24]~reg0.ACLR
+pcero => s[25]~reg0.ACLR
+pcero => s[26]~reg0.ACLR
+pcero => s[27]~reg0.ACLR
+pcero => s[28]~reg0.ACLR
+pcero => s[29]~reg0.ACLR
+pcero => s[30]~reg0.ACLR
+pcero => s[31]~reg0.ACLR
+B => s[31]~reg0.ENA
+B => s[30]~reg0.ENA
+B => s[29]~reg0.ENA
+B => s[28]~reg0.ENA
+B => s[27]~reg0.ENA
+B => s[26]~reg0.ENA
+B => s[25]~reg0.ENA
+B => s[24]~reg0.ENA
+B => s[23]~reg0.ENA
+B => s[22]~reg0.ENA
+B => s[21]~reg0.ENA
+B => s[20]~reg0.ENA
+B => s[19]~reg0.ENA
+B => s[18]~reg0.ENA
+B => s[17]~reg0.ENA
+B => s[16]~reg0.ENA
+B => s[15]~reg0.ENA
+B => s[14]~reg0.ENA
+B => s[13]~reg0.ENA
+B => s[12]~reg0.ENA
+B => s[11]~reg0.ENA
+B => s[10]~reg0.ENA
+B => s[9]~reg0.ENA
+B => s[8]~reg0.ENA
+B => s[7]~reg0.ENA
+B => s[6]~reg0.ENA
+B => s[5]~reg0.ENA
+B => s[4]~reg0.ENA
+B => s[3]~reg0.ENA
+B => s[2]~reg0.ENA
+B => s[1]~reg0.ENA
+B => s[0]~reg0.ENA
+e[0] => s[0]~reg0.DATAIN
+e[1] => s[1]~reg0.DATAIN
+e[2] => s[2]~reg0.DATAIN
+e[3] => s[3]~reg0.DATAIN
+e[4] => s[4]~reg0.DATAIN
+e[5] => s[5]~reg0.DATAIN
+e[6] => s[6]~reg0.DATAIN
+e[7] => s[7]~reg0.DATAIN
+e[8] => s[8]~reg0.DATAIN
+e[9] => s[9]~reg0.DATAIN
+e[10] => s[10]~reg0.DATAIN
+e[11] => s[11]~reg0.DATAIN
+e[12] => s[12]~reg0.DATAIN
+e[13] => s[13]~reg0.DATAIN
+e[14] => s[14]~reg0.DATAIN
+e[15] => s[15]~reg0.DATAIN
+e[16] => s[16]~reg0.DATAIN
+e[17] => s[17]~reg0.DATAIN
+e[18] => s[18]~reg0.DATAIN
+e[19] => s[19]~reg0.DATAIN
+e[20] => s[20]~reg0.DATAIN
+e[21] => s[21]~reg0.DATAIN
+e[22] => s[22]~reg0.DATAIN
+e[23] => s[23]~reg0.DATAIN
+e[24] => s[24]~reg0.DATAIN
+e[25] => s[25]~reg0.DATAIN
+e[26] => s[26]~reg0.DATAIN
+e[27] => s[27]~reg0.DATAIN
+e[28] => s[28]~reg0.DATAIN
+e[29] => s[29]~reg0.DATAIN
+e[30] => s[30]~reg0.DATAIN
+e[31] => s[31]~reg0.DATAIN
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[14] <= s[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[15] <= s[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[16] <= s[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[17] <= s[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[18] <= s[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[19] <= s[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[20] <= s[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[21] <= s[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[22] <= s[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[23] <= s[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[24] <= s[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[25] <= s[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[26] <= s[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[27] <= s[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[28] <= s[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[29] <= s[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[30] <= s[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[31] <= s[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC
+instruc[0] => Mux0.IN134
+instruc[0] => Mux1.IN134
+instruc[0] => Mux2.IN134
+instruc[0] => Mux3.IN134
+instruc[0] => Mux4.IN134
+instruc[1] => Mux0.IN133
+instruc[1] => Mux1.IN133
+instruc[1] => Mux2.IN133
+instruc[1] => Mux3.IN133
+instruc[1] => Mux4.IN133
+instruc[2] => Mux0.IN132
+instruc[2] => Mux1.IN132
+instruc[2] => Mux2.IN132
+instruc[2] => Mux3.IN132
+instruc[2] => Mux4.IN132
+instruc[3] => Mux0.IN131
+instruc[3] => Mux1.IN131
+instruc[3] => Mux2.IN131
+instruc[3] => Mux3.IN131
+instruc[3] => Mux4.IN131
+instruc[4] => Mux0.IN130
+instruc[4] => Mux1.IN130
+instruc[4] => Mux2.IN130
+instruc[4] => Mux3.IN130
+instruc[4] => Mux4.IN130
+instruc[5] => Mux0.IN129
+instruc[5] => Mux1.IN129
+instruc[5] => Mux2.IN129
+instruc[5] => Mux3.IN129
+instruc[5] => Mux4.IN129
+instruc[6] => Mux0.IN128
+instruc[6] => Mux1.IN128
+instruc[6] => Mux2.IN128
+instruc[6] => Mux3.IN128
+instruc[6] => Mux4.IN128
+instruc[7] => ~NO_FANOUT~
+instruc[8] => ~NO_FANOUT~
+instruc[9] => ~NO_FANOUT~
+instruc[10] => ~NO_FANOUT~
+instruc[11] => ~NO_FANOUT~
+instruc[12] => Mux3.IN127
+instruc[13] => Mux2.IN127
+instruc[14] => Mux1.IN127
+instruc[15] => ~NO_FANOUT~
+instruc[16] => ~NO_FANOUT~
+instruc[17] => ~NO_FANOUT~
+instruc[18] => ~NO_FANOUT~
+instruc[19] => ~NO_FANOUT~
+instruc[20] => ~NO_FANOUT~
+instruc[21] => ~NO_FANOUT~
+instruc[22] => ~NO_FANOUT~
+instruc[23] => ~NO_FANOUT~
+instruc[24] => ~NO_FANOUT~
+instruc[25] => ~NO_FANOUT~
+instruc[26] => ~NO_FANOUT~
+instruc[27] => ~NO_FANOUT~
+instruc[28] => ~NO_FANOUT~
+instruc[29] => ~NO_FANOUT~
+instruc[30] => ~NO_FANOUT~
+instruc[31] => ~NO_FANOUT~
+PBR <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+opSEC[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+opSEC[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+opSEC[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+opSEC[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat
+reloj => senya_cntlRD:senyales_cntl.reloj
+pcero => senya_cntlRD:senyales_cntl.pcero
+I => senya_cntlRD:senyales_cntl.I
+instruc[0] => valreg:genvalreg.instruc[0]
+instruc[1] => valreg:genvalreg.instruc[1]
+instruc[2] => valreg:genvalreg.instruc[2]
+instruc[3] => valreg:genvalreg.instruc[3]
+instruc[4] => valreg:genvalreg.instruc[4]
+instruc[5] => valreg:genvalreg.instruc[5]
+instruc[6] => valreg:genvalreg.instruc[6]
+instruc[7] => senya_cntlRD:senyales_cntl.rd[0]
+instruc[7] => valreg:genvalreg.instruc[7]
+instruc[8] => senya_cntlRD:senyales_cntl.rd[1]
+instruc[8] => valreg:genvalreg.instruc[8]
+instruc[9] => senya_cntlRD:senyales_cntl.rd[2]
+instruc[9] => valreg:genvalreg.instruc[9]
+instruc[10] => senya_cntlRD:senyales_cntl.rd[3]
+instruc[10] => valreg:genvalreg.instruc[10]
+instruc[11] => senya_cntlRD:senyales_cntl.rd[4]
+instruc[11] => valreg:genvalreg.instruc[11]
+instruc[12] => valreg:genvalreg.instruc[12]
+instruc[13] => valreg:genvalreg.instruc[13]
+instruc[14] => valreg:genvalreg.instruc[14]
+instruc[15] => valreg:genvalreg.instruc[15]
+instruc[15] => LDD:LDDat.IDL1[0]
+instruc[16] => valreg:genvalreg.instruc[16]
+instruc[16] => LDD:LDDat.IDL1[1]
+instruc[17] => valreg:genvalreg.instruc[17]
+instruc[17] => LDD:LDDat.IDL1[2]
+instruc[18] => valreg:genvalreg.instruc[18]
+instruc[18] => LDD:LDDat.IDL1[3]
+instruc[19] => valreg:genvalreg.instruc[19]
+instruc[19] => LDD:LDDat.IDL1[4]
+instruc[20] => valreg:genvalreg.instruc[20]
+instruc[20] => LDD:LDDat.IDL2[0]
+instruc[21] => valreg:genvalreg.instruc[21]
+instruc[21] => LDD:LDDat.IDL2[1]
+instruc[22] => valreg:genvalreg.instruc[22]
+instruc[22] => LDD:LDDat.IDL2[2]
+instruc[23] => valreg:genvalreg.instruc[23]
+instruc[23] => LDD:LDDat.IDL2[3]
+instruc[24] => valreg:genvalreg.instruc[24]
+instruc[24] => LDD:LDDat.IDL2[4]
+instruc[25] => valreg:genvalreg.instruc[25]
+instruc[26] => valreg:genvalreg.instruc[26]
+instruc[27] => valreg:genvalreg.instruc[27]
+instruc[28] => valreg:genvalreg.instruc[28]
+instruc[29] => valreg:genvalreg.instruc[29]
+instruc[30] => valreg:genvalreg.instruc[30]
+instruc[31] => valreg:genvalreg.instruc[31]
+PBR => senya_cntlRD:senyales_cntl.PBR
+RID <= LDRD:R_dat.RD
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl
+reloj => RDI_N:RDA4_rd.reloj
+reloj => RD_N:RDM5_rd.reloj
+reloj => RD_N:RD6_rd.reloj
+reloj => RD_N:RDE7_rd.reloj
+reloj => RDI_1:RDA4_pbr.reloj
+reloj => RD_1:RDM5_pbr.reloj
+reloj => RD_1:RD6_pbr.reloj
+reloj => RD_1:RDE7_pbr.reloj
+pcero => RDI_N:RDA4_rd.pcero
+pcero => RD_N:RDM5_rd.pcero
+pcero => RD_N:RD6_rd.pcero
+pcero => RD_N:RDE7_rd.pcero
+pcero => RDI_1:RDA4_pbr.pcero
+pcero => RD_1:RDM5_pbr.pcero
+pcero => RD_1:RD6_pbr.pcero
+pcero => RD_1:RDE7_pbr.pcero
+I => RDI_N:RDA4_rd.I
+I => RDI_1:RDA4_pbr.I
+rd[0] => RDI_N:RDA4_rd.e[0]
+rd[1] => RDI_N:RDA4_rd.e[1]
+rd[2] => RDI_N:RDA4_rd.e[2]
+rd[3] => RDI_N:RDA4_rd.e[3]
+rd[4] => RDI_N:RDA4_rd.e[4]
+PBR => RDI_1:RDA4_pbr.e
+rdA[0] <= RDI_N:RDA4_rd.s[0]
+rdA[1] <= RDI_N:RDA4_rd.s[1]
+rdA[2] <= RDI_N:RDA4_rd.s[2]
+rdA[3] <= RDI_N:RDA4_rd.s[3]
+rdA[4] <= RDI_N:RDA4_rd.s[4]
+rdM[0] <= RD_N:RDM5_rd.s[0]
+rdM[1] <= RD_N:RDM5_rd.s[1]
+rdM[2] <= RD_N:RDM5_rd.s[2]
+rdM[3] <= RD_N:RDM5_rd.s[3]
+rdM[4] <= RD_N:RDM5_rd.s[4]
+rdF[0] <= RD_N:RD6_rd.s[0]
+rdF[1] <= RD_N:RD6_rd.s[1]
+rdF[2] <= RD_N:RD6_rd.s[2]
+rdF[3] <= RD_N:RD6_rd.s[3]
+rdF[4] <= RD_N:RD6_rd.s[4]
+rdE[0] <= RD_N:RDE7_rd.s[0]
+rdE[1] <= RD_N:RDE7_rd.s[1]
+rdE[2] <= RD_N:RDE7_rd.s[2]
+rdE[3] <= RD_N:RDE7_rd.s[3]
+rdE[4] <= RD_N:RDE7_rd.s[4]
+PBRA <= RDI_1:RDA4_pbr.s
+PBRM <= RD_1:RDM5_pbr.s
+PBRF <= RD_1:RD6_pbr.s
+PBRE <= RD_1:RDE7_pbr.s
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+reloj => s[4]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+pcero => s[4]~reg0.ACLR
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+e[0] => s.DATAA
+e[1] => s.DATAA
+e[2] => s.DATAA
+e[3] => s.DATAA
+e[4] => s.DATAA
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+reloj => s[4]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+pcero => s[4]~reg0.ACLR
+e[0] => s[0]~reg0.DATAIN
+e[1] => s[1]~reg0.DATAIN
+e[2] => s[2]~reg0.DATAIN
+e[3] => s[3]~reg0.DATAIN
+e[4] => s[4]~reg0.DATAIN
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RD6_rd
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+reloj => s[4]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+pcero => s[4]~reg0.ACLR
+e[0] => s[0]~reg0.DATAIN
+e[1] => s[1]~reg0.DATAIN
+e[2] => s[2]~reg0.DATAIN
+e[3] => s[3]~reg0.DATAIN
+e[4] => s[4]~reg0.DATAIN
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+reloj => s[4]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+pcero => s[4]~reg0.ACLR
+e[0] => s[0]~reg0.DATAIN
+e[1] => s[1]~reg0.DATAIN
+e[2] => s[2]~reg0.DATAIN
+e[3] => s[3]~reg0.DATAIN
+e[4] => s[4]~reg0.DATAIN
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_1:RDA4_pbr
+reloj => s~reg0.CLK
+pcero => s~reg0.ACLR
+I => s.OUTPUTSELECT
+e => s.DATAA
+s <= s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDM5_pbr
+reloj => s~reg0.CLK
+pcero => s~reg0.ACLR
+e => s~reg0.DATAIN
+s <= s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RD6_pbr
+reloj => s~reg0.CLK
+pcero => s~reg0.ACLR
+e => s~reg0.DATAIN
+s <= s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDE7_pbr
+reloj => s~reg0.CLK
+pcero => s~reg0.ACLR
+e => s~reg0.DATAIN
+s <= s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|valreg:genvalreg
+instruc[0] => Mux0.IN134
+instruc[0] => Mux1.IN134
+instruc[1] => Mux0.IN133
+instruc[1] => Mux1.IN133
+instruc[2] => Mux0.IN132
+instruc[2] => Mux1.IN132
+instruc[3] => Mux0.IN131
+instruc[3] => Mux1.IN131
+instruc[4] => Mux0.IN130
+instruc[4] => Mux1.IN130
+instruc[5] => Mux0.IN129
+instruc[5] => Mux1.IN129
+instruc[6] => Mux0.IN128
+instruc[6] => Mux1.IN128
+instruc[7] => ~NO_FANOUT~
+instruc[8] => ~NO_FANOUT~
+instruc[9] => ~NO_FANOUT~
+instruc[10] => ~NO_FANOUT~
+instruc[11] => ~NO_FANOUT~
+instruc[12] => ~NO_FANOUT~
+instruc[13] => ~NO_FANOUT~
+instruc[14] => ~NO_FANOUT~
+instruc[15] => ~NO_FANOUT~
+instruc[16] => ~NO_FANOUT~
+instruc[17] => ~NO_FANOUT~
+instruc[18] => ~NO_FANOUT~
+instruc[19] => ~NO_FANOUT~
+instruc[20] => ~NO_FANOUT~
+instruc[21] => ~NO_FANOUT~
+instruc[22] => ~NO_FANOUT~
+instruc[23] => ~NO_FANOUT~
+instruc[24] => ~NO_FANOUT~
+instruc[25] => ~NO_FANOUT~
+instruc[26] => ~NO_FANOUT~
+instruc[27] => ~NO_FANOUT~
+instruc[28] => ~NO_FANOUT~
+instruc[29] => ~NO_FANOUT~
+instruc[30] => ~NO_FANOUT~
+instruc[31] => ~NO_FANOUT~
+valIDL1 <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+valIDL2 <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat
+IDL1[0] => cmp:LDD_gen:0:cmpZero.a[0]
+IDL1[0] => cmp:LDD_gen:0:Etapas:0:cmpReg.a[0]
+IDL1[0] => cmp:LDD_gen:0:Etapas:1:cmpReg.a[0]
+IDL1[0] => cmp:LDD_gen:0:Etapas:2:cmpReg.a[0]
+IDL1[0] => cmp:LDD_gen:0:Etapas:3:cmpReg.a[0]
+IDL1[1] => cmp:LDD_gen:0:cmpZero.a[1]
+IDL1[1] => cmp:LDD_gen:0:Etapas:0:cmpReg.a[1]
+IDL1[1] => cmp:LDD_gen:0:Etapas:1:cmpReg.a[1]
+IDL1[1] => cmp:LDD_gen:0:Etapas:2:cmpReg.a[1]
+IDL1[1] => cmp:LDD_gen:0:Etapas:3:cmpReg.a[1]
+IDL1[2] => cmp:LDD_gen:0:cmpZero.a[2]
+IDL1[2] => cmp:LDD_gen:0:Etapas:0:cmpReg.a[2]
+IDL1[2] => cmp:LDD_gen:0:Etapas:1:cmpReg.a[2]
+IDL1[2] => cmp:LDD_gen:0:Etapas:2:cmpReg.a[2]
+IDL1[2] => cmp:LDD_gen:0:Etapas:3:cmpReg.a[2]
+IDL1[3] => cmp:LDD_gen:0:cmpZero.a[3]
+IDL1[3] => cmp:LDD_gen:0:Etapas:0:cmpReg.a[3]
+IDL1[3] => cmp:LDD_gen:0:Etapas:1:cmpReg.a[3]
+IDL1[3] => cmp:LDD_gen:0:Etapas:2:cmpReg.a[3]
+IDL1[3] => cmp:LDD_gen:0:Etapas:3:cmpReg.a[3]
+IDL1[4] => cmp:LDD_gen:0:cmpZero.a[4]
+IDL1[4] => cmp:LDD_gen:0:Etapas:0:cmpReg.a[4]
+IDL1[4] => cmp:LDD_gen:0:Etapas:1:cmpReg.a[4]
+IDL1[4] => cmp:LDD_gen:0:Etapas:2:cmpReg.a[4]
+IDL1[4] => cmp:LDD_gen:0:Etapas:3:cmpReg.a[4]
+IDL2[0] => cmp:LDD_gen:1:cmpZero.a[0]
+IDL2[0] => cmp:LDD_gen:1:Etapas:0:cmpReg.a[0]
+IDL2[0] => cmp:LDD_gen:1:Etapas:1:cmpReg.a[0]
+IDL2[0] => cmp:LDD_gen:1:Etapas:2:cmpReg.a[0]
+IDL2[0] => cmp:LDD_gen:1:Etapas:3:cmpReg.a[0]
+IDL2[1] => cmp:LDD_gen:1:cmpZero.a[1]
+IDL2[1] => cmp:LDD_gen:1:Etapas:0:cmpReg.a[1]
+IDL2[1] => cmp:LDD_gen:1:Etapas:1:cmpReg.a[1]
+IDL2[1] => cmp:LDD_gen:1:Etapas:2:cmpReg.a[1]
+IDL2[1] => cmp:LDD_gen:1:Etapas:3:cmpReg.a[1]
+IDL2[2] => cmp:LDD_gen:1:cmpZero.a[2]
+IDL2[2] => cmp:LDD_gen:1:Etapas:0:cmpReg.a[2]
+IDL2[2] => cmp:LDD_gen:1:Etapas:1:cmpReg.a[2]
+IDL2[2] => cmp:LDD_gen:1:Etapas:2:cmpReg.a[2]
+IDL2[2] => cmp:LDD_gen:1:Etapas:3:cmpReg.a[2]
+IDL2[3] => cmp:LDD_gen:1:cmpZero.a[3]
+IDL2[3] => cmp:LDD_gen:1:Etapas:0:cmpReg.a[3]
+IDL2[3] => cmp:LDD_gen:1:Etapas:1:cmpReg.a[3]
+IDL2[3] => cmp:LDD_gen:1:Etapas:2:cmpReg.a[3]
+IDL2[3] => cmp:LDD_gen:1:Etapas:3:cmpReg.a[3]
+IDL2[4] => cmp:LDD_gen:1:cmpZero.a[4]
+IDL2[4] => cmp:LDD_gen:1:Etapas:0:cmpReg.a[4]
+IDL2[4] => cmp:LDD_gen:1:Etapas:1:cmpReg.a[4]
+IDL2[4] => cmp:LDD_gen:1:Etapas:2:cmpReg.a[4]
+IDL2[4] => cmp:LDD_gen:1:Etapas:3:cmpReg.a[4]
+valIDL1 => res.IN1
+valIDL1 => res.IN1
+valIDL1 => res.IN1
+valIDL1 => res.IN1
+valIDL2 => res.IN1
+valIDL2 => res.IN1
+valIDL2 => res.IN1
+valIDL2 => res.IN1
+rdA[0] => cmp:LDD_gen:0:Etapas:0:cmpReg.b[0]
+rdA[0] => cmp:LDD_gen:1:Etapas:0:cmpReg.b[0]
+rdA[1] => cmp:LDD_gen:0:Etapas:0:cmpReg.b[1]
+rdA[1] => cmp:LDD_gen:1:Etapas:0:cmpReg.b[1]
+rdA[2] => cmp:LDD_gen:0:Etapas:0:cmpReg.b[2]
+rdA[2] => cmp:LDD_gen:1:Etapas:0:cmpReg.b[2]
+rdA[3] => cmp:LDD_gen:0:Etapas:0:cmpReg.b[3]
+rdA[3] => cmp:LDD_gen:1:Etapas:0:cmpReg.b[3]
+rdA[4] => cmp:LDD_gen:0:Etapas:0:cmpReg.b[4]
+rdA[4] => cmp:LDD_gen:1:Etapas:0:cmpReg.b[4]
+rdM[0] => cmp:LDD_gen:0:Etapas:1:cmpReg.b[0]
+rdM[0] => cmp:LDD_gen:1:Etapas:1:cmpReg.b[0]
+rdM[1] => cmp:LDD_gen:0:Etapas:1:cmpReg.b[1]
+rdM[1] => cmp:LDD_gen:1:Etapas:1:cmpReg.b[1]
+rdM[2] => cmp:LDD_gen:0:Etapas:1:cmpReg.b[2]
+rdM[2] => cmp:LDD_gen:1:Etapas:1:cmpReg.b[2]
+rdM[3] => cmp:LDD_gen:0:Etapas:1:cmpReg.b[3]
+rdM[3] => cmp:LDD_gen:1:Etapas:1:cmpReg.b[3]
+rdM[4] => cmp:LDD_gen:0:Etapas:1:cmpReg.b[4]
+rdM[4] => cmp:LDD_gen:1:Etapas:1:cmpReg.b[4]
+rdF[0] => cmp:LDD_gen:0:Etapas:2:cmpReg.b[0]
+rdF[0] => cmp:LDD_gen:1:Etapas:2:cmpReg.b[0]
+rdF[1] => cmp:LDD_gen:0:Etapas:2:cmpReg.b[1]
+rdF[1] => cmp:LDD_gen:1:Etapas:2:cmpReg.b[1]
+rdF[2] => cmp:LDD_gen:0:Etapas:2:cmpReg.b[2]
+rdF[2] => cmp:LDD_gen:1:Etapas:2:cmpReg.b[2]
+rdF[3] => cmp:LDD_gen:0:Etapas:2:cmpReg.b[3]
+rdF[3] => cmp:LDD_gen:1:Etapas:2:cmpReg.b[3]
+rdF[4] => cmp:LDD_gen:0:Etapas:2:cmpReg.b[4]
+rdF[4] => cmp:LDD_gen:1:Etapas:2:cmpReg.b[4]
+rdE[0] => cmp:LDD_gen:0:Etapas:3:cmpReg.b[0]
+rdE[0] => cmp:LDD_gen:1:Etapas:3:cmpReg.b[0]
+rdE[1] => cmp:LDD_gen:0:Etapas:3:cmpReg.b[1]
+rdE[1] => cmp:LDD_gen:1:Etapas:3:cmpReg.b[1]
+rdE[2] => cmp:LDD_gen:0:Etapas:3:cmpReg.b[2]
+rdE[2] => cmp:LDD_gen:1:Etapas:3:cmpReg.b[2]
+rdE[3] => cmp:LDD_gen:0:Etapas:3:cmpReg.b[3]
+rdE[3] => cmp:LDD_gen:1:Etapas:3:cmpReg.b[3]
+rdE[4] => cmp:LDD_gen:0:Etapas:3:cmpReg.b[4]
+rdE[4] => cmp:LDD_gen:1:Etapas:3:cmpReg.b[4]
+PBRA => res.IN1
+PBRA => res.IN1
+PBRM => res.IN1
+PBRM => res.IN1
+PBRF => res.IN1
+PBRF => res.IN1
+PBRE => res.IN1
+PBRE => res.IN1
+IDL1A <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL1M <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL1F <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL1E <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL2A <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL2M <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL2F <= res.DB_MAX_OUTPUT_PORT_TYPE
+IDL2E <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:0:cmpZero
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:0:Etapas:0:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:0:Etapas:1:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:0:Etapas:2:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:0:Etapas:3:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:1:cmpZero
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:1:Etapas:0:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:1:Etapas:1:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:1:Etapas:2:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\LDD_gen:1:Etapas:3:cmpReg
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat
+IDL1A => orv2:or_1AM.a
+IDL1M => orv2:or_1AM.b
+IDL1F => orv2:or_1FE.a
+IDL1E => orv2:or_1FE.b
+IDL2A => orv2:or_2AM.a
+IDL2M => orv2:or_2AM.b
+IDL2F => orv2:or_2FE.a
+IDL2E => orv2:or_2FE.b
+RD <= orv2:or_1AMFE_2AMFE.s
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_1AM
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_1FE
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_2AM
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_2FE
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_1AMFE
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_2AMFE
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDRD:R_dat|orv2:or_1AMFE_2AMFE
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RS:R_Sec
+reloj => senya_cntlRS:senyales_cntl.reloj
+pcero => senya_cntlRS:senyales_cntl.pcero
+I => senya_cntlRS:senyales_cntl.I
+opsec[0] => senya_cntlRS:senyales_cntl.opsec[0]
+opsec[0] => LDRS:R_sec.opsecDL[0]
+opsec[1] => senya_cntlRS:senyales_cntl.opsec[1]
+opsec[1] => LDRS:R_sec.opsecDL[1]
+opsec[2] => senya_cntlRS:senyales_cntl.opsec[2]
+opsec[2] => LDRS:R_sec.opsecDL[2]
+opsec[3] => senya_cntlRS:senyales_cntl.opsec[3]
+opsec[3] => LDRS:R_sec.opsecDL[3]
+RS <= LDRS:R_sec.RS
+
+
+|LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl
+reloj => RDI_N:RDA4_opsec.reloj
+pcero => RDI_N:RDA4_opsec.pcero
+I => RDI_N:RDA4_opsec.I
+opsec[0] => RDI_N:RDA4_opsec.e[0]
+opsec[1] => RDI_N:RDA4_opsec.e[1]
+opsec[2] => RDI_N:RDA4_opsec.e[2]
+opsec[3] => RDI_N:RDA4_opsec.e[3]
+opsecA[0] <= RDI_N:RDA4_opsec.s[0]
+opsecA[1] <= RDI_N:RDA4_opsec.s[1]
+opsecA[2] <= RDI_N:RDA4_opsec.s[2]
+opsecA[3] <= RDI_N:RDA4_opsec.s[3]
+
+
+|LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec
+reloj => s[0]~reg0.CLK
+reloj => s[1]~reg0.CLK
+reloj => s[2]~reg0.CLK
+reloj => s[3]~reg0.CLK
+pcero => s[0]~reg0.ACLR
+pcero => s[1]~reg0.ACLR
+pcero => s[2]~reg0.ACLR
+pcero => s[3]~reg0.ACLR
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+I => s.OUTPUTSELECT
+e[0] => s.DATAA
+e[1] => s.DATAA
+e[2] => s.DATAA
+e[3] => s.DATAA
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RS:R_Sec|LDRS:R_sec
+opsecDL[0] => ~NO_FANOUT~
+opsecDL[1] => ~NO_FANOUT~
+opsecDL[2] => ~NO_FANOUT~
+opsecDL[3] => orv2:or_opsec_3.a
+opsecA[0] => ~NO_FANOUT~
+opsecA[1] => ~NO_FANOUT~
+opsecA[2] => ~NO_FANOUT~
+opsecA[3] => orv2:or_opsec_3.b
+RS <= orv2:or_opsec_3.s
+
+
+|LIB|ensam_RS:R_Sec|LDRS:R_sec|orv2:or_opsec_3
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|LGR:R_lgr
+RID => andv1n:RS_and_not_RID.b
+RID => bloqCP.DATAIN
+RID => bloqBDL.DATAIN
+RID => inyecDLA.DATAIN
+RS => andv1n:RS_and_not_RID.a
+bloqCP <= RID.DB_MAX_OUTPUT_PORT_TYPE
+bloqBDL <= RID.DB_MAX_OUTPUT_PORT_TYPE
+inyecBDL <= andv1n:RS_and_not_RID.s
+inyecDLA <= RID.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|LGR:R_lgr|andv1n:RS_and_not_RID
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,74 @@
+
+../euclides.dir/euclides.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	10001117          	auipc	x2,0x10001
+   4:	00010113          	addi	x2,x2,0 # 10001000 <__mem_top__>
+   8:	fe010113          	addi	x2,x2,-32
+   c:	000000b3          	add	x1,x0,x0
+  10:	000001b3          	add	x3,x0,x0
+  14:	00000233          	add	x4,x0,x0
+  18:	000002b3          	add	x5,x0,x0
+  1c:	00000333          	add	x6,x0,x0
+  20:	000003b3          	add	x7,x0,x0
+  24:	00000433          	add	x8,x0,x0
+  28:	000004b3          	add	x9,x0,x0
+  2c:	00000533          	add	x10,x0,x0
+  30:	000005b3          	add	x11,x0,x0
+  34:	00000633          	add	x12,x0,x0
+  38:	000006b3          	add	x13,x0,x0
+  3c:	00000733          	add	x14,x0,x0
+  40:	000007b3          	add	x15,x0,x0
+  44:	00000833          	add	x16,x0,x0
+  48:	000008b3          	add	x17,x0,x0
+  4c:	00000933          	add	x18,x0,x0
+  50:	000009b3          	add	x19,x0,x0
+  54:	00000a33          	add	x20,x0,x0
+  58:	00000ab3          	add	x21,x0,x0
+  5c:	00000b33          	add	x22,x0,x0
+  60:	00000bb3          	add	x23,x0,x0
+  64:	00000c33          	add	x24,x0,x0
+  68:	00000cb3          	add	x25,x0,x0
+  6c:	00000d33          	add	x26,x0,x0
+  70:	00000db3          	add	x27,x0,x0
+  74:	00000e33          	add	x28,x0,x0
+  78:	00000eb3          	add	x29,x0,x0
+  7c:	00000f33          	add	x30,x0,x0
+  80:	00000fb3          	add	x31,x0,x0
+  84:	07c000ef          	jal	x1,100 <main>
+  88:	00000013          	addi	x0,x0,0
+  8c:	00000013          	addi	x0,x0,0
+  90:	00000013          	addi	x0,x0,0
+  94:	00000013          	addi	x0,x0,0
+  98:	00000013          	addi	x0,x0,0
+  9c:	00100073          	ebreak
+
+Disassembly of section .text.startup:
+
+00000100 <main>:
+ 100:	100005b7          	lui	x11,0x10000
+ 104:	10000537          	lui	x10,0x10000
+ 108:	0005a783          	lw	x15,0(x11) # 10000000 <b>
+ 10c:	00452703          	lw	x14,4(x10) # 10000004 <a>
+ 110:	00000613          	addi	x12,x0,0
+ 114:	00000693          	addi	x13,x0,0
+ 118:	00e78a63          	beq	x15,x14,12c <main+0x2c>
+ 11c:	02e7f263          	bgeu	x15,x14,140 <main+0x40>
+ 120:	40f70733          	sub	x14,x14,x15
+ 124:	00100693          	addi	x13,x0,1
+ 128:	fee79ae3          	bne	x15,x14,11c <main+0x1c>
+ 12c:	02069063          	bne	x13,x0,14c <main+0x4c>
+ 130:	02061263          	bne	x12,x0,154 <main+0x54>
+ 134:	10000737          	lui	x14,0x10000
+ 138:	00f72423          	sw	x15,8(x14) # 10000008 <__heap>
+ 13c:	00008067          	jalr	x0,0(x1)
+ 140:	40e787b3          	sub	x15,x15,x14
+ 144:	00100613          	addi	x12,x0,1
+ 148:	fd1ff06f          	jal	x0,118 <main+0x18>
+ 14c:	00f52223          	sw	x15,4(x10)
+ 150:	fe1ff06f          	jal	x0,130 <main+0x30>
+ 154:	00f5a023          	sw	x15,0(x11)
+ 158:	fddff06f          	jal	x0,134 <main+0x34>

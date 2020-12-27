@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO: Fichero Fuente LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ac83445b77b1f1e5e416d7c486604e2e.html">LAB5</a></li><li class="navelem"><a class="el" href="dir_60089776f3038d747a9b2db9dbcb2c03.html">PROC_SEGMENTADO</a></li><li class="navelem"><a class="el" href="dir_049de050e5eb6fb7a19346886fedeae8.html">CONTROL_SEGMENTACION</a></li><li class="navelem"><a class="el" href="dir_96bb375456d87d4565f2160bd0d22ce5.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_b3b6c4f3f4b49c3bbe522a6f885c46fd.html">ENSAM_RS</a></li><li class="navelem"><a class="el" href="dir_cd1f6921d332be75394ee6f4af2cfe0d.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ensam_RS.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="ensam__RS_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classensam__RS.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classensam__RS.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classensam__RD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classensam__RS.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classensam__RS.html#a9ba79191d29a85e638dc8edd1fb43209">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classensam__RS.html#a74faf37d0609cb52b5d7ec59d27272bc">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__control__seg__pkg.html">componentes_control_seg_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classensam__RS.html#a0e63da680666abdb754f3f6e08d19b07">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__cntl__seg__pkg.html">retardos_cntl_seg_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classensam__RS.html">   15</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classensam__RS.html">ensam_RS</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classensam__RS.html#a9a2054ec7f63792c3956fe7264bbd941">   16</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classensam__RS.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classensam__RS.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classensam__RS.html#a8455d4375b7fc0d9d99399815d38c73c">I</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classensam__RS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">   17</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensam__RS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">opsec</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">st_opSEC</a></span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classensam__RS.html#ad1d89d390bcbae3a309896d83848183b">   18</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensam__RS.html#ad1d89d390bcbae3a309896d83848183b">RS</a></span> <span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar"><a class="code" href="classcomponentes__control__seg__pkg.html#a4656ace7443c337f9937c379dbedb486">ensam_RS</a></span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classensam__RS_1_1estructural.html">   22</a></span>&#160;<span class="keywordflow">architecture</span> estructural <span class="keywordflow">of</span> <a class="code" href="classensam__RS.html">ensam_RS</a> is</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classensam__RS_1_1estructural.html#a4be67bcedc74b7fdd4dcf17cf15505cd">   23</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classensam__RS_1_1estructural.html#a4be67bcedc74b7fdd4dcf17cf15505cd">opsecA</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">st_opSEC</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <a class="code" href="classensam__RS_1_1estructural.html#a38bc217d07e11193465cb6e2078fa693">senyales_cntl</a>: <a class="code" href="classsenya__cntlRS.html">senya_cntlRS</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span>(<a class="code" href="classsenya__cntlRS.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a> =&gt; <a class="code" href="classensam__RS.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classsenya__cntlRS.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a> =&gt; <a class="code" href="classensam__RS.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>, <a class="code" href="classsenya__cntlRS.html#a8455d4375b7fc0d9d99399815d38c73c">I</a> =&gt; <a class="code" href="classensam__RS.html#a8455d4375b7fc0d9d99399815d38c73c">I</a>, <a class="code" href="classsenya__cntlRS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">opsec</a> =&gt; <a class="code" href="classensam__RS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">opsec</a>, <a class="code" href="classsenya__cntlRS.html#a4eadfa35ca9f4fc189e1b6a35ff1973f">opsecA</a> =&gt; <a class="code" href="classensam__RS_1_1estructural.html#a4be67bcedc74b7fdd4dcf17cf15505cd">opsecA</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;   R_sec: <a class="code" href="classLDRS.html">LDRS</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classLDRS.html#aad2b3e05e35b9601a45120ec39cfb0f2">opsecDL</a> =&gt; <a class="code" href="classensam__RS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">opsec</a>, <a class="code" href="classLDRS.html#a16146740ad51c6d0c5ab5cef7d26fc39">opsecA</a> =&gt; <a class="code" href="classensam__RS_1_1estructural.html#a4be67bcedc74b7fdd4dcf17cf15505cd">opsecA</a>, <a class="code" href="classLDRS.html#ad1d89d390bcbae3a309896d83848183b">RS</a> =&gt; <a class="code" href="classensam__RS.html#ad1d89d390bcbae3a309896d83848183b">RS</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">estructural</span>;</div><div class="ttc" id="classsenya__cntlRS_html_a8455d4375b7fc0d9d99399815d38c73c"><div class="ttname"><a href="classsenya__cntlRS.html#a8455d4375b7fc0d9d99399815d38c73c">senya_cntlRS.I</a></div><div class="ttdeci">in Istd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00015">senya_cntlRS.vhd:15</a></div></div>
+<div class="ttc" id="classensam__RS_1_1estructural_html_a4be67bcedc74b7fdd4dcf17cf15505cd"><div class="ttname"><a href="classensam__RS_1_1estructural.html#a4be67bcedc74b7fdd4dcf17cf15505cd">ensam_RS.estructural.opsecA</a></div><div class="ttdeci">st_opSEC   opsecA</div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00023">ensam_RS.vhd:23</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classsenya__cntlRS_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classsenya__cntlRS.html#a9a2054ec7f63792c3956fe7264bbd941">senya_cntlRS.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00015">senya_cntlRS.vhd:15</a></div></div>
+<div class="ttc" id="classensam__RS_html_ab8692fd82c3fe4eedd2460cdf9fa9efd"><div class="ttname"><a href="classensam__RS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">ensam_RS.opsec</a></div><div class="ttdeci">in opsecst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00017">ensam_RS.vhd:17</a></div></div>
+<div class="ttc" id="classsenya__cntlRS_html"><div class="ttname"><a href="classsenya__cntlRS.html">senya_cntlRS</a></div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00014">senya_cntlRS.vhd:14</a></div></div>
+<div class="ttc" id="classretardos__cntl__seg__pkg_html"><div class="ttname"><a href="classretardos__cntl__seg__pkg.html">retardos_cntl_seg_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__cntl__seg__pkg_8vhd_source.html#l00009">retardos_cntl_seg_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classLDRS_html_a16146740ad51c6d0c5ab5cef7d26fc39"><div class="ttname"><a href="classLDRS.html#a16146740ad51c6d0c5ab5cef7d26fc39">LDRS.opsecA</a></div><div class="ttdeci">in opsecAst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="LDRS_8vhd_source.html#l00014">LDRS.vhd:14</a></div></div>
+<div class="ttc" id="classensam__RS_1_1estructural_html_a38bc217d07e11193465cb6e2078fa693"><div class="ttname"><a href="classensam__RS_1_1estructural.html#a38bc217d07e11193465cb6e2078fa693">senyales_cntl</a></div><div class="ttdeci">senya_cntlRS senyales_cntlsenyales_cntl</div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00026">ensam_RS.vhd:26</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classensam__RS_html_ad1d89d390bcbae3a309896d83848183b"><div class="ttname"><a href="classensam__RS.html#ad1d89d390bcbae3a309896d83848183b">ensam_RS.RS</a></div><div class="ttdeci">out RSstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00018">ensam_RS.vhd:18</a></div></div>
+<div class="ttc" id="classensam__RS_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classensam__RS.html#aaaf76b3c92306baf67cc09a1ff48254d">ensam_RS.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00016">ensam_RS.vhd:16</a></div></div>
+<div class="ttc" id="classensam__RS_html_a8455d4375b7fc0d9d99399815d38c73c"><div class="ttname"><a href="classensam__RS.html#a8455d4375b7fc0d9d99399815d38c73c">ensam_RS.I</a></div><div class="ttdeci">in Istd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00016">ensam_RS.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a4174d708ca689db00e88f8821876aabe"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">cte_tipos_deco_camino_pkg.st_opSEC</a></div><div class="ttdeci">std_logic_vector(   num_opSEC- 1 downto  0)   st_opSEC</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00044">cte_tipos_deco_camino_pkg.vhd:44</a></div></div>
+<div class="ttc" id="classsenya__cntlRS_html_a4eadfa35ca9f4fc189e1b6a35ff1973f"><div class="ttname"><a href="classsenya__cntlRS.html#a4eadfa35ca9f4fc189e1b6a35ff1973f">senya_cntlRS.opsecA</a></div><div class="ttdeci">out opsecAst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00017">senya_cntlRS.vhd:17</a></div></div>
+<div class="ttc" id="classsenya__cntlRS_html_ab8692fd82c3fe4eedd2460cdf9fa9efd"><div class="ttname"><a href="classsenya__cntlRS.html#ab8692fd82c3fe4eedd2460cdf9fa9efd">senya_cntlRS.opsec</a></div><div class="ttdeci">in opsecst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00016">senya_cntlRS.vhd:16</a></div></div>
+<div class="ttc" id="classLDRS_html_aad2b3e05e35b9601a45120ec39cfb0f2"><div class="ttname"><a href="classLDRS.html#aad2b3e05e35b9601a45120ec39cfb0f2">LDRS.opsecDL</a></div><div class="ttdeci">in opsecDLst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="LDRS_8vhd_source.html#l00014">LDRS.vhd:14</a></div></div>
+<div class="ttc" id="classensam__RS_html"><div class="ttname"><a href="classensam__RS.html">ensam_RS</a></div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00015">ensam_RS.vhd:15</a></div></div>
+<div class="ttc" id="classensam__RS_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classensam__RS.html#a9a2054ec7f63792c3956fe7264bbd941">ensam_RS.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensam__RS_8vhd_source.html#l00016">ensam_RS.vhd:16</a></div></div>
+<div class="ttc" id="classensam__RD_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classensam__RD.html#a0a6af6eef40212dbaf130d57ce711256">ensam_RD.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="ensam__RD_8vhd_source.html#l00006">ensam_RD.vhd:6</a></div></div>
+<div class="ttc" id="classcomponentes__control__seg__pkg_html_a4656ace7443c337f9937c379dbedb486"><div class="ttname"><a href="classcomponentes__control__seg__pkg.html#a4656ace7443c337f9937c379dbedb486">componentes_control_seg_pkg.ensam_RS</a></div><div class="ttdeci">ensam_RS</div><div class="ttdef"><b>Definition:</b> <a href="componentes__control__seg__pkg_8vhd_source.html#l00105">componentes_control_seg_pkg.vhd:105</a></div></div>
+<div class="ttc" id="classcomponentes__control__seg__pkg_html"><div class="ttname"><a href="classcomponentes__control__seg__pkg.html">componentes_control_seg_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__control__seg__pkg_8vhd_source.html#l00012">componentes_control_seg_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classLDRS_html_ad1d89d390bcbae3a309896d83848183b"><div class="ttname"><a href="classLDRS.html#ad1d89d390bcbae3a309896d83848183b">LDRS.RS</a></div><div class="ttdeci">out RSstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="LDRS_8vhd_source.html#l00015">LDRS.vhd:15</a></div></div>
+<div class="ttc" id="classLDRS_html"><div class="ttname"><a href="classLDRS.html">LDRS</a></div><div class="ttdef"><b>Definition:</b> <a href="LDRS_8vhd_source.html#l00013">LDRS.vhd:13</a></div></div>
+<div class="ttc" id="classsenya__cntlRS_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classsenya__cntlRS.html#aaaf76b3c92306baf67cc09a1ff48254d">senya_cntlRS.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="senya__cntlRS_8vhd_source.html#l00015">senya_cntlRS.vhd:15</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Miércoles, 10 de Abril de 2019 12:43:23 para PROCESADOR SEGMENTADO por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

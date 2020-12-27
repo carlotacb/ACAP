@@ -1,0 +1,318 @@
+PROGRAMA: euclides
+ salida de comprobacion de la instruccion que hay en un ciclo en cada etapa
+ciclo  CP, dir  BUS, I. hex   DL, I. ascii
+                                                   ETAPAS: DL, ALU, M, FMTL, ES         RIESGOS
+                                                   DL    ALU   M     FMTL  ES       R.DATOS R.SECUENCIAMIENTO
+    1  00000004  10001117    addi x0 , x0 , x000 | DL  | nop | nop | nop | nop      RD:  0  RS:  0
+    2  00000008  00010113   auipc x2 , x10001    | DL  | A   | nop | nop | nop      RD:  0  RS:  0
+    3  0000000C  FE010113    addi x2 , x2 , x000 | DLB | A   | R   | nop | nop      RD:  1  RS:  0
+    4  0000000C  FE010113    addi x2 , x2 , x000 | DLB | nop | R   | R   | nop      RD:  1  RS:  0
+    5  0000000C  FE010113    addi x2 , x2 , x000 | DLB | nop | nop | R   | E        RD:  1  RS:  0
+    6  0000000C  FE010113    addi x2 , x2 , x000 | DLB | nop | nop | nop | E        RD:  1  RS:  0
+    7  0000000C  FE010113    addi x2 , x2 , x000 | DL  | nop | nop | nop | nop      RD:  0  RS:  0
+    8  00000010  000000B3    addi x2 , x2 , xFE0 | DLB | A   | nop | nop | nop      RD:  1  RS:  0
+    9  00000010  000000B3    addi x2 , x2 , xFE0 | DLB | nop | R   | nop | nop      RD:  1  RS:  0
+   10  00000010  000000B3    addi x2 , x2 , xFE0 | DLB | nop | nop | R   | nop      RD:  1  RS:  0
+   11  00000010  000000B3    addi x2 , x2 , xFE0 | DLB | nop | nop | nop | E        RD:  1  RS:  0
+   12  00000010  000000B3    addi x2 , x2 , xFE0 | DL  | nop | nop | nop | nop      RD:  0  RS:  0
+   13  00000014  000001B3     add x1 , x0 , x0   | DL  | A   | nop | nop | nop      RD:  0  RS:  0
+   14  00000018  00000233     add x3 , x0 , x0   | DL  | A   | R   | nop | nop      RD:  0  RS:  0
+   15  0000001C  000002B3     add x4 , x0 , x0   | DL  | A   | R   | R   | nop      RD:  0  RS:  0
+   16  00000020  00000333     add x5 , x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   17  00000024  000003B3     add x6 , x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   18  00000028  00000433     add x7 , x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   19  0000002C  000004B3     add x8 , x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   20  00000030  00000533     add x9 , x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   21  00000034  000005B3     add x10, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   22  00000038  00000633     add x11, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   23  0000003C  000006B3     add x12, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   24  00000040  00000733     add x13, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   25  00000044  000007B3     add x14, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   26  00000048  00000833     add x15, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   27  0000004C  000008B3     add x16, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   28  00000050  00000933     add x17, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   29  00000054  000009B3     add x18, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   30  00000058  00000A33     add x19, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   31  0000005C  00000AB3     add x20, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   32  00000060  00000B33     add x21, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   33  00000064  00000BB3     add x22, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   34  00000068  00000C33     add x23, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   35  0000006C  00000CB3     add x24, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   36  00000070  00000D33     add x25, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   37  00000074  00000DB3     add x26, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   38  00000078  00000E33     add x27, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   39  0000007C  00000EB3     add x28, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   40  00000080  00000F33     add x29, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   41  00000084  00000FB3     add x30, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   42  00000088  07C000EF     add x31, x0 , x0   | DL  | A   | R   | R   | E        RD:  0  RS:  0
+   43  0000008C  00000013     jal x1 ,    x0003E | DL  | A   | R   | R   | E        RD:  0  RS:  1
+   44  00000100  00000013    addi x0 , x0 , x000 | DLN | A   | R   | R   | E        RD:  0  RS:  1
+   45  00000104  100005B7    addi x0 , x0 , x000 | DLN | AN  | R   | R   | E        RD:  0  RS:  0
+   46  00000108  10000537     lui x11, x10000    | DL  | AN  | RN  | R   | E        RD:  0  RS:  0
+   47  0000010C  0005A783     lui x10, x10000    | DL  | A   | RN  | RN  | E        RD:  0  RS:  0
+   48  00000110  00452703      lw x15, x000(x11) | DLB | A   | R   | RN  | EN       RD:  1  RS:  0
+   49  00000110  00452703      lw x15, x000(x11) | DLB | nop | R   | R   | EN       RD:  1  RS:  0
+   50  00000110  00452703      lw x15, x000(x11) | DLB | nop | nop | R   | E        RD:  1  RS:  0
+   51  00000110  00452703      lw x15, x000(x11) | DL  | nop | nop | nop | E        RD:  0  RS:  0
+   52  00000114  00000613      lw x14, x004(x10) | DL  | A   | nop | nop | nop      RD:  0  RS:  0
+   53  00000118  00000693    addi x12, x0 , x000 | DL  | A   | M   | nop | nop      RD:  0  RS:  0
+   54  0000011C  00E78A63    addi x13, x0 , x000 | DL  | A   | M   | F   | nop      RD:  0  RS:  0
+   55  00000120  02E7F263     beq x15, x14, x00A | DLB | A   | R   | F   | E        RD:  1  RS:  1
+   56  00000120  02E7F263     beq x15, x14, x00A | DLB | nop | R   | R   | E        RD:  1  RS:  1
+   57  00000120  00000013     beq x15, x14, x00A | DL  | nop | nop | R   | E        RD:  0  RS:  1
+   58  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | E        RD:  0  RS:  1
+   59  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+   60  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+   61  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+   62  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+   63  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+   64  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+   65  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+   66  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+   67  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+   68  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+   69  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+   70  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+   71  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+   72  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+   73  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+   74  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+   75  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+   76  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+   77  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+   78  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+   79  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+   80  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+   81  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+   82  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+   83  00000140  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+   84  00000144  40E787B3    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+   85  00000148  00100613     sub x15, x15, x14  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+   86  0000014C  FD1FF06F    addi x12, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+   87  00000150  00000013     jal x0 ,    xFFFE8 | DL  | A   | R   | RN  | EN       RD:  0  RS:  1
+   88  00000118  00000013    addi x0 , x0 , x000 | DLN | A   | R   | R   | EN       RD:  0  RS:  1
+   89  0000011C  00E78A63    addi x0 , x0 , x000 | DLN | AN  | R   | R   | E        RD:  0  RS:  0
+   90  00000120  00000013     beq x15, x14, x00A | DL  | AN  | RN  | R   | E        RD:  0  RS:  1
+   91  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | E        RD:  0  RS:  1
+   92  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+   93  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | EN       RD:  0  RS:  1
+   94  00000140  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+   95  00000144  40E787B3    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+   96  00000148  00100613     sub x15, x15, x14  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+   97  0000014C  FD1FF06F    addi x12, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+   98  00000150  00000013     jal x0 ,    xFFFE8 | DL  | A   | R   | RN  | EN       RD:  0  RS:  1
+   99  00000118  00000013    addi x0 , x0 , x000 | DLN | A   | R   | R   | EN       RD:  0  RS:  1
+  100  0000011C  00E78A63    addi x0 , x0 , x000 | DLN | AN  | R   | R   | E        RD:  0  RS:  0
+  101  00000120  00000013     beq x15, x14, x00A | DL  | AN  | RN  | R   | E        RD:  0  RS:  1
+  102  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | E        RD:  0  RS:  1
+  103  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  104  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | EN       RD:  0  RS:  1
+  105  00000140  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  106  00000144  40E787B3    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  107  00000148  00100613     sub x15, x15, x14  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  108  0000014C  FD1FF06F    addi x12, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  109  00000150  00000013     jal x0 ,    xFFFE8 | DL  | A   | R   | RN  | EN       RD:  0  RS:  1
+  110  00000118  00000013    addi x0 , x0 , x000 | DLN | A   | R   | R   | EN       RD:  0  RS:  1
+  111  0000011C  00E78A63    addi x0 , x0 , x000 | DLN | AN  | R   | R   | E        RD:  0  RS:  0
+  112  00000120  00000013     beq x15, x14, x00A | DL  | AN  | RN  | R   | E        RD:  0  RS:  1
+  113  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | E        RD:  0  RS:  1
+  114  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  115  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | EN       RD:  0  RS:  1
+  116  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  117  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  118  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  119  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  120  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  121  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  122  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  123  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  124  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  125  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  126  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  127  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  128  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  129  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  130  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  131  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  132  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  133  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  134  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  135  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  136  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  137  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  138  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  139  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  140  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  141  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  142  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  143  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  144  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  145  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  146  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  147  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  148  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  149  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  150  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  151  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  152  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  153  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  154  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  155  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  156  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  157  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  158  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  159  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  160  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  161  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  162  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  163  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  164  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  165  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  166  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  167  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  168  0000011C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  169  00000120  02E7F263    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  170  00000124  00000013    bgeu x15, x14, x012 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  171  00000120  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  172  00000124  40F70733    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  173  00000128  00100693     sub x14, x14, x15  | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  174  0000012C  FEE79AE3    addi x13, x0 , x001 | DL  | A   | RN  | RN  | -        RD:  0  RS:  0
+  175  00000130  02069063     bne x15, x14, xFFA | DLB | A   | R   | RN  | EN       RD:  1  RS:  1
+  176  00000130  02069063     bne x15, x14, xFFA | DLB | nop | R   | R   | EN       RD:  1  RS:  1
+  177  00000130  02069063     bne x15, x14, xFFA | DLB | nop | nop | R   | E        RD:  1  RS:  1
+  178  00000130  00000013     bne x15, x14, xFFA | DL  | nop | nop | nop | E        RD:  0  RS:  1
+  179  0000012C  00000013    addi x0 , x0 , x000 | DLN | A   | nop | nop | nop      RD:  0  RS:  1
+  180  00000130  02069063    addi x0 , x0 , x000 | DLN | AN  | -   | nop | nop      RD:  0  RS:  0
+  181  00000134  00000013     bne x13, x0 , x010 | DL  | AN  | RN  | -   | nop      RD:  0  RS:  1
+  182  0000014C  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | -        RD:  0  RS:  1
+  183  00000150  00F52223    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  184  00000154  FE1FF06F      sw x15, x004(x10) | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  185  00000158  00000013     jal x0 ,    xFFFF0 | DL  | A   | RN  | RN  | -        RD:  0  RS:  1
+  186  00000130  00000013    addi x0 , x0 , x000 | DLN | A   | M   | RN  | EN       RD:  0  RS:  1
+  187  00000134  02061263    addi x0 , x0 , x000 | DLN | AN  | R   | -   | EN       RD:  0  RS:  0
+  188  00000138  00000013     bne x12, x0 , x012 | DL  | AN  | RN  | R   | -        RD:  0  RS:  1
+  189  00000154  00000013    addi x0 , x0 , x000 | DLN | A   | RN  | RN  | E        RD:  0  RS:  1
+  190  00000158  00F5A023    addi x0 , x0 , x000 | DLN | AN  | -   | RN  | EN       RD:  0  RS:  0
+  191  0000015C  FDDFF06F      sw x15, x000(x11) | DL  | AN  | RN  | -   | EN       RD:  0  RS:  0
+  192  00000160  00000013     jal x0 ,    xFFFEE | DL  | A   | RN  | RN  | -        RD:  0  RS:  1
+  193  00000134  00000013    addi x0 , x0 , x000 | DLN | A   | M   | RN  | EN       RD:  0  RS:  1
+  194  00000138  10000737    addi x0 , x0 , x000 | DLN | AN  | R   | -   | EN       RD:  0  RS:  0
+  195  0000013C  00F72423     lui x14, x10000    | DL  | AN  | RN  | R   | -        RD:  0  RS:  0
+  196  00000140  00008067      sw x15, x008(x14) | DLB | A   | RN  | RN  | E        RD:  1  RS:  0
+  197  00000140  00008067      sw x15, x008(x14) | DLB | nop | R   | RN  | EN       RD:  1  RS:  0
+  198  00000140  00008067      sw x15, x008(x14) | DLB | nop | nop | R   | EN       RD:  1  RS:  0
+  199  00000140  00008067      sw x15, x008(x14) | DLB | nop | nop | nop | E        RD:  1  RS:  0
+  200  00000140  00008067      sw x15, x008(x14) | DL  | nop | nop | nop | nop      RD:  0  RS:  0
+  201  00000144  00000013    jalr x0 , x000(x1 ) | DL  | A   | nop | nop | nop      RD:  0  RS:  1
+  202  00000088  00000013    addi x0 , x0 , x000 | DLN | A   | M   | nop | nop      RD:  0  RS:  1
+  203  0000008C  00000013    addi x0 , x0 , x000 | DLN | AN  | R   | -   | nop      RD:  0  RS:  0
+  204  00000090  00000013    addi x0 , x0 , x000 | DL  | AN  | RN  | R   | -        RD:  0  RS:  0
+  205  00000094  00000013    addi x0 , x0 , x000 | DL  | A   | RN  | RN  | E        RD:  0  RS:  0
+  206  00000098  00000013    addi x0 , x0 , x000 | DL  | A   | R   | RN  | EN       RD:  0  RS:  0
+  207  0000009C  00000013    addi x0 , x0 , x000 | DL  | A   | R   | R   | EN       RD:  0  RS:  0
+  208  000000A0  00100073    addi x0 , x0 , x000 | DL  | A   | R   | R   | E        RD:  0  RS:  0
+  209  000000A4  00000000          ebreak        | DL  | A   | R   | R   | E        RD:  0  RS:  0
+
+ Contenido de la memoria de datos. MD
+
+dir/16  hexadecimal
+         (dir mod 16)/4  binario
+            dir mod 4  binario
+                          contenido  hexadecimal
+ 31 : 4 3:2     1:0     31:24  . . 7:0   bits de direction y contenido
+ 1000000 00 11 10 01 00   00 00 00 15
+ . . . . . . . . .
+ 1000000 10 11 10 01 00   00 00 00 15
+ 1000000 11 11 10 01 00   00 00 00 00
+
+ Contenido de la memoria de instrucciones. MI
+
+dir/16  hexadecimal
+         (dir mod 16)/4  binario
+            dir mod 4  binario
+                          contenido  hexadecimal
+ 31 : 4 3:2     1:0     31:24  . . 7:0   bits de direction y contenido
+ 0000000 00 11 10 01 00   10 00 11 17   auipc x2 , x10001   
+ 0000000 01 11 10 01 00   00 01 01 13    addi x2 , x2 , x000
+ 0000000 10 11 10 01 00   FE 01 01 13    addi x2 , x2 , xFE0
+ 0000000 11 11 10 01 00   00 00 00 B3     add x1 , x0 , x0  
+ 0000001 00 11 10 01 00   00 00 01 B3     add x3 , x0 , x0  
+ 0000001 01 11 10 01 00   00 00 02 33     add x4 , x0 , x0  
+ 0000001 10 11 10 01 00   00 00 02 B3     add x5 , x0 , x0  
+ 0000001 11 11 10 01 00   00 00 03 33     add x6 , x0 , x0  
+ 0000002 00 11 10 01 00   00 00 03 B3     add x7 , x0 , x0  
+ 0000002 01 11 10 01 00   00 00 04 33     add x8 , x0 , x0  
+ 0000002 10 11 10 01 00   00 00 04 B3     add x9 , x0 , x0  
+ 0000002 11 11 10 01 00   00 00 05 33     add x10, x0 , x0  
+ 0000003 00 11 10 01 00   00 00 05 B3     add x11, x0 , x0  
+ 0000003 01 11 10 01 00   00 00 06 33     add x12, x0 , x0  
+ 0000003 10 11 10 01 00   00 00 06 B3     add x13, x0 , x0  
+ 0000003 11 11 10 01 00   00 00 07 33     add x14, x0 , x0  
+ 0000004 00 11 10 01 00   00 00 07 B3     add x15, x0 , x0  
+ 0000004 01 11 10 01 00   00 00 08 33     add x16, x0 , x0  
+ 0000004 10 11 10 01 00   00 00 08 B3     add x17, x0 , x0  
+ 0000004 11 11 10 01 00   00 00 09 33     add x18, x0 , x0  
+ 0000005 00 11 10 01 00   00 00 09 B3     add x19, x0 , x0  
+ 0000005 01 11 10 01 00   00 00 0A 33     add x20, x0 , x0  
+ 0000005 10 11 10 01 00   00 00 0A B3     add x21, x0 , x0  
+ 0000005 11 11 10 01 00   00 00 0B 33     add x22, x0 , x0  
+ 0000006 00 11 10 01 00   00 00 0B B3     add x23, x0 , x0  
+ 0000006 01 11 10 01 00   00 00 0C 33     add x24, x0 , x0  
+ 0000006 10 11 10 01 00   00 00 0C B3     add x25, x0 , x0  
+ 0000006 11 11 10 01 00   00 00 0D 33     add x26, x0 , x0  
+ 0000007 00 11 10 01 00   00 00 0D B3     add x27, x0 , x0  
+ 0000007 01 11 10 01 00   00 00 0E 33     add x28, x0 , x0  
+ 0000007 10 11 10 01 00   00 00 0E B3     add x29, x0 , x0  
+ 0000007 11 11 10 01 00   00 00 0F 33     add x30, x0 , x0  
+ 0000008 00 11 10 01 00   00 00 0F B3     add x31, x0 , x0  
+ 0000008 01 11 10 01 00   07 C0 00 EF     jal x1 ,    x0003E
+ 0000008 10 11 10 01 00   00 00 00 13    addi x0 , x0 , x000
+ . . . . . . . . .
+ 0000009 10 11 10 01 00   00 00 00 13    addi x0 , x0 , x000
+ 0000009 11 11 10 01 00   00 10 00 73          ebreak       
+ 000000A 00 11 10 01 00   00 00 00 00     XXX
+ . . . . . . . . .
+ 000000F 11 11 10 01 00   00 00 00 00     XXX
+ 0000010 00 11 10 01 00   10 00 05 B7     lui x11, x10000   
+ 0000010 01 11 10 01 00   10 00 05 37     lui x10, x10000   
+ 0000010 10 11 10 01 00   00 05 A7 83      lw x15, x000(x11)
+ 0000010 11 11 10 01 00   00 45 27 03      lw x14, x004(x10)
+ 0000011 00 11 10 01 00   00 00 06 13    addi x12, x0 , x000
+ 0000011 01 11 10 01 00   00 00 06 93    addi x13, x0 , x000
+ 0000011 10 11 10 01 00   00 E7 8A 63     beq x15, x14, x00A
+ 0000011 11 11 10 01 00   02 E7 F2 63    bgeu x15, x14, x012
+ 0000012 00 11 10 01 00   40 F7 07 33     sub x14, x14, x15 
+ 0000012 01 11 10 01 00   00 10 06 93    addi x13, x0 , x001
+ 0000012 10 11 10 01 00   FE E7 9A E3     bne x15, x14, xFFA
+ 0000012 11 11 10 01 00   02 06 90 63     bne x13, x0 , x010
+ 0000013 00 11 10 01 00   02 06 12 63     bne x12, x0 , x012
+ 0000013 01 11 10 01 00   10 00 07 37     lui x14, x10000   
+ 0000013 10 11 10 01 00   00 F7 24 23      sw x15, x008(x14)
+ 0000013 11 11 10 01 00   00 00 80 67    jalr x0 , x000(x1 )
+ 0000014 00 11 10 01 00   40 E7 87 B3     sub x15, x15, x14 
+ 0000014 01 11 10 01 00   00 10 06 13    addi x12, x0 , x001
+ 0000014 10 11 10 01 00   FD 1F F0 6F     jal x0 ,    xFFFE8
+ 0000014 11 11 10 01 00   00 F5 22 23      sw x15, x004(x10)
+ 0000015 00 11 10 01 00   FE 1F F0 6F     jal x0 ,    xFFFF0
+ 0000015 01 11 10 01 00   00 F5 A0 23      sw x15, x000(x11)
+ 0000015 10 11 10 01 00   FD DF F0 6F     jal x0 ,    xFFFEE
+ 0000015 11 11 10 01 00   00 00 00 00     XXX
+
+ Contenido del banco de registros. BR
+
+Num registro decimal
+      contenido  hexadecimal
+     31:24  . . 7:0     bits de contenido
+   0   00 00 00 00
+   1   00 00 00 88
+   2   10 00 0F E0
+   3   00 00 00 00
+ . . . . . . . . .
+   9   00 00 00 00
+  10   10 00 00 00
+  11   10 00 00 00
+  12   00 00 00 01
+  13   00 00 00 01
+  14   10 00 00 00
+  15   00 00 00 15
+  16   00 00 00 00

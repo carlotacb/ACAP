@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO: Fichero Fuente LAB4/PROC_SERIE/componentes_proc_MD_MI_pkg/componentes_proc_MD_MI_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_46d6b64a4fd45746196c67d343a9efc2.html">LAB4</a></li><li class="navelem"><a class="el" href="dir_9535cba2e157f9639fa907ff9720a925.html">PROC_SERIE</a></li><li class="navelem"><a class="el" href="dir_661021c10f35f9cd98545b16f4ecc4ba.html">componentes_proc_MD_MI_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">componentes_proc_MD_MI_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="componentes__proc__MD__MI__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span>ieee.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a9ba79191d29a85e638dc8edd1fb43209">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#aece6a87eb00b7e6a6e498e3d1d540079">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classtipos__constan__memoria__pkg.html">tipos_constan_memoria_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#af7b0f2fd3f49d5dfd1dbe578e638f0bb">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classtipos__constan__memoria__I__pkg.html">tipos_constan_memoria_I_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespacecomponentes__proc__MD__MI__pkg.html">   14</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classcomponentes__proc__MD__MI__pkg.html">componentes_proc_MD_MI_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a060cf941ab300aa137c5fc23518879c9">   16</a></span>&#160;<span class="keywordflow">component</span> regCP <span class="keywordflow">is</span><span class="keyword">                     -- registro con inicializacion a cero asincrona</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   <span class="keywordflow">port</span> (reloj, Pcero: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;      <span class="keyword">-- Pcero: senyal de inicializacion</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;         e: <span class="keywordflow">in</span> tipo_direc_inst;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;         s: <span class="keywordflow">out</span> tipo_direc_inst);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a54a6042e91627cb07421cc3f711fb959">   22</a></span>&#160;<span class="keywordflow">component</span> Deco_cam_dat_secu <span class="keywordflow">is</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">port</span> (reloj: <span class="comment">std_logic</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;         instr:   <span class="keywordflow">in</span> tipo_inst_busq;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;         CP:      <span class="keywordflow">in</span> tipo_direc_inst;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;         mD_mES:  <span class="keywordflow">in</span> tam_dat_camino;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;         alu_dir: <span class="keywordflow">out</span> tam_dat_camino;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;         opMD:    <span class="keywordflow">out</span> st_opMD;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;         L2:      <span class="keywordflow">out</span> tam_dat_camino;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;         proxCP:     <span class="keywordflow">out</span> tipo_direc_inst;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;         CoErr: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;         MI_FR: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;         MI_NA: <span class="keywordflow">out</span> <span class="comment">std_logic</span>);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a7abbc9c3d7d2069de37e478795e32641">   36</a></span>&#160;<span class="keywordflow">component</span> cam_MEM_DATOS <span class="keywordflow">is</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordflow">port</span>(reloj: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;   ent_MD: <span class="keywordflow">in</span> tam_dat_camino_MD; </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;   direc_MD: <span class="keywordflow">in</span> tam_dat_camino_MD; </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;   opMD: <span class="keywordflow">in</span> st_opMD;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;   sal_MD: <span class="keywordflow">out</span> tam_dat_camino_MD;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;   MD_FR: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;   MD_NA: <span class="keywordflow">out</span> <span class="comment">std_logic</span>);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classcomponentes__proc__MD__MI__pkg.html#a1de795ff1beecfa797349971a6355e98">   46</a></span>&#160;<span class="keywordflow">component</span> cam_MEM_INST <span class="keywordflow">is</span> </div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordflow">port</span>(direc_MI: <span class="keywordflow">in</span> tam_dat_camino_MI; </div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;   sal_MI: <span class="keywordflow">out</span> tam_dat_camino_MI);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">componentes_proc_MD_MI_pkg</span>;</div><div class="ttc" id="classtipos__constan__memoria__I__pkg_html"><div class="ttname"><a href="classtipos__constan__memoria__I__pkg.html">tipos_constan_memoria_I_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="tipos__constan__memoria__I__pkg_8vhd_source.html#l00012">tipos_constan_memoria_I_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classtipos__constan__memoria__pkg_html"><div class="ttname"><a href="classtipos__constan__memoria__pkg.html">tipos_constan_memoria_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="tipos__constan__memoria__pkg_8vhd_source.html#l00013">tipos_constan_memoria_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classcomponentes__proc__MD__MI__pkg_html"><div class="ttname"><a href="classcomponentes__proc__MD__MI__pkg.html">componentes_proc_MD_MI_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__proc__MD__MI__pkg_8vhd_source.html#l00014">componentes_proc_MD_MI_pkg.vhd:14</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Miércoles, 10 de Abril de 2019 12:43:23 para PROCESADOR SEGMENTADO por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

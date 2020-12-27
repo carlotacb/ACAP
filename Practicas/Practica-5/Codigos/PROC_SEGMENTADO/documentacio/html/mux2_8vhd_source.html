@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO: Fichero Fuente LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_46d6b64a4fd45746196c67d343a9efc2.html">LAB4</a></li><li class="navelem"><a class="el" href="dir_9535cba2e157f9639fa907ff9720a925.html">PROC_SERIE</a></li><li class="navelem"><a class="el" href="dir_429ca0f44f5fffb04dc1c4c4d6f102c9.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_309dd4c662c4b47ad99855bd765230e0.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_3881efe2b7832079735675e9ba3829e0.html">UCalculo</a></li><li class="navelem"><a class="el" href="dir_5312dd3f7a4154035a3ccf20059281c0.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_4ffde30405a05b31b942d88ab81fb3d2.html">MULTIPLEXORES</a></li><li class="navelem"><a class="el" href="dir_a8784ad56e3187881ef9477f28230732.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mux2.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mux2_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classmux2.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;     </div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classmux2.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classFMTD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;     </div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classmux2.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classFMTD.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classmux2.html#aeecba09bee667068976f5bfd0a27cbab">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__pkg.html">retardos_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classmux2.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classmux2.html#a9ba79191d29a85e638dc8edd1fb43209">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classmux2.html">   14</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classmux2.html">mux2</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordflow">generic</span> <span class="vhdlchar">(</span><span class="vhdlchar">sel1</span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a47e118bf4c4906c0d63c0046dba6d1c7">st_mL2</a></span> <span class="vhdlchar">:=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a401ba009ebff1b08dc2e19b47c919211">mL2_REG</a></span>; <span class="vhdlchar">sel2</span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a47e118bf4c4906c0d63c0046dba6d1c7">st_mL2</a></span> <span class="vhdlchar">:=</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a98906dfc712f319f0740c02e66ce09a9">mL2_IMM</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classmux2.html#adcca45db38efe87f52b635e32849f0e1">   16</a></span>&#160;   <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classmux2.html#a7e792468d502eb2f443fe5c29a8bfdaa">d0</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classmux2.html#adcca45db38efe87f52b635e32849f0e1">d1</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classmux2.html#affddd7d518c4b1f87a5eed88a1a2616b">   17</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classmux2.html#affddd7d518c4b1f87a5eed88a1a2616b">SEL</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a47e118bf4c4906c0d63c0046dba6d1c7">st_mL2</a></span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classmux2.html#a2ffc16c5d97b93ef9e2db41aefa09e5f">   18</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classmux2.html#a2ffc16c5d97b93ef9e2db41aefa09e5f">s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">tam_dat_camino</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">mux2</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classmux2_1_1comportamiento.html">   21</a></span>&#160;<span class="keywordflow">architecture</span> comportamiento <span class="keywordflow">of</span> <a class="code" href="classmux2.html">mux2</a> is</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <span class="keywordflow">with</span> <span class="vhdlchar"><a class="code" href="classmux2.html#affddd7d518c4b1f87a5eed88a1a2616b">SEL</a></span> <span class="keywordflow">select</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      <span class="vhdlchar"><a class="code" href="classmux2.html#a2ffc16c5d97b93ef9e2db41aefa09e5f">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classmux2.html#a7e792468d502eb2f443fe5c29a8bfdaa">d0</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a6ea5e537e5a5426fb1b807d2342ced5c">retMUX2</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">sel1</span><span class="vhdlchar">,</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;         <span class="vhdlchar"><a class="code" href="classmux2.html#adcca45db38efe87f52b635e32849f0e1">d1</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__pkg.html#a6ea5e537e5a5426fb1b807d2342ced5c">retMUX2</a></span> <span class="keywordflow">when</span> <span class="vhdlchar">sel2</span><span class="vhdlchar">,</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;         <span class="vhdlchar">(</span><span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdlchar">-</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span> <span class="keywordflow">when</span> <span class="keywordflow">others</span>; </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">comportamiento</span>;</div><div class="ttc" id="classmux2_html"><div class="ttname"><a href="classmux2.html">mux2</a></div><div class="ttdef"><b>Definition:</b> <a href="mux2_8vhd_source.html#l00014">mux2.vhd:14</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_ad28a6230613f0109957efc4be5801bb5"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad28a6230613f0109957efc4be5801bb5">param_disenyo_pkg.tam_dat_camino</a></div><div class="ttdeci">std_logic_vector(   tam_dat- 1 downto  0)   tam_dat_camino</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00018">param_disenyo_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classmux2_html_a7e792468d502eb2f443fe5c29a8bfdaa"><div class="ttname"><a href="classmux2.html#a7e792468d502eb2f443fe5c29a8bfdaa">mux2.d0</a></div><div class="ttdeci">in d0tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="mux2_8vhd_source.html#l00016">mux2.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classretardos__pkg_html_a6ea5e537e5a5426fb1b807d2342ced5c"><div class="ttname"><a href="classretardos__pkg.html#a6ea5e537e5a5426fb1b807d2342ced5c">retardos_pkg.retMUX2</a></div><div class="ttdeci">time  :=  1 ns retMUX2</div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00018">retardos_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classmux2_html_affddd7d518c4b1f87a5eed88a1a2616b"><div class="ttname"><a href="classmux2.html#affddd7d518c4b1f87a5eed88a1a2616b">mux2.SEL</a></div><div class="ttdeci">in SELst_mL2  </div><div class="ttdef"><b>Definition:</b> <a href="mux2_8vhd_source.html#l00017">mux2.vhd:17</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a98906dfc712f319f0740c02e66ce09a9"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a98906dfc712f319f0740c02e66ce09a9">cte_tipos_deco_camino_pkg.mL2_IMM</a></div><div class="ttdeci">st_mL2  := '1' mL2_IMM</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00060">cte_tipos_deco_camino_pkg.vhd:60</a></div></div>
+<div class="ttc" id="classretardos__pkg_html"><div class="ttname"><a href="classretardos__pkg.html">retardos_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__pkg_8vhd_source.html#l00009">retardos_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classFMTD_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classFMTD.html#a0a6af6eef40212dbaf130d57ce711256">FMTD.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="FMTD_8vhd_source.html#l00006">FMTD.vhd:6</a></div></div>
+<div class="ttc" id="classmux2_html_adcca45db38efe87f52b635e32849f0e1"><div class="ttname"><a href="classmux2.html#adcca45db38efe87f52b635e32849f0e1">mux2.d1</a></div><div class="ttdeci">in d1tam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="mux2_8vhd_source.html#l00016">mux2.vhd:16</a></div></div>
+<div class="ttc" id="classmux2_html_a2ffc16c5d97b93ef9e2db41aefa09e5f"><div class="ttname"><a href="classmux2.html#a2ffc16c5d97b93ef9e2db41aefa09e5f">mux2.s</a></div><div class="ttdeci">out stam_dat_camino  </div><div class="ttdef"><b>Definition:</b> <a href="mux2_8vhd_source.html#l00018">mux2.vhd:18</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a401ba009ebff1b08dc2e19b47c919211"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a401ba009ebff1b08dc2e19b47c919211">cte_tipos_deco_camino_pkg.mL2_REG</a></div><div class="ttdeci">st_mL2  := '0' mL2_REG</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00059">cte_tipos_deco_camino_pkg.vhd:59</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a47e118bf4c4906c0d63c0046dba6d1c7"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a47e118bf4c4906c0d63c0046dba6d1c7">cte_tipos_deco_camino_pkg.st_mL2</a></div><div class="ttdeci">std_logic   st_mL2</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00023">cte_tipos_deco_camino_pkg.vhd:23</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Miércoles, 10 de Abril de 2019 12:43:23 para PROCESADOR SEGMENTADO por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

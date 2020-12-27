@@ -1,0 +1,89 @@
+
+../base_2_tot_alu.dir/base_2_tot_alu.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	10001117          	auipc	x2,0x10001
+   4:	00010113          	addi	x2,x2,0 # 10001000 <__mem_top__>
+   8:	fe010113          	addi	x2,x2,-32
+   c:	000000b3          	add	x1,x0,x0
+  10:	000001b3          	add	x3,x0,x0
+  14:	00000233          	add	x4,x0,x0
+  18:	000002b3          	add	x5,x0,x0
+  1c:	00000333          	add	x6,x0,x0
+  20:	000003b3          	add	x7,x0,x0
+  24:	00000433          	add	x8,x0,x0
+  28:	000004b3          	add	x9,x0,x0
+  2c:	00000533          	add	x10,x0,x0
+  30:	000005b3          	add	x11,x0,x0
+  34:	00000633          	add	x12,x0,x0
+  38:	000006b3          	add	x13,x0,x0
+  3c:	00000733          	add	x14,x0,x0
+  40:	000007b3          	add	x15,x0,x0
+  44:	00000833          	add	x16,x0,x0
+  48:	000008b3          	add	x17,x0,x0
+  4c:	00000933          	add	x18,x0,x0
+  50:	000009b3          	add	x19,x0,x0
+  54:	00000a33          	add	x20,x0,x0
+  58:	00000ab3          	add	x21,x0,x0
+  5c:	00000b33          	add	x22,x0,x0
+  60:	00000bb3          	add	x23,x0,x0
+  64:	00000c33          	add	x24,x0,x0
+  68:	00000cb3          	add	x25,x0,x0
+  6c:	00000d33          	add	x26,x0,x0
+  70:	00000db3          	add	x27,x0,x0
+  74:	00000e33          	add	x28,x0,x0
+  78:	00000eb3          	add	x29,x0,x0
+  7c:	00000f33          	add	x30,x0,x0
+  80:	00000fb3          	add	x31,x0,x0
+  84:	0a8000ef          	jal	x1,12c <main>
+  88:	00000013          	addi	x0,x0,0
+  8c:	00000013          	addi	x0,x0,0
+  90:	00000013          	addi	x0,x0,0
+  94:	00000013          	addi	x0,x0,0
+  98:	00000013          	addi	x0,x0,0
+  9c:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <mult>:
+ 100:	00f51693          	slli	x13,x10,0xf
+ 104:	01059513          	slli	x10,x11,0x10
+ 108:	01055513          	srli	x10,x10,0x10
+ 10c:	01000793          	addi	x15,x0,16
+ 110:	00157713          	andi	x14,x10,1
+ 114:	fff78793          	addi	x15,x15,-1
+ 118:	00155513          	srli	x10,x10,0x1
+ 11c:	00070463          	beq	x14,x0,124 <mult+0x24>
+ 120:	00d50533          	add	x10,x10,x13
+ 124:	fe0796e3          	bne	x15,x0,110 <mult+0x10>
+ 128:	00008067          	jalr	x0,0(x1)
+
+Disassembly of section .text.startup:
+
+0000012c <main>:
+ 12c:	100007b7          	lui	x15,0x10000
+ 130:	08000713          	addi	x14,x0,128
+ 134:	00e7a023          	sw	x14,0(x15) # 10000000 <__heap>
+ 138:	100007b7          	lui	x15,0x10000
+ 13c:	00200713          	addi	x14,x0,2
+ 140:	00e7a223          	sw	x14,4(x15) # 10000004 <multiplicador>
+ 144:	01000693          	addi	x13,x0,16
+ 148:	00100793          	addi	x15,x0,1
+ 14c:	00000713          	addi	x14,x0,0
+ 150:	00f707b3          	add	x15,x14,x15
+ 154:	fff68693          	addi	x13,x13,-1
+ 158:	0017f713          	andi	x14,x15,1
+ 15c:	02068063          	beq	x13,x0,17c <main+0x50>
+ 160:	0017d793          	srli	x15,x15,0x1
+ 164:	fe0706e3          	beq	x14,x0,150 <main+0x24>
+ 168:	00400737          	lui	x14,0x400
+ 16c:	00f707b3          	add	x15,x14,x15
+ 170:	fff68693          	addi	x13,x13,-1
+ 174:	0017f713          	andi	x14,x15,1
+ 178:	fe0694e3          	bne	x13,x0,160 <main+0x34>
+ 17c:	10000737          	lui	x14,0x10000
+ 180:	00f72423          	sw	x15,8(x14) # 10000008 <resultado>
+ 184:	00008067          	jalr	x0,0(x1)
