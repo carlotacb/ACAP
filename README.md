@@ -16,3 +16,8 @@ En la sección de practicas se encuentran todas las practicas realizadas, con lo
 ## Teoria
 
 En la sección de teoria se pueden encontrar los libros usados en la assignatura.
+
+## Nota 
+
+Media de todas las practicas: 9
+```La practica 2 no está acabada, y los dos ultimos ejercicios de la practica 6 no estoy segura de ellos```
