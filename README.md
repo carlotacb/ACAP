@@ -9,3 +9,10 @@ En la sección de practicas se encuentran todas las practicas realizadas, con lo
 - [Practica 1: Sumador de 1 bit](/Practicas/Practica-1)
 - [Practica 2: Sumador de 4 bits y Sumador BCD](/Practicas/Practica-2)
 - [Practica 3: Núcleo del camino de datos de un procesador y buffer circular](/Practicas/Practica-3)
+- [Practica 4: Procesador: arquitectura, camino de datos y control](/Practicas/Practica-4)
+- [Practica 5: Procesador: segmentación lineal, camino de datos y control](/Practicas/Practica-5)
+- [Practica 6: Procesador: segmentación lineal con cortocircuitos](/Practicas/Practica-6)
+
+## Teoria
+
+En la sección de teoria se pueden encontrar los libros usados en la assignatura.
