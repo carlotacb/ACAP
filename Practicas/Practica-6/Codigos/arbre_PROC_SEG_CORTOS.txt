@@ -1,0 +1,107 @@
+./AULA/LAB6/PROC_SEG_CORTOS/
+├── componentes_proc_MD_MI_pkg
+│   └── Rcomponentes_proc_MD_MI_C_pkg.vhd
+├── CONTROL_SEG_CORTOS
+│   ├── COMPONENTES
+│   │   ├── ENSAM_RD
+│   │   │   └── CODIGO
+│   │   │       └── ensam_RD_C.vhd
+│   │   ├── LATPROH
+│   │   │   └── CODIGO
+│   │   │       ├── inst_latproh.vhd
+│   │   │       └── latproh.vhd
+│   │   ├── LDC
+│   │   │   └── CODIGO
+│   │   │       └── LDC.vhd
+│   │   └── LDRD
+│   │       └── CODIGO
+│   │           └── LDRD_C.vhd
+│   ├── componentes_cntl_seg_pkg
+│   │   └── componentes_control_seg_C_pkg.vhd
+│   └── LIB
+│       ├── CODIGO
+│       │   └── LIB_C.vhd
+│       ├── PRUEBAS
+│       │   ├── formato_ventanas.do
+│       │   ├── prueba_LIB_C.vhd
+│       │   ├── VHDL_P
+│       │   │   ├── enc_ensam_RD_C.vhd
+│       │   │   ├── enc_ensam_RS.vhd
+│       │   │   ├── enc_latproh.vhd
+│       │   │   ├── enc_LDC.vhd
+│       │   │   ├── enc_LDD.vhd
+│       │   │   ├── enc_LDRD_C.vhd
+│       │   │   ├── enc_LDRS.vhd
+│       │   │   ├── enc_LGR.vhd
+│       │   │   └── enc_LIB_C.vhd
+│       │   └── wave.do
+│       ├── QUARTUS
+│       │   ├── LIB_C.qpf
+│       │   └── LIB_C.qsf
+│       └── RESULTADOS
+├── CORTOCIRCUITOS
+│   ├── CODIGO
+│   │   ├── cortos.vhd
+│   │   ├── RcortosALU.vhd
+│   │   └── RcortosDL.vhd
+│   └── componentes_cortos_pkg
+│       ├── componentes_cortos_pkg.vhd
+│       └── Rcomponentes_cortos_pkg.vhd
+├── documentacio
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── Rproc_MD_MI_C.vhd
+│   ├── PRUEBAS
+│   │   ├── CODI_imem.hex -> ../../../programes/euclides.dir/euclides_imem.hex
+│   │   ├── DADES_dmem.hex -> ../../../programes/euclides.dir/euclides_dmem.hex
+│   │   ├── formato_ventanas.do
+│   │   ├── prova_Rproc_MD_MI_C.vhd
+│   │   ├── prueba_Rproc_MD_MI_C.vhd
+│   │   ├── transcript
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── Rproc_MD_MI_C.qpf
+│   │   └── Rproc_MD_MI_C.qsf
+│   └── RESULTADOS
+├── MD
+│   ├── COMPONENTES
+│   │   └── FMTE
+│   │       └── ENSAMBLADO_FMTE
+│   │           └── CODIGO
+│   │               └── RFMTE_C.vhd
+│   ├── componentes_MD_pkg
+│   │   └── Rcomponentes_MD_C_pkg.vhd
+│   └── ENSAMBLADO_compontes_memoria
+│       └── CODIGO
+│           └── Rcam_MEM_DATOS_C.vhd
+├── PROCESADOR
+│   ├── CAMINO_DATOS
+│   │   ├── UCalculo
+│   │   │   ├── COMPONENTES
+│   │   │   │   └── MULTIPLEXORES
+│   │   │   │       └── CODIGO
+│   │   │   │           ├── RmL1_C.vhd
+│   │   │   │           └── RmL2_C.vhd
+│   │   │   ├── componentes_cam_datos_pkg
+│   │   │   │   └── Rcomponentes_cam_datos_C_pkg.vhd
+│   │   │   └── ENSAMBLADO_UC
+│   │   │       └── CODIGO
+│   │   │           └── Rcamino_datos_C.vhd
+│   │   └── USecuen
+│   │       ├── COMPONENTES
+│   │       │   └── MULTIPLEXORES
+│   │       │       └── CODIGO
+│   │       │           └── Rmuxdirec_C.vhd
+│   │       ├── componentes_secuenciamiento_pkg
+│   │       │   └── Rcomponentes_secuenciamiento_C_pkg.vhd
+│   │       └── ENSAMBLADO_US
+│   │           └── CODIGO
+│   │               └── Rcamino_secuen_C.vhd
+│   └── ENSAMBLADO_DECO_UC_US
+│       └── CODIGO
+│           └── RDeco_cam_dat_secu_C.vhd
+├── tipos_constantes_pkg
+│   └── retardos_cntl_seg_C_pkg.vhd
+└── UTILIDADES_pkg
+    └── imprimir_traza_pkg
+        └── Rimpri_traza_C_pkg.vhd

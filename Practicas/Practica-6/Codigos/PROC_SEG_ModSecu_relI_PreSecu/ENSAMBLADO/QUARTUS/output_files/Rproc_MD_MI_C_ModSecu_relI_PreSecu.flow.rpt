@@ -1,0 +1,206 @@
+Flow report for Rproc_MD_MI_C_ModSecu_relI_PreSecu
+Tue Jan 12 22:11:55 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Tue Jan 12 22:11:55 2021      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                      ; Rproc_MD_MI_C_ModSecu_relI_PreSecu         ;
+; Top-level Entity Name              ; Rproc_MD_MI_C_ModSecu_relI_PreSecu         ;
+; Family                             ; Cyclone IV GX                              ;
+; Device                             ; EP4CGX30CF23C6                             ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; N/A until Partition Merge                  ;
+;     Total combinational functions  ; N/A until Partition Merge                  ;
+;     Dedicated logic registers      ; N/A until Partition Merge                  ;
+; Total registers                    ; N/A until Partition Merge                  ;
+; Total pins                         ; N/A until Partition Merge                  ;
+; Total virtual pins                 ; N/A until Partition Merge                  ;
+; Total memory bits                  ; N/A until Partition Merge                  ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                  ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                  ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                  ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                  ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                  ;
+; Total PLLs                         ; N/A until Partition Merge                  ;
++------------------------------------+--------------------------------------------+
+
+
++--------------------------------------------------------+
+; Flow Settings                                          ;
++-------------------+------------------------------------+
+; Option            ; Setting                            ;
++-------------------+------------------------------------+
+; Start date & time ; 01/12/2021 22:11:40                ;
+; Main task         ; Compilation                        ;
+; Revision Name     ; Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
++-------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                      ;
++----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------------------------+
+; Assignment Name                        ; Value                                                                                              ; Default Value ; Entity Name ; Section Id                                ;
++----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------------------------+
+; COMPILER_SIGNATURE_ID                  ; 215938452000657.161048590023468                                                                    ; --            ; --          ; --                                        ;
+; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                                                 ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do                                                                     ; --            ; --          ; eda_simulation                            ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu                                                          ; --            ; --          ; eda_simulation                            ;
+; EDA_OUTPUT_DATA_FORMAT                 ; Vhdl                                                                                               ; --            ; --          ; eda_simulation                            ;
+; EDA_SIMULATION_TOOL                    ; ModelSim-Altera (VHDL)                                                                             ; <None>        ; --          ; --                                        ;
+; EDA_TEST_BENCH_ENABLE_STATUS           ; TEST_BENCH_MODE                                                                                    ; --            ; --          ; eda_simulation                            ;
+; EDA_TEST_BENCH_FILE                    ; ../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd   ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd               ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_PreSecu_pkg.vhd                ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd                   ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd                   ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd                   ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_FILE                    ; ../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu.vhd                                           ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_MODULE_NAME             ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu                                                          ; --            ; --          ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu ;
+; EDA_TEST_BENCH_NAME                    ; prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu                                                          ; --            ; --          ; eda_simulation                            ;
+; MAX_CORE_JUNCTION_TEMP                 ; 85                                                                                                 ; --            ; --          ; --                                        ;
+; MIN_CORE_JUNCTION_TEMP                 ; 0                                                                                                  ; --            ; --          ; --                                        ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE            ; 1.2V                                                                                               ; --            ; --          ; --                                        ;
+; PARTITION_COLOR                        ; 16764057                                                                                           ; --            ; --          ; Top                                       ;
+; PARTITION_FITTER_PRESERVATION_LEVEL    ; PLACEMENT_AND_ROUTING                                                                              ; --            ; --          ; Top                                       ;
+; PARTITION_NETLIST_TYPE                 ; SOURCE                                                                                             ; --            ; --          ; Top                                       ;
+; POWER_BOARD_THERMAL_MODEL              ; None (CONSERVATIVE)                                                                                ; --            ; --          ; --                                        ;
+; POWER_PRESET_COOLING_SOLUTION          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                              ; --            ; --          ; --                                        ;
+; PROJECT_OUTPUT_DIRECTORY               ; output_files                                                                                       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO                                 ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO                            ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO                       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO                                                  ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO                                              ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO           ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO                                         ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO      ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO         ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO               ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO          ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO                 ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO            ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO           ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO                           ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO                                   ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO  ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO         ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO           ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO          ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO     ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO                                              ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/ErrelI/CODIGO                                    ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/Ersec/CODIGO                                     ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO              ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO                                                      ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS                                               ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO                      ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO                             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO                       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO                          ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO                         ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO                             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO                                           ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO                                      ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO                                             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB4/PROC_SERIE/MI/ENSAMBLADO_componentes_MI/CODIGO                                    ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO                               ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO                            ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO                                                     ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEG_CORTOS/LIB/CODIGO                                                                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO                                       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO                                                  ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO                                         ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO                             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO                                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO                   ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO                                                 ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO                        ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO                       ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO                                             ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO                    ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO                                    ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO                            ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO               ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO                                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO                                ; --            ; --          ; --                                        ;
+; SEARCH_PATH                            ; ../../../PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO                     ; --            ; --          ; --                                        ;
++----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:14     ; 1.0                     ; 4725 MB             ; 00:00:13                           ;
+; Total                  ; 00:00:14     ; --                      ; --                  ; 00:00:13                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                     ;
++------------------------+------------------+-----------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++------------------------+------------------+-----------+------------+----------------+
+; Analysis & Elaboration ; CATOT4           ; Windows 7 ; 6.2        ; x86_64         ;
++------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Rproc_MD_MI_C_ModSecu_relI_PreSecu -c Rproc_MD_MI_C_ModSecu_relI_PreSecu --analysis_and_elaboration
+
+
+

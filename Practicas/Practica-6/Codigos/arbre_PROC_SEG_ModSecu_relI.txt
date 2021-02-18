@@ -1,0 +1,62 @@
+./AULA/LAB6/PROC_SEG_ModSecu_relI/
+├── componentes_proc_MD_MI_pkg
+│   └── Rcomponentes_proc_MD_MI_C_ModSecu_relI_pkg.vhd
+├── CONTROL_SEG_CORTOS
+│   ├── componentes_cntl_seg_pkg
+│   │   └── componentes_control_seg_C_ModSecu_relI_pkg.vhd
+│   └── LIB
+│       └── CODIGO
+│           └── LIB_C_ModSecu_relI.vhd
+├── CONTROL_SEGMENTACION
+│   ├── COMPONENTES
+│   │   ├── DECO_PBR_opSEC
+│   │   │   └── CODIGO
+│   │   │       ├── decoPBRopSEC_ModSecu_relI.vhd
+│   │   │       └── RdecoPBRopSEC_ModSecu_relI.vhd
+│   │   ├── ENSAM_RS
+│   │   │   └── CODIGO
+│   │   │       └── ensam_RS_ModSecu_relI.vhd
+│   │   └── LDRS
+│   │       └── CODIGO
+│   │           └── LDRS_ModSecu_relI.vhd
+│   └── componentes_cntl_seg_pkg
+│       └── componentes_control_seg_ModSecu_relI_pkg.vhd
+├── documentacio
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── Rproc_MD_MI_C_ModSecu_relI.vhd
+│   ├── PRUEBAS
+│   │   ├── CODI_imem.hex -> ../../../programes/euclides.dir/euclides_imem.hex
+│   │   ├── DADES_dmem.hex -> ../../../programes/euclides.dir/euclides_dmem.hex
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_Rproc_MD_MI_C_ModSecu_relI.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── Rproc_MD_MI_C_ModSecu_relI.qpf
+│   │   └── Rproc_MD_MI_C_ModSecu_relI.qsf
+│   └── RESULTADOS
+├── PROCESADOR
+│   ├── AUTO_CONTROL
+│   │   └── DECODIFICADOR
+│   │       └── CODIGO
+│   │           ├── componentes_decodificador_ModSecu_relI_pkg.vhd
+│   │           ├── decocamino_ModSecu_relI.vhd
+│   │           ├── decodificador_ModSecu_relI.vhd
+│   │           ├── decoopSEC_relI.vhd
+│   │           ├── Rcomponentes_decodificador_ModSecu_relI_pkg.vhd
+│   │           └── Rdecodificador_ModSecu_relI.vhd
+│   ├── CAMINO_DATOS
+│   │   └── USecuen
+│   │       ├── componentes_secuenciamiento_pkg
+│   │       │   └── Rcomponentes_secuenciamiento_C_ModSecu_relI_pkg.vhd
+│   │       └── ENSAMBLADO_US
+│   │           └── CODIGO
+│   │               └── Rcamino_secuen_C_ModSecu_relI.vhd
+│   └── ENSAMBLADO_DECO_UC_US
+│       └── CODIGO
+│           └── RDeco_cam_dat_secu_C_ModSecu_relI.vhd
+├── tipos_constantes_pkg
+│   └── cte_tipos_deco_camino_ModSecu_relI_pkg.vhd
+└── UTILIDADES_pkg
+    └── imprimir_traza_pkg
+        └── Rimpri_traza_C_ModSecu_relI_pkg.vhd

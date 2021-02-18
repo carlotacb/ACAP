@@ -1,0 +1,180 @@
+Cicle; Dep L1_AMFE L2_AMFE; Curts L1_1234 L2_1234; latphA_M; RD_RS; bCP_bBDL_iBDL_iDLA
+sortides esperades, instruccions DL ALU M F ES
+
+2   0000 0000 0000 0000 00 00 0000      add x3 , x1 , x2      addi x0 , x0 , x000     XXX     XXX     XXX
+esp 0000 0000 0000 0000 00 00 0000 
+
+3   1000 1000 0000 0000 00 00 0000      add x11, x3 , x3       add x3 , x1 , x2      addi x0 , x0 , x000     XXX     XXX
+esp 1000 1000 0000 0000 00 00 0000 
+
+4   0100 0100 1000 1000 00 00 0000      add x12, x3 , x3       add x11, x3 , x3       add x3 , x1 , x2      addi x0 , x0 , x000     XXX
+esp 0100 0100 1000 1000 00 00 0000 
+
+5   0010 0010 0110 0110 00 00 0000      add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3       add x3 , x1 , x2      addi x0 , x0 , x000
+esp 0010 0010 0110 0110 00 00 0000 
+
+6   0001 0001 0001 0001 00 00 0000      add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3       add x3 , x1 , x2  
+esp 0001 0001 0001 0001 00 00 0000 
+
+7   0000 0000 0000 0000 00 00 0000      add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3  
+esp 0000 0000 0000 0000 00 00 0000 
+
+8   0000 0000 0000 0000 00 00 0000       lw x3 , xFFC(x1 )     add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3  
+esp 0000 0000 0000 0000 00 00 0000 
+
+9   1000 1000 0000 0000 10 10 1101      add x11, x3 , x3        lw x3 , xFFC(x1 )     add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3  
+esp 1000 1000 0000 0000 10 10 1101 
+
+10  0100 0100 1000 1000 01 10 1101      add x11, x3 , x3      addi x0 , x0 , x000      lw x3 , xFFC(x1 )     add x15, x3 , x3       add x14, x3 , x3  
+esp 0100 0100 1000 1000 01 10 1101 
+
+11  0010 0010 0110 0110 00 00 0000      add x11, x3 , x3      addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x1 )     add x15, x3 , x3  
+esp 0010 0010 0110 0110 00 00 0000 
+
+12  0001 0001 0001 0001 00 00 0000      add x12, x3 , x3       add x11, x3 , x3      addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x1 )
+esp 0001 0001 0001 0001 00 00 0000 
+
+13  0000 0000 0000 0000 00 00 0000      add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3      addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0000 0000 0000 0000 00 00 0000 
+
+14  0000 0000 0000 0000 00 00 0000      add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3      addi x0 , x0 , x000
+esp 0000 0000 0000 0000 00 00 0000 
+
+15  0000 0000 0000 0000 00 00 0000      add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3       add x11, x3 , x3  
+esp 0000 0000 0000 0000 00 00 0000 
+
+16  0000 0000 0000 0000 00 00 0000      add x3 , x1 , x2       add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3       add x12, x3 , x3  
+esp 0000 0000 0000 0000 00 00 0000 
+
+17  1000 0000 0000 0000 00 00 0000      add x3 , x3 , x4       add x3 , x1 , x2       add x15, x3 , x3       add x14, x3 , x3       add x13, x3 , x3  
+esp 1000 0000 0000 0000 00 00 0000 
+
+18  1100 0000 1000 0000 00 00 0000      add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x1 , x2       add x15, x3 , x3       add x14, x3 , x3  
+esp 1100 0000 1000 0000 00 00 0000 
+
+19  1110 0000 1110 0000 00 00 0000      add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x1 , x2       add x15, x3 , x3  
+esp 1110 0000 1110 0000 00 00 0000 
+
+20  1111 0000 1111 0000 00 00 0000      add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x1 , x2  
+esp 1111 0000 1111 0000 00 00 0000 
+
+21  1111 0000 1111 0000 00 00 0000      add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4  
+esp 1111 0000 1111 0000 00 00 0000 
+
+22  0000 0000 1100 0000 00 00 0000       lw x3 , xFFC(x1 )     add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4  
+esp 0000 0000 1100 0000 00 00 0000 
+
+23  1111 0000 0011 0000 10 10 1101       lw x3 , xFFC(x3 )      lw x3 , xFFC(x1 )     add x3 , x3 , x4       add x3 , x3 , x4       add x3 , x3 , x4  
+esp 1111 0000 0011 0000 10 10 1101 
+
+24  0111 0000 1111 0000 01 10 1101       lw x3 , xFFC(x3 )    addi x0 , x0 , x000      lw x3 , xFFC(x1 )     add x3 , x3 , x4       add x3 , x3 , x4  
+esp 0111 0000 1111 0000 01 10 1101 
+
+25  0011 0000 0111 0000 00 00 0000       lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x1 )     add x3 , x3 , x4  
+esp 0011 0000 0111 0000 00 00 0000 
+
+26  1001 0000 0001 0000 10 10 1101       lw x3 , xFFC(x3 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x1 )
+esp 1001 0000 0001 0000 10 10 1101 
+
+27  0100 0000 1000 0000 01 10 1101       lw x3 , xFFC(x3 )    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0100 0000 1000 0000 01 10 1101 
+
+28  0010 0000 0110 0000 00 00 0000       lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000
+esp 0010 0000 0110 0000 00 00 0000 
+
+29  1001 0000 0001 0000 10 10 1101       lw x3 , xFFC(x3 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )
+esp 1001 0000 0001 0000 10 10 1101 
+
+30  0100 0000 1000 0000 01 10 1101       lw x3 , xFFC(x3 )    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0100 0000 1000 0000 01 10 1101 
+
+31  0010 0000 0110 0000 00 00 0000       lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000
+esp 0010 0000 0110 0000 00 00 0000 
+
+32  1001 0000 0001 0000 10 10 1101       lw x3 , xFFC(x3 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )
+esp 1001 0000 0001 0000 10 10 1101 
+
+33  0100 0000 1000 0000 01 10 1101       lw x3 , xFFC(x3 )    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0100 0000 1000 0000 01 10 1101 
+
+34  0010 0000 0110 0000 00 00 0000       lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000
+esp 0010 0000 0110 0000 00 00 0000 
+
+35  1001 0000 0001 0000 10 10 1101       lw x3 , xFFC(x3 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )
+esp 1001 0000 0001 0000 10 10 1101 
+
+36  0100 0000 1000 0000 01 10 1101       lw x3 , xFFC(x3 )    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0100 0000 1000 0000 01 10 1101 
+
+37  0010 0000 0110 0000 00 00 0000       lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )    addi x0 , x0 , x000
+esp 0010 0000 0110 0000 00 00 0000 
+
+38  0000 0000 0000 0000 10 00 0000       lw x3 , xFFC(x1 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x3 , xFFC(x3 )
+esp 0000 0000 0000 0000 10 00 0000 
+
+39  0000 0000 0000 0000 11 00 0000      add x3 , x1 , x2        lw x3 , xFFC(x1 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0000 0000 0000 0000 11 00 0000 
+
+40  1110 0000 0010 0000 01 00 0000      add x4 , x3 , x2       add x3 , x1 , x2        lw x3 , xFFC(x1 )      lw x3 , xFFC(x3 )    addi x0 , x0 , x000
+esp 1110 0000 0010 0000 01 00 0000 
+
+41  0111 0000 1111 0000 00 00 0000      add x5 , x3 , x2       add x4 , x3 , x2       add x3 , x1 , x2        lw x3 , xFFC(x1 )      lw x3 , xFFC(x3 )
+esp 0111 0000 1111 0000 00 00 0000 
+
+42  0011 0000 0111 0000 00 00 0000      add x6 , x3 , x2       add x5 , x3 , x2       add x4 , x3 , x2       add x3 , x1 , x2        lw x3 , xFFC(x1 )
+esp 0011 0000 0111 0000 00 00 0000 
+
+43  0001 0000 0001 0000 00 00 0000      add x7 , x3 , x2       add x6 , x3 , x2       add x5 , x3 , x2       add x4 , x3 , x2       add x3 , x1 , x2  
+esp 0001 0000 0001 0000 00 00 0000 
+
+44  0000 0000 0000 0000 00 00 0000      add x6 , x1 , x2       add x7 , x3 , x2       add x6 , x3 , x2       add x5 , x3 , x2       add x4 , x3 , x2  
+esp 0000 0000 0000 0000 00 00 0000 
+
+45  1010 0000 0010 0000 00 01 0010     jalr x7 , xF00(x6 )     add x6 , x1 , x2       add x7 , x3 , x2       add x6 , x3 , x2       add x5 , x3 , x2  
+esp 1010 0000 0010 0000 00 01 0010 
+
+46  0000 0000 1000 0000 10 01 0010     addi x0 , x0 , x000    jalr x7 , xF00(x6 )     add x6 , x1 , x2       add x7 , x3 , x2       add x6 , x3 , x2  
+esp 0000 0000 1000 0000 10 01 0010 
+
+47  0000 0000 0000 0000 01 00 0000     addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )     add x6 , x1 , x2       add x7 , x3 , x2  
+esp 0000 0000 0000 0000 01 00 0000 
+
+48  0010 0001 0010 0001 00 00 0000      add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )     add x6 , x1 , x2  
+esp 0010 0001 0010 0001 00 00 0000 
+
+49  0000 0000 0000 0000 00 00 0000       lw x6 , x000(x1 )     add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )
+esp 0000 0000 0000 0000 00 00 0000 
+
+50  1000 0000 0000 0000 10 11 1101     jalr x7 , xF00(x6 )      lw x6 , x000(x1 )     add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 1000 0000 0000 0000 10 11 1101 
+
+51  0100 0000 1000 0000 01 11 1101     jalr x7 , xF00(x6 )    addi x0 , x0 , x000      lw x6 , x000(x1 )     add x3 , x7 , x6      addi x0 , x0 , x000
+esp 0100 0000 1000 0000 01 11 1101 
+
+52  0010 0000 0110 0000 00 01 0010     jalr x7 , xF00(x6 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x6 , x000(x1 )     add x3 , x7 , x6  
+esp 0010 0000 0110 0000 00 01 0010 
+
+53  0000 0000 0000 0000 10 01 0010     addi x0 , x0 , x000    jalr x7 , xF00(x6 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x6 , x000(x1 )
+esp 0000 0000 0000 0000 10 01 0010 
+
+54  0000 0000 0000 0000 01 00 0000     addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0000 0000 0000 0000 01 00 0000 
+
+55  0010 0000 0010 0000 00 00 0000      add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )    addi x0 , x0 , x000
+esp 0010 0000 0010 0000 00 00 0000 
+
+56  0000 0000 0000 0000 00 00 0000           ebreak            add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x7 , xF00(x6 )
+esp 0000 0000 0000 0000 00 00 0000 
+
+57  0000 0000 0000 0000 00 00 0000           ebreak                 ebreak            add x3 , x7 , x6      addi x0 , x0 , x000    addi x0 , x0 , x000
+esp 0000 0000 0000 0000 00 00 0000 
+
+58  0000 0000 0000 0000 00 00 0000           ebreak                 ebreak                 ebreak            add x3 , x7 , x6      addi x0 , x0 , x000
+esp 0000 0000 0000 0000 00 00 0000 
+
+59  0000 0000 0000 0000 00 00 0000           ebreak                 ebreak                 ebreak                 ebreak            add x3 , x7 , x6  
+esp 0000 0000 0000 0000 00 00 0000 
+
+60  0000 0000 0000 0000 00 00 0000           ebreak                 ebreak                 ebreak                 ebreak                 ebreak       
+esp 0000 0000 0000 0000 00 00 0000 
+

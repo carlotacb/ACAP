@@ -1,0 +1,71 @@
+./AULA/LAB6/PROC_SEG_ModSecu_relI_PreSecu/
+├── componentes_proc_MD_MI_pkg
+│   └── Rcomponentes_proc_MD_MI_C_ModSecu_relI_PreSecu_pkg.vhd
+├── CONTROL_SEG_CORTOS
+│   ├── componentes_cntl_seg_pkg
+│   │   └── componentes_control_seg_C_ModSecu_relI_PreSecu_pkg.vhd
+│   └── LIB
+│       └── CODIGO
+│           └── LIB_C_ModSecu_relI_PreSecu.vhd
+├── CONTROL_SEGMENTACION
+│   ├── COMPONENTES
+│   │   ├── DECO_PBR_opSEC
+│   │   │   └── CODIGO
+│   │   │       ├── decoPBRopSEC_ModSecu_relI_PreSecu.vhd
+│   │   │       └── RdecoPBRopSEC_ModSecu_relI_PreSecu.vhd
+│   │   ├── ENSAM_RS
+│   │   │   └── CODIGO
+│   │   │       └── ensam_RS_ModSecu_relI_PreSecu.vhd
+│   │   ├── LDRS
+│   │   │   └── CODIGO
+│   │   │       └── LDRS_ModSecu_relI_PreSecu.vhd
+│   │   ├── LGR
+│   │   │   └── CODIGO
+│   │   │       └── LGR_PreSecu.vhd
+│   │   └── SENYALES_CNTL
+│   │       └── CODIGO
+│   │           └── senya_cntlRS_ModSecu_relI_PreSecu.vhd
+│   └── componentes_cntl_seg_pkg
+│       └── componentes_control_seg_ModSecu_relI_PreSecu_pkg.vhd
+├── documentacio
+├── ENSAMBLADO
+│   ├── CODIGO
+│   │   └── Rproc_MD_MI_C_ModSecu_relI_PreSecu.vhd
+│   ├── PRUEBAS
+│   │   ├── CODI_imem.hex -> ../../../programes/euclides.dir/euclides_imem.hex
+│   │   ├── DADES_dmem.hex -> ../../../programes/euclides.dir/euclides_dmem.hex
+│   │   ├── formato_ventanas.do
+│   │   ├── prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu.vhd
+│   │   └── wave.do
+│   ├── QUARTUS
+│   │   ├── Rproc_MD_MI_C_ModSecu_relI_PreSecu.qpf
+│   │   └── Rproc_MD_MI_C_ModSecu_relI_PreSecu.qsf
+│   └── RESULTADOS
+├── PROCESADOR
+│   ├── CAMINO_DATOS
+│   │   └── USecuen
+│   │       ├── COMPONENTES
+│   │       │   ├── ErrelI
+│   │       │   │   └── CODIGO
+│   │       │   │       └── ErrelI.vhd
+│   │       │   └── Ersec
+│   │       │       └── CODIGO
+│   │       │           ├── Ersec.vhd
+│   │       │           └── RErsec.vhd
+│   │       ├── componentes_secuenciamiento_pkg
+│   │       │   ├── componentes_secuenciamiento_PreSecu_pkg.vhd
+│   │       │   └── Rcomponentes_secuenciamiento_PreSecu_pkg.vhd
+│   │       ├── DECS
+│   │       │   └── CODIGO
+│   │       │       ├── DECS_PreSecu.vhd
+│   │       │       └── RDECS_PreSecu.vhd
+│   │       └── ENSAMBLADO_US
+│   │           └── CODIGO
+│   │               └── Rcamino_secuen_C_ModSecu_relI_PreSecu.vhd
+│   └── ENSAMBLADO_DECO_UC_US
+│       └── CODIGO
+│           └── RDeco_cam_dat_secu_C_ModSecu_relI_PreSecu.vhd
+└── UTILIDADES_pkg
+    └── imprimir_traza_pkg
+        ├── Rimpri_traza_C_ModSecu_relI_pkg.vhd
+        └── Rimpri_traza_C_ModSecu_relI_PreSecu_pkg.vhd

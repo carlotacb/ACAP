@@ -1,0 +1,790 @@
+PROGRAMA: sort
+ Salida de comprobacion de la instruccion que hay en un ciclo en cada etapa
+
+Para cada ciclo, en dos filas se representan las etapas y cortocircuitos
+En la 1a fila se representan los cortos. En la 2a fila el ciclo y las etapas
+y los riesgos de datos y secuenciamiento
+
+ Descripcion de las etapas DL, ALU, M, FMTL y ES
+junto con la descripcion de cortocircuitos fuente y destino
+                              DESTINOS de CORTO:   C4L2    C2L2
+                                                    C3L2    C1L2
+                                                      C4L1    C2L1
+                                                       C3L1    C1L1
+                               FUENTES de CORTO:                  C1    C2 C3  C4
+                                      Acrónimos:   0 / 1    0 / 1  1     2  3   4
+                                                                                         RIESGOS
+ciclo  CP        BUS          DL                 | DL    | ALU   | M   | FMTL| ES       R.DATOS R.SECU
+       direc.    Inst. hex.     ensamblador
+  
+                                                   00 00   00 00                
+    1  00000004  10001117    addi x0 , x0 , x000 | DL    | nop  | nop  | nop | nop      RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    2  00000008  00010113   auipc x2 , x10001    | DL    | A    | nop  | nop | nop      RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    3  0000000C  FE010113    addi x2 , x2 , x000 | DL    | A    | R    | nop | nop      RD:  0  RS:  0
+  
+                                                   00 00   00 01  1             
+    4  00000010  000000B3    addi x2 , x2 , xFE0 | DL    | A    | R    | R   | nop      RD:  0  RS:  0
+  
+                                                   00 00   00 11  1      2      
+    5  00000014  000001B3     add x1 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    6  00000018  00000233     add x3 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    7  0000001C  000002B3     add x4 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    8  00000020  00000333     add x5 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+    9  00000024  000003B3     add x6 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   10  00000028  00000433     add x7 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   11  0000002C  000004B3     add x8 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   12  00000030  00000533     add x9 , x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   13  00000034  000005B3     add x10, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   14  00000038  00000633     add x11, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   15  0000003C  000006B3     add x12, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   16  00000040  00000733     add x13, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   17  00000044  000007B3     add x14, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   18  00000048  00000833     add x15, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   19  0000004C  000008B3     add x16, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   20  00000050  00000933     add x17, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   21  00000054  000009B3     add x18, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   22  00000058  00000A33     add x19, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   23  0000005C  00000AB3     add x20, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   24  00000060  00000B33     add x21, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   25  00000064  00000BB3     add x22, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   26  00000068  00000C33     add x23, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   27  0000006C  00000CB3     add x24, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   28  00000070  00000D33     add x25, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   29  00000074  00000DB3     add x26, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   30  00000078  00000E33     add x27, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   31  0000007C  00000EB3     add x28, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   32  00000080  00000F33     add x29, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   33  00000084  00000FB3     add x30, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   34  00000088  07C000EF     add x31, x0 , x0   | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   35  00000100  00000013     jal x1 ,    x0003E | DL    | A    | R    | R   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   36  00000104  100007B7    addi x0 , x0 , x000 | DLN   | R    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   37  00000108  01400713     lui x15, x10000    | DL    | AN   | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   38  0000010C  10000837    addi x14, x0 , x014 | DL    | A    | RN   | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   39  00000110  18E7A823     lui x16, x10000    | DL    | A    | R    | RN  | E        RD:  0  RS:  0
+  
+                                                   00 01   00 00           3    
+   40  00000114  01300593      sw x14, x190(x15) | DL    | A    | R    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 00   10 00         2      
+   41  00000118  00080813    addi x11, x0 , x013 | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 01   00 00           3    
+   42  0000011C  00000713    addi x16, x16, x000 | DL    | A    | M    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   43  00000120  00080793    addi x14, x0 , x000 | DL    | A    | R    | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   44  00000124  00000513    addi x15, x16, x000 | DL    | A    | R    | R     -        RD:  0  RS:  0
+  
+                                                   00 00   00 10         2      
+   45  00000128  02B75463    addi x10, x0 , x000 | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 01   00 00           3    
+   46  0000012C  00000013     bge x14, x11, x014 | DL    | A    | R    | R   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   47  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | R   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   48  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   49  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   50  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   51  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+   52  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+   53  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   54  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   55  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   56  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   57  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   58  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+   59  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   60  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   61  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+   62  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+   63  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   64  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   65  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   66  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   67  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   68  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+   69  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   70  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   71  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+   72  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+   73  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   74  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   75  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   76  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   77  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   78  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+   79  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   80  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   81  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+   82  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+   83  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   84  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   85  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   86  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   87  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   88  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+   89  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   90  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   91  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+   92  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+   93  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   94  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   95  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+   96  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   97  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+   98  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+   99  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  100  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  101  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  102  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  103  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  104  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  105  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  106  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  107  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  108  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  109  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  110  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  111  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  112  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  113  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  114  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  115  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  116  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  117  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  118  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  119  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  120  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  121  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  122  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  123  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  124  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  125  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  126  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  127  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  128  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  129  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  130  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  131  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  132  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  133  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  134  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  135  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  136  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  137  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  138  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  139  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  140  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  141  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  142  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  143  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  144  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  145  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  146  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  147  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  148  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  149  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  150  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  151  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  152  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  153  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  154  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  155  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  156  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  157  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  158  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  159  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  160  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  161  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  162  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  163  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  164  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  165  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  166  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  167  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  168  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  169  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  170  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  171  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  172  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  173  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  174  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  175  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  176  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  177  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  178  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  179  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  180  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  181  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  182  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  183  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  184  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  185  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  186  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  187  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  188  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  189  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  190  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  191  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  192  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  193  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  194  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  195  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  196  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  197  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  198  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  199  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  200  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  201  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  202  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  203  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  204  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  205  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  206  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  207  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  208  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  209  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  210  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  211  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  212  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  213  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  214  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  215  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  216  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  217  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  218  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  219  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  220  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  221  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  222  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  223  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  224  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  225  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  226  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  227  00000128  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  228  0000012C  0007A683    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 10   00 00               4
+  229  00000130  0047A603      lw x13, x000(x15) | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  230  00000134  00170713      lw x12, x004(x15) | DL    | A    | RN   | RN  | -        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  231  00000138  00D65863    addi x14, x14, x001 | DL    | A    | M    | RN  | EN       RD:  0  RS:  0
+  
+                                                   01 00   00 00           3    
+  232  0000013C  00000013     bge x12, x13, x008 | DL    | A    | M    | F   | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 10         2      
+  233  00000144  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | F   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  234  00000148  00478793    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  235  0000014C  FEB740E3    addi x15, x15, x004 | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  236  00000150  00000013     blt x14, x11, xFF0 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  237  0000014C  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  238  00000150  FFF58593    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  239  00000154  FC0514E3    addi x11, x11, xFFF | DL    | AN   | RN   | -   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  240  00000158  00000013     bne x10, x0 , xFE4 | DL    | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  241  00000154  00000013    addi x0 , x0 , x000 | DLN   | A    | R    | RN  | EN       RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  242  00000158  00008067    addi x0 , x0 , x000 | DLN   | AN   | -    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  243  0000015C  00000013    jalr x0 , x000(x1 ) | DL    | AN   | RN   | -   | E        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  244  00000088  00000013    addi x0 , x0 , x000 | DLN   | A    | RN   | RN  | -        RD:  0  RS:  1
+  
+                                                   00 00   00 00                
+  245  0000008C  00000013    addi x0 , x0 , x000 | DLN   | AN   | R    | RN  | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  246  00000090  00000013    addi x0 , x0 , x000 | DL    | AN   | RN   | R   | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  247  00000094  00000013    addi x0 , x0 , x000 | DL    | A    | RN   | RN  | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  248  00000098  00000013    addi x0 , x0 , x000 | DL    | A    | R    | RN  | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  249  0000009C  00000013    addi x0 , x0 , x000 | DL    | A    | R    | R   | EN       RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  250  000000A0  00100073    addi x0 , x0 , x000 | DL    | A    | R    | R   | E        RD:  0  RS:  0
+  
+                                                   00 00   00 00                
+  251  000000A4  00000000          ebreak        | DL    | A    | R    | R   | E        RD:  0  RS:  0
+
+ Contenido del banco de registros. BR
+
+Num registro decimal
+      contenido  hexadecimal
+     31:24  . . 7:0     bits de contenido
+   0   00 00 00 00
+   1   00 00 00 88
+   2   10 00 0F E0
+   3   00 00 00 00
+ . . . . . . . . .
+  10   00 00 00 00
+  11   00 00 00 12
+  12   00 00 00 13
+  13   00 00 00 10
+  14   00 00 00 13
+  15   10 00 00 4C
+  16   10 00 00 00
+  17   00 00 00 00
